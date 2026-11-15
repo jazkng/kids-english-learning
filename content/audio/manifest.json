@@ -281,6 +281,806 @@
       "approvalRef": null,
       "voiceRef": null,
       "modelRef": null
+    },
+    {
+      "id": "abc.letter-a.teach",
+      "text": "Hello! This is A. Big A, little a.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Say the letter NAME \"A\" clearly; pause before \"Big\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-a.demo",
+      "text": "A is for apple. Apple!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name A, then key word. Sound target: /æ/ as in apple (short a), not the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-a.choice",
+      "text": "Can you find A? Tap A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": "Letter name A."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-a.review",
+      "text": "Yay! A, A, apple. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name A; warm, celebratory."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-b.teach",
+      "text": "Hello! This is B. Big B, little b.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Say the letter NAME \"B\" clearly; pause before \"Big\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-b.demo",
+      "text": "B is for ball. Ball!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name B, then key word. Sound target: /b/ — short and crisp, no added \"buh\" vowel."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-b.choice",
+      "text": "Can you find B? Tap B.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": "Letter name B."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-b.review",
+      "text": "Yay! B, B, ball. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name B; warm, celebratory."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-c.teach",
+      "text": "Hello! This is C. Big C, little c.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Say the letter NAME \"C\" clearly; pause before \"Big\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-c.demo",
+      "text": "C is for cat. Cat!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name C, then key word. Sound target: /k/ — hard c, unvoiced, no added vowel."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-c.choice",
+      "text": "Can you find C? Tap C.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": "Letter name C."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.letter-c.review",
+      "text": "Yay! C, C, cat. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Letter name C; warm, celebratory."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-0.teach",
+      "text": "This is zero. Nothing on the plate. Zero dots.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Zero shows an EMPTY plate; gentle, not sad."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-0.demo",
+      "text": "Look! Zero. Zero.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Repeat the number word twice."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-0.choice",
+      "text": "Where is zero? Tap zero.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-0.review",
+      "text": "Hooray! That is zero. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-1.teach",
+      "text": "This is one. Count with me: one. One dot.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Count slowly, one beat per apple."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-1.demo",
+      "text": "Look! One. One.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Repeat the number word twice."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-1.choice",
+      "text": "Where is one? Tap one.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-1.review",
+      "text": "Hooray! That is one. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-2.teach",
+      "text": "This is two. Count with me: one, two. Two dots.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Count slowly, one beat per apple."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-2.demo",
+      "text": "Look! Two. Two.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Repeat the number word twice."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-2.choice",
+      "text": "Where is two? Tap two.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-2.review",
+      "text": "Hooray! That is two. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-3.teach",
+      "text": "This is three. Count with me: one, two, three. Three dots.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Count slowly, one beat per apple."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-3.demo",
+      "text": "Look! Three. Three.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Repeat the number word twice."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-3.choice",
+      "text": "Where is three? Tap three.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.number-3.review",
+      "text": "Hooray! That is three. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-red.teach",
+      "text": "This is red. A red apple!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-red.demo",
+      "text": "Look! Red. This apple is red.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Picture is always an apple shape; the word names the colour."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-red.choice",
+      "text": "Which one is red? Tap red.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-red.review",
+      "text": "Yes! Red! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-blue.teach",
+      "text": "This is blue. Blue, like the sky!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-blue.demo",
+      "text": "Look! Blue. This apple is blue.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Picture is always an apple shape; the word names the colour."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-blue.choice",
+      "text": "Which one is blue? Tap blue.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-blue.review",
+      "text": "Yes! Blue! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-yellow.teach",
+      "text": "This is yellow. Yellow, like the sun!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-yellow.demo",
+      "text": "Look! Yellow. This apple is yellow.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": "Picture is always an apple shape; the word names the colour."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-yellow.choice",
+      "text": "Which one is yellow? Tap yellow.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.color-yellow.review",
+      "text": "Yes! Yellow! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
     }
   ]
 }

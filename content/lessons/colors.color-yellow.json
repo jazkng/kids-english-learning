@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "colors.color-yellow",
+  "version": "0.1.0",
+  "subject": "colors",
+  "title": "Yellow",
+  "locale": "en-GB",
+  "ageBand": "2-3",
+  "status": "draft",
+  "conceptIds": [
+    "color.yellow"
+  ],
+  "steps": [
+    {
+      "id": "teach",
+      "kind": "teach",
+      "conceptId": "color.yellow",
+      "promptAudioId": "colors.color-yellow.teach",
+      "visual": {
+        "kind": "color",
+        "value": "yellow",
+        "label": "yellow"
+      }
+    },
+    {
+      "id": "demo",
+      "kind": "demo",
+      "conceptId": "color.yellow",
+      "promptAudioId": "colors.color-yellow.demo",
+      "visual": {
+        "kind": "color",
+        "value": "yellow",
+        "label": "yellow"
+      }
+    },
+    {
+      "id": "choice",
+      "kind": "choice",
+      "conceptId": "color.yellow",
+      "promptAudioId": "colors.color-yellow.choice",
+      "visual": {
+        "kind": "color",
+        "value": "yellow",
+        "label": "yellow"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "yellow",
+          "conceptId": "color.yellow"
+        },
+        {
+          "id": "other-1",
+          "label": "red",
+          "conceptId": "color.red"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review",
+      "kind": "review",
+      "conceptId": "color.yellow",
+      "promptAudioId": "colors.color-yellow.review",
+      "visual": {
+        "kind": "color",
+        "value": "yellow",
+        "label": "yellow"
+      }
+    }
+  ]
+}

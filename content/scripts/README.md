@@ -1,1 +1,1 @@
-Gemini owns editorial notes and recording/export scripts. Spoken text lives once in content/audio/manifest.json. Do not add ElevenLabs API calls while approval is blocked.
+CC now owns curriculum (#3). Editorial source: `curriculum-v1.mjs` (run `node content/scripts/curriculum-v1.mjs`); it regenerates lesson JSON and merges draft manifest lines by stable ID without touching reviewed/approved entries. Spoken text lives once in content/audio/manifest.json. No ElevenLabs/API calls.
