@@ -1,0 +1,12 @@
+# Cloudflare Pages headers (ignored by other hosts and by the Android bundle).
+# 👑 The service worker and HTML must revalidate, otherwise an old shell can pin stale lessons offline.
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/*
+  X-Robots-Tag: noindex
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kids English Learning</string>
+    <string name="title_activity_main">Kids English Learning</string>
+    <string name="package_name">com.example.kidsenglishlearning</string>
+    <string name="custom_url_scheme">com.example.kidsenglishlearning</string>
+</resources>
