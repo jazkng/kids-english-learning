@@ -20,9 +20,10 @@ function usable(value: unknown): value is Lesson {
       && (s.kind !== 'choice' || (Array.isArray(s.choices) && s.choices.some((c) => c.id === s.correctChoiceId))));
 }
 
-export const lessons: Lesson[] = Object.values(modules).filter(usable).map(withMoreChoices)
+// Contract fixtures (*.sample) stay in content/ for validator tests but duplicate real lessons for the child.
+export const lessons: Lesson[] = Object.values(modules).filter(usable).filter((l) => !l.id.endsWith('.sample')).map(withMoreChoices)
   .sort(compareLessons);
-export const invalidLessonCount = Object.keys(modules).length - lessons.length;
+export const invalidLessonCount = Object.values(modules).filter((l) => !usable(l)).length;
 export const contentVersion: string = catalog.contentVersion;
 export const subjectInfo = catalog.subjects as { id: Subject; title: string; symbol: string; description: string }[];
 export const hasDraftContent = lessons.some((l) => l.status !== 'approved');

@@ -169,7 +169,6 @@ aside { border-left: 4px solid #e89835; padding: 12px 16px; background: #f5ebd7;
 .quantity.small .dot { width: 7px; height: 7px; }
 
 /* Words, Math and Quiz (owner request 2026-11-15) */
-.s-words { background: #e0a21b; } .s-math { background: #1f8fb3; }
 .quiz-btn { margin-left: auto; border: 0; border-radius: 28px; padding: 0 20px; background: #e0a21b; color: #fff; font-weight: 700; font-size: 1.1rem; min-width: 56px; }
 .word .emoji { font-size: clamp(5rem, 22vw, 9rem); line-height: 1; }
 .word .word-label { font-size: 1.6rem; font-weight: 700; }
