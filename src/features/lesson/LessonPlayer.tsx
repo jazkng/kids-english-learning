@@ -69,6 +69,8 @@ export function LessonPlayer(props: Props) {
         <Teacher state={teacherState(state)} size={step.kind === 'choice' ? 96 : 160} />
         {/* A sum is the question itself, so it stays visible while the child picks the answer. */}
         {(step.kind !== 'choice' || step.visual.kind === 'sum') && <Visual {...step.visual} />}
+        {/* 👑 The printed word would give away its first letter, so the picture-only question hides it. */}
+        {step.kind === 'choice' && step.choiceKind && <div className="hide-word-label"><Visual {...step.visual} /></div>}
         {step.kind === 'choice' && (
           <div className={`choices n${state.choiceOrder.length}`} role="group" aria-label="Choices">
             {state.choiceOrder.map((id) => {
@@ -78,7 +80,7 @@ export function LessonPlayer(props: Props) {
               return (
                 <button key={id} className={`choice ${hint ? 'hint' : ''} ${won ? 'won' : ''}`} aria-label={c.label}
                   disabled={state.phase !== 'await-choice' || state.paused} onClick={() => dispatch({ type: 'choose', choiceId: id })}>
-                  <Visual kind={step.visual.kind === 'sum' ? 'quantity' : step.visual.kind} value={conceptValue(c.conceptId)} label={c.label} small />
+                  <Visual kind={step.choiceKind ?? (step.visual.kind === 'sum' ? 'quantity' : step.visual.kind)} value={conceptValue(c.conceptId)} label={c.label} small />
                 </button>
               );
             })}

@@ -146,3 +146,4 @@ aside { border-left: 4px solid #e89835; padding: 12px 16px; background: #f5ebd7;
 .sum-dots .dot.gone::after { content: ''; position: absolute; left: -2px; right: -2px; top: 9px; height: 3px; background: #7a2a26; transform: rotate(-35deg); }
 .sum.small .sum-text { font-size: 2rem; }
 @media (max-width: 600px) { .stage:has(.sum) { gap: 8px; } }
+.hide-word-label .word-label { display: none; }

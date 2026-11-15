@@ -4,7 +4,11 @@ import type { LessonStep, TeacherState } from '../../contracts/course.ts';
 
 // Structural shape the player needs. Curriculum lessons satisfy it, and so do Words/Math activities
 // and generated quizzes, whose visual kinds ('word', 'sum') sit outside the v1 lesson contract.
-export type PlayableStep = Omit<LessonStep, 'visual'> & { visual: { kind: string; value: string; label: string } };
+export type PlayableStep = Omit<LessonStep, 'visual'> & {
+  visual: { kind: string; value: string; label: string };
+  // When set, the step's own visual is the question (kept on screen) and choices render as this kind.
+  choiceKind?: string;
+};
 export interface PlayableLesson { id: string; title: string; ageBand: string; steps: PlayableStep[] }
 type Lesson = PlayableLesson;
 

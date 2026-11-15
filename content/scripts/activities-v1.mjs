@@ -64,6 +64,27 @@ for (const [letter, list] of Object.entries(W)) {
     promptAudioId: line(`${id}.review`, `${U} words: ${names.join(', ')}. Well done!`, '') });
   words.push({ id, title: `${U} words`, subject: 'words', ageBand: '2-3', status: 'draft', letter: U, steps });
 }
+// Ages 4–5: "First letter" game — the picture is the question, letters are the choices.
+const firstWords = Object.entries(W).filter(([l]) => l !== 'x').map(([l, list]) => [l, list[0][0]]);
+for (let g = 0; g * 5 < firstWords.length; g++) {
+  const group = firstWords.slice(g * 5, g * 5 + 5);
+  const id = `words.first-letter-${g + 1}`;
+  const first = group[0];
+  const steps = [{ id: 'teach', kind: 'teach', conceptId: `letter.${first[0]}`, visual: { kind: 'word', value: slug(first[1]), label: first[1] },
+    promptAudioId: line(`${id}.teach`, `Look at the picture and say the word. ${cap(first[1])}! ${cap(first[1])} starts with ${first[0].toUpperCase()}.`, 'Model: say the word, then the letter name.') }];
+  group.forEach(([l, w], i) => {
+    const pool = 'abcdefghijklmnopqrstuvwyz'.split('').filter((x) => x !== l);
+    const others = [pool[(i * 7 + g * 3) % pool.length], pool[(i * 7 + g * 3 + 11) % pool.length], pool[(i * 7 + g * 3 + 17) % pool.length]];
+    steps.push({ id: `choice-${l}`, kind: 'choice', conceptId: `letter.${l}`, choiceKind: 'letter',
+      visual: { kind: 'word', value: slug(w), label: w },
+      promptAudioId: line(`${id}.${l}.choice`, `${cap(w)}. What letter does ${w} start with?`, '', 400),
+      choices: [{ id: 'target', label: l.toUpperCase(), conceptId: `letter.${l}` }, ...[...new Set(others)].slice(0, 3).map((o, k) => ({ id: `other-${k + 1}`, label: o.toUpperCase(), conceptId: `letter.${o}` }))],
+      correctChoiceId: 'target', ...feedback });
+  });
+  steps.push({ id: 'review', kind: 'review', conceptId: steps[1].conceptId, visual: steps[1].visual,
+    promptAudioId: line(`${id}.review`, 'You found the first letters. Well done!', '') });
+  words.push({ id, title: `First letters ${g + 1}`, subject: 'words', ageBand: '4-5', status: 'draft', letter: group.map(([l]) => l.toUpperCase()).slice(0, 2).join(''), steps });
+}
 const emoji = Object.fromEntries(allWords.map(([w, e]) => [slug(w), { word: w, emoji: e }]));
 
 // --- Math: addition within 5 (ages 2–3); addition and subtraction within 20 (ages 4–5) ---

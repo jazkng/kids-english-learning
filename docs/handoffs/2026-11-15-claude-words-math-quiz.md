@@ -10,3 +10,8 @@
 未完成：新内容的语音、大人试听审核、手机实测。
 如何验收：`npm run check && npm run build`；在首页依次点 Words / Math / 任意科目的 Quiz。
 风险 / 注意：emoji 的样子取决于手机系统，旧版 Android 可能显示不出 🪁（kite）、🪀（yo-yo）。navigation.ts 新增了 words/math 两个 subject。
+
+## 追加：First letters（4–5 岁）
+- 新增 5 课看图找首字母（不含 X，因为 X 的单词都是以 X 结尾）。屏幕上只显示图片、不显示单词，避免孩子直接看字找答案；四选一。
+- 新增 35 句 draft 台词；新台词合计 280 句、10,175 个字符，下个月补 Lily 语音约需 5,090 积分。
+- `PlayableStep.choiceKind`：设置后，这一题的图片就是题目本身，选项按 choiceKind 指定的类型显示。
