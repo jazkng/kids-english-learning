@@ -12,7 +12,7 @@ export function Home({ onSubject, onParent, notice }: { onSubject: (s: Subject) 
       </header>
       <div className="subjects" role="group" aria-label="Learning areas">
         {AREAS.map((id) => [...subjectInfo, ...extraAreas].find((a) => a.id === id)!).map((s) => (
-          <button key={s.id} className={`subject-tile s-${s.id}`} aria-label={s.title} onClick={() => onSubject(s.id)}>
+          <button key={s.id} className={`subject-tile s-${s.id}`} style={{ ['--i' as string]: AREAS.indexOf(s.id) }} aria-label={s.title} onClick={() => onSubject(s.id)}>
             <span className="symbol" aria-hidden="true">{s.symbol}</span>
             <span className="tile-title">{s.title}</span>
           </button>
@@ -42,12 +42,14 @@ export function LessonList({ subject, lessons, done, onOpen, onBack, onQuiz }: {
           <div key={band} className="band">
             <h2 className="band-label">Age {band.replace('-', '–')}</h2>
             <div className="lesson-grid">
-              {group.map((l) => {
+              {group.map((l, i) => {
                 // Words open on a picture; Math on its first sum. Letter tiles show the letter for word lessons.
                 const first = 'letter' in l && typeof l.letter === 'string' ? { kind: 'letter', value: l.letter, label: l.title } : l.steps[0].visual;
                 return (
-                  <button key={l.id} className="lesson-tile" aria-label={`${l.title}${done.includes(l.id) ? ', finished' : ''}`} onClick={() => onOpen(l)}>
-                    <Visual {...first} small />
+                  <button key={l.id} className="lesson-tile" style={{ ['--i' as string]: Math.min(i, 12) }} aria-label={`${l.title}${done.includes(l.id) ? ', finished' : ''}`} onClick={() => onOpen(l)}>
+                    <span className="tile-visual"><Visual {...first} small /></span>
+                    {/* Short caption helps adults pick a lesson; children navigate by the picture. */}
+                    <span className="tile-caption" aria-hidden="true">{l.title}</span>
                     {done.includes(l.id) && <span className="check" aria-hidden="true">⭐</span>}
                   </button>
                 );

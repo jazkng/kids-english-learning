@@ -20,6 +20,9 @@ export function LessonPlayer(props: Props) {
   const [state, dispatch] = useReducer((s: EngineState, a: EngineAction) => reduce(s, a, lesson), lesson, (l) => initEngine(l));
   const [reported, setReported] = useState(false);
   const step = lesson.steps[state.stepIndex];
+  // Last wrong tap, only for a gentle shake animation; cleared whenever the step or attempt changes.
+  const [wrongId, setWrongId] = useState<string | null>(null);
+  useEffect(() => { if (state.feedback !== 'retry') setWrongId(null); }, [state.stepIndex, state.feedback]);
 
   useEffect(() => {
     if (state.paused || !state.audioId) { audioController.stop(); return; }
@@ -51,7 +54,8 @@ export function LessonPlayer(props: Props) {
     return (
       <section className="player done" aria-label="Lesson finished">
         <Teacher state="celebrating" size={200} />
-        <div className="stars" aria-hidden="true">⭐ ⭐ ⭐</div>
+        <div className="stars" aria-hidden="true"><span>⭐</span><span>⭐</span><span>⭐</span></div>
+        <Confetti />
         {state.audioFailed && <p className="adult-note" role="status">Adult note: teacher audio was missing, so this lesson was not saved as finished.</p>}
         <div className="done-actions">
           <button className="big-btn" aria-label="Play again" onClick={() => props.onOpen(lesson)}>↻</button>
@@ -65,7 +69,7 @@ export function LessonPlayer(props: Props) {
   return (
     <section className="player" aria-label={lesson.title}>
       <div className="lesson-progress" aria-hidden="true"><span style={{ width: `${progress * 100}%` }} /></div>
-      <div className={`stage ${step.kind === 'choice' ? 'choice-stage' : ''}`}>
+      <div key={state.stepIndex} className={`stage ${step.kind === 'choice' ? 'choice-stage' : ''}`}>
         <Teacher state={teacherState(state)} size={step.kind === 'choice' ? 96 : 160} />
         {/* A sum is the question itself, so it stays visible while the child picks the answer. */}
         {(step.kind !== 'choice' || step.visual.kind === 'sum') && <Visual {...step.visual} />}
@@ -77,9 +81,10 @@ export function LessonPlayer(props: Props) {
               const c = step.choices!.find((x) => x.id === id)!;
               const hint = state.hint && id === step.correctChoiceId;
               const won = state.feedback === 'success' && id === step.correctChoiceId;
+              const wrong = state.feedback === 'retry' && id === wrongId;
               return (
-                <button key={id} className={`choice ${hint ? 'hint' : ''} ${won ? 'won' : ''}`} aria-label={c.label}
-                  disabled={state.phase !== 'await-choice' || state.paused} onClick={() => dispatch({ type: 'choose', choiceId: id })}>
+                <button key={id} className={`choice ${hint ? 'hint' : ''} ${won ? 'won' : ''} ${wrong ? 'wrong' : ''}`} aria-label={c.label}
+                  disabled={state.phase !== 'await-choice' || state.paused} onClick={() => { if (id !== step.correctChoiceId) setWrongId(id); dispatch({ type: 'choose', choiceId: id }); }}>
                   <Visual kind={step.choiceKind ?? (step.visual.kind === 'sum' ? 'quantity' : step.visual.kind)} value={conceptValue(c.conceptId)} label={c.label} small />
                 </button>
               );
@@ -87,6 +92,7 @@ export function LessonPlayer(props: Props) {
           </div>
         )}
       </div>
+      {state.feedback === 'success' && <Confetti key={state.token} />}
       {showCaption && caption && (
         <p className="caption" role="status">
           {state.audioIssue && <span className="badge">🔇 Audio not ready — adult, please read:</span>} “{caption}”
@@ -104,5 +110,17 @@ export function LessonPlayer(props: Props) {
         <button className="paused-overlay" aria-label="Play" onClick={() => dispatch({ type: 'resume' })}><span>▶</span></button>
       )}
     </section>
+  );
+}
+
+const BITS = ['⭐', '✨', '🎉', '🌟', '💛', '🎈'];
+// Decorative celebration burst; hidden from assistive tech and removed entirely under reduced motion via CSS.
+function Confetti() {
+  return (
+    <div className="confetti" aria-hidden="true">
+      {Array.from({ length: 14 }, (_, i) => (
+        <span key={i} style={{ ['--x' as string]: `${(i * 37) % 100}%`, ['--d' as string]: `${(i % 5) * 0.06}s`, ['--r' as string]: `${(i * 53) % 360}deg` }}>{BITS[i % BITS.length]}</span>
+      ))}
+    </div>
   );
 }

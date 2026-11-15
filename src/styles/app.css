@@ -147,3 +147,47 @@ aside { border-left: 4px solid #e89835; padding: 12px 16px; background: #f5ebd7;
 .sum.small .sum-text { font-size: 2rem; }
 @media (max-width: 600px) { .stage:has(.sum) { gap: 8px; } }
 .hide-word-label .word-label { display: none; }
+
+/* ---- Phone layout fixes (owner device feedback 2026-11-15) ---- */
+/* 👑 Android 15+ draws edge-to-edge; Capacitor's SystemBars exposes the real insets as CSS variables,
+   env() covers browsers. A fixed strip keeps scrolled content from showing under the status bar. */
+:root { --top-inset: var(--safe-area-inset-top, env(safe-area-inset-top, 0px)); --bottom-inset: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)); }
+main { padding-top: max(16px, var(--top-inset)); padding-bottom: max(16px, var(--bottom-inset)); }
+body::before { content: ''; position: fixed; top: 0; left: 0; right: 0; height: var(--top-inset); background: #fffaf0; z-index: 20; pointer-events: none; }
+.list-head { position: sticky; top: var(--top-inset); z-index: 10; background: #fffaf0; padding: 8px 0; }
+.lesson-grid { grid-template-columns: repeat(auto-fill, minmax(min(140px, 42vw), 1fr)); gap: 12px; }
+.lesson-tile { min-height: 132px; padding: 10px 6px 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; overflow: hidden; }
+.tile-visual { flex: 1; display: flex; align-items: center; justify-content: center; max-width: 100%; overflow: hidden; }
+.tile-caption { font-size: .85rem; font-weight: 600; color: #6b6150; line-height: 1.2; text-align: center; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lesson-tile .letter.small { font-size: 3rem; }
+.lesson-tile .number.small .numeral { font-size: 2.6rem; }
+.lesson-tile .quantity, .lesson-tile .sum-groups, .lesson-tile .color-label, .lesson-tile .word-label { display: none; }
+.lesson-tile .word.small .emoji { font-size: 3rem; }
+.lesson-tile .sum.small .sum-text { font-size: 1.8rem; }
+.lesson-tile .color.small .apple { width: 64px; }
+
+/* ---- Motion (all disabled by the reduced-motion rules above) ---- */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes pop-in { 0% { opacity: 0; transform: scale(.6); } 70% { transform: scale(1.08); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shake { 0%, 100% { transform: translateX(0); } 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }
+@keyframes win { 0% { transform: scale(1); } 40% { transform: scale(1.15) rotate(-3deg); } 70% { transform: scale(.97) rotate(2deg); } 100% { transform: scale(1.05); } }
+@keyframes fly { 0% { opacity: 1; transform: translate(0, 0) rotate(0); } 100% { opacity: 0; transform: translate(calc((var(--x) - 50%) * .6), -60dvh) rotate(var(--r)); } }
+@keyframes star-in { 0% { opacity: 0; transform: scale(0) rotate(-90deg); } 80% { transform: scale(1.3) rotate(10deg); } 100% { opacity: 1; transform: scale(1); } }
+
+.home, .lesson-list, .parent { animation: rise .35s ease-out both; }
+.subject-tile, .lesson-tile { animation: pop-in .45s cubic-bezier(.2,.9,.3,1.2) both; animation-delay: calc(var(--i, 0) * 45ms); }
+.subject-tile, .lesson-tile, .choice, .ctl, .big-btn, .quiz-btn { transition: transform .12s ease; }
+.subject-tile:active, .lesson-tile:active, .choice:active, .ctl:active, .big-btn:active, .quiz-btn:active { transform: scale(.94); }
+.stage { animation: rise .3s ease-out both; }
+.stage .visual:not(.small) { animation: pop-in .5s cubic-bezier(.2,.9,.3,1.2) both; }
+.choice { animation: pop-in .4s cubic-bezier(.2,.9,.3,1.2) both; }
+.choice:nth-child(2) { animation-delay: .08s; } .choice:nth-child(3) { animation-delay: .16s; } .choice:nth-child(4) { animation-delay: .24s; }
+.choice.wrong { animation: shake .45s ease; }
+.choice.won { animation: win .6s ease both; box-shadow: 0 0 0 6px rgba(47,158,110,.25); }
+.teacher-idle svg, .teacher-waiting svg { animation: bob 2.6s ease-in-out infinite; }
+.home-head .teacher svg { animation: bob 2.2s ease-in-out infinite; }
+.stars span { display: inline-block; animation: star-in .5s cubic-bezier(.2,.9,.3,1.2) both; }
+.stars span:nth-child(2) { animation-delay: .2s; } .stars span:nth-child(3) { animation-delay: .4s; }
+.confetti { position: fixed; inset: auto 0 0 0; height: 0; pointer-events: none; z-index: 30; }
+.confetti span { position: absolute; bottom: 20dvh; left: var(--x); font-size: 1.8rem; animation: fly 1.4s ease-out var(--d) both; }
