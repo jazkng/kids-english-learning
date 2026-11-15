@@ -71,7 +71,7 @@ export function ParentArea(p: AreaProps) {
       <dl className="facts">
         <dt>Finished lessons</dt><dd>{p.progress.completedLessonIds.length} / {p.lessonCount}</dd>
         <dt>Content</dt><dd>{p.progress.contentVersion}{p.draft ? ' (draft, adult preview only)' : ''}</dd>
-        <dt>Offline</dt><dd>{p.offlineReady ? 'Installed for offline use' : 'Not confirmed on this device'}</dd>
+        <dt>Offline</dt><dd>{p.offlineReady ? 'App files saved for offline use' : 'Not confirmed on this device'}</dd>
         {!p.storageOk && <><dt>Storage</dt><dd>Unavailable — progress will not be saved.</dd></>}
       </dl>
       {p.updateReady && <button className="wide-btn" onClick={p.onUpdate}>Install app update now</button>}

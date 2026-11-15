@@ -8,6 +8,6 @@
 | 本地语音 | replay / pause / back | LessonPlayer 控制栏 | services/audio（单一 HTMLAudioElement + session token） | public/audio；内存播放状态 |
 | 学习进度 | lesson 完成 | App | services/progress | 本机 localStorage kids-english-learning.progress.v1 |
 | 家长区域 | ⚙︎ 长按 3 秒 | features/parent/ParentArea（ParentGate、Modal） | progress、services/pwa | 声音、动画、重置、离线/更新状态 |
-| 离线与原生 | app startup | main、services/pwa、VitePWA、Capacitor | service worker / native bundle | shell cache、静态媒体 |
+| 离线与原生 | app startup | main、services/pwa、VitePWA、Capacitor | services/offline 精确版本缓存核验 / service worker / native bundle | offline-package.json、shell cache、静态媒体 |
 
 #2 已实现上述学习运行时；Android 原生工程见 #6。
