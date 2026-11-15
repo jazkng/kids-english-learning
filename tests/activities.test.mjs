@@ -39,7 +39,11 @@ test('math answers are correct and stay within 0–20 (5 for ages 2–3)', () =>
 
 test('every word choice has a picture and every letter has word lessons', () => {
   for (const l of words.lessons) for (const s of l.steps) {
-    for (const c of s.choices ?? []) assert.ok(words.emoji[c.conceptId.slice(5)], `emoji for ${c.conceptId}`);
+    for (const c of (s.choiceKind ? [] : s.choices ?? [])) assert.ok(words.emoji[c.conceptId.slice(5)], `emoji for ${c.conceptId}`);
   }
-  assert.equal(words.lessons.length, 26);
+  assert.equal(words.lessons.filter((l) => l.ageBand === '2-3').length, 26);
+  // First-letter game: the answer letter must be the word's real first letter.
+  for (const l of words.lessons.filter((x) => x.ageBand === '4-5')) for (const s of l.steps.filter((x) => x.kind === 'choice')) {
+    assert.equal(s.conceptId, `letter.${s.visual.label[0]}`);
+  }
 });

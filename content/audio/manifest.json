@@ -16301,6 +16301,706 @@
       "approvalRef": null,
       "voiceRef": null,
       "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.teach",
+      "text": "Look at the picture and say the word. Apple! Apple starts with A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Model: say the word, then the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.a.choice",
+      "text": "Apple. What letter does apple start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.b.choice",
+      "text": "Ball. What letter does ball start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.c.choice",
+      "text": "Cat. What letter does cat start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.d.choice",
+      "text": "Dog. What letter does dog start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.e.choice",
+      "text": "Egg. What letter does egg start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-1.review",
+      "text": "You found the first letters. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.teach",
+      "text": "Look at the picture and say the word. Fish! Fish starts with F.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Model: say the word, then the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.f.choice",
+      "text": "Fish. What letter does fish start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.g.choice",
+      "text": "Goat. What letter does goat start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.h.choice",
+      "text": "Hat. What letter does hat start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.i.choice",
+      "text": "Ice cream. What letter does ice cream start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.j.choice",
+      "text": "Juice. What letter does juice start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-2.review",
+      "text": "You found the first letters. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.teach",
+      "text": "Look at the picture and say the word. Kite! Kite starts with K.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Model: say the word, then the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.k.choice",
+      "text": "Kite. What letter does kite start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.l.choice",
+      "text": "Lion. What letter does lion start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.m.choice",
+      "text": "Moon. What letter does moon start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.n.choice",
+      "text": "Nose. What letter does nose start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.o.choice",
+      "text": "Octopus. What letter does octopus start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-3.review",
+      "text": "You found the first letters. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.teach",
+      "text": "Look at the picture and say the word. Pig! Pig starts with P.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Model: say the word, then the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.p.choice",
+      "text": "Pig. What letter does pig start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.q.choice",
+      "text": "Queen. What letter does queen start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.r.choice",
+      "text": "Rabbit. What letter does rabbit start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.s.choice",
+      "text": "Sun. What letter does sun start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.t.choice",
+      "text": "Tiger. What letter does tiger start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-4.review",
+      "text": "You found the first letters. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.teach",
+      "text": "Look at the picture and say the word. Umbrella! Umbrella starts with U.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Model: say the word, then the letter name."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.u.choice",
+      "text": "Umbrella. What letter does umbrella start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.v.choice",
+      "text": "Van. What letter does van start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.w.choice",
+      "text": "Whale. What letter does whale start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.y.choice",
+      "text": "Yo-yo. What letter does yo-yo start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.z.choice",
+      "text": "Zebra. What letter does zebra start with?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.first-letter-5.review",
+      "text": "You found the first letters. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
     }
   ]
 }
