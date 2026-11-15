@@ -5,7 +5,7 @@ import { LessonPlayer } from '../features/lesson/LessonPlayer.tsx';
 import { ParentArea, ParentGate } from '../features/parent/ParentArea.tsx';
 import { contentVersion, findLesson, hasDraftContent, invalidLessonCount, lessons, lessonsFor } from '../services/content.ts';
 import { clearProgress, defaultProgress, loadProgress, saveProgress } from '../services/progress.ts';
-import { pwaState, subscribePwa } from '../services/pwa.ts';
+import { pwaState, refreshOfflineReady, subscribePwa } from '../services/pwa.ts';
 
 type Screen =
   | { name: 'home' }
@@ -21,6 +21,10 @@ export function App() {
   const [storageOk, setStorageOk] = useState(true);
   const [gate, setGate] = useState(false);
   useSyncExternalStore(subscribePwa, pwaSnapshot);
+
+  useEffect(() => {
+    if (screen.name === 'parent') void refreshOfflineReady();
+  }, [screen.name]);
 
   // Screens live in history so the browser / Android hardware back button steps back one screen.
   const go = useCallback((s: Screen, replace = false) => {

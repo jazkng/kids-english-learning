@@ -51,3 +51,7 @@ Source CI accepts draft fixtures. Child release rejects drafts, missing referenc
 ## Build dependency overrides
 
 The initial latest dependency tree pulled audited build-tool advisories through Workbox. package.json pins deepmerge to 4.1.1 and Workbox's glob to 14.0.6; these are deliberate build-only overrides for GHSA-gcqx-w48m-w2h4, GHSA-3g3m-2fjr-6pw4 and GHSA-g3hv-75wg-m249. Re-evaluate when upstream dependencies resolve them; do not remove overrides without audit/build checks. The lockfile pins the full tree.
+
+## Verified PWA package readiness
+
+The build emits offline-package.json from Workbox's precache manifest transform and precaches the index itself. It includes the HTML, manifest, icon, versioned JS/CSS and any packaged audio. Runtime checks an active registration and each exact cache key, including __WB_REVISION__ where required. A surviving controller or an old cached version is not enough. Missing/denied/evicted caches remain unconfirmed; startup, first activation and parent-area entry repeat verification. This only confirms files that actually exist in the build; draft lessons with no audio are not suddenly voiced. It does not prove physical-device acceptance.

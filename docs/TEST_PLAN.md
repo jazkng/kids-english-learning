@@ -26,3 +26,7 @@ CI runs development gates and build. Manual Release Gate validates but never dep
 9. Release: inspect network log for absence of AI APIs, tracking, ads and child uploads; inspect built bundle for secrets. Check official current child privacy/store requirements for intended distribution region before publication.
 
 Record commands, commit SHA, browser/device/OS, test result, recovery result and remaining uncertainty in docs/handoffs. Keep build, deployment, physical device and user acceptance as separate facts. Initialization has no device, browser offline or pronunciation acceptance yet.
+
+## Offline cache integrity regression
+
+Automated offline.test.mjs checks full package media, missing entries, stale HTML/audio revisions, eviction, damaged indexes, denied storage and subdirectory/origin boundaries. The build-generated index must match every distinct Workbox precache URL/revision except its own entry. Parent area now says “App files saved for offline use”; absent draft narration is not an offline-audio completion claim. Browser verification must additionally test cache removal with a surviving service worker and revisit the parent area, then reinstall and confirm recovery. This session's local browser test was blocked by the browser URL policy; no browser/device result is claimed for this change.
