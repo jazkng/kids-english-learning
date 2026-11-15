@@ -30,3 +30,13 @@ Record commands, commit SHA, browser/device/OS, test result, recovery result and
 ## Offline cache integrity regression
 
 Automated offline.test.mjs checks full package media, missing entries, stale HTML/audio revisions, eviction, damaged indexes, denied storage and subdirectory/origin boundaries. The build-generated index must match every distinct Workbox precache URL/revision except its own entry. Parent area now says “App files saved for offline use”; absent draft narration is not an offline-audio completion claim. Browser verification must additionally test cache removal with a surviving service worker and revisit the parent area, then reinstall and confirm recovery. This session's local browser test was blocked by the browser URL policy; no browser/device result is claimed for this change.
+
+## Navigation and parent recovery regression
+
+`navigation.test.mjs` uses an in-memory history port to verify home → subject → lesson → next → back, reloading a lesson without an app-owned predecessor, invalid/foreign history, and parent Back/Forward/reload/background locking. These are navigation-service tests, not browser or Android acceptance.
+
+Manual checks still required:
+- Open a lesson, reload, then Exit → its subject list → Back → home. The in-app controls must not leave the app, even with unrelated history before it. Android hardware Back is a separate device check.
+- Pass the parent hold, leave, press Forward, reload, and background/foreground: settings require a new hold. Existing progress remains unchanged.
+- Hold with touch or Space/Enter for three seconds; release early, move away, lose focus or background partway through: access stays locked.
+- In both parent-entry and reset dialogs, Tab/Shift+Tab stay inside, Escape closes, focus returns to the invoking control, body scroll stays locked. Screen-reader and physical-keyboard acceptance remain pending.

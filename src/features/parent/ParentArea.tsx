@@ -8,19 +8,28 @@ export function ParentGate({ onPass, onCancel }: { onPass: () => void; onCancel:
   const stop = () => { if (timer.current) window.clearInterval(timer.current); timer.current = null; setHeld(0); };
   const start = () => {
     stop();
-    const t0 = Date.now();
+    const t0 = performance.now();
     timer.current = window.setInterval(() => {
-      const p = Math.min(1, (Date.now() - t0) / 3000);
+      const p = Math.min(1, (performance.now() - t0) / 3000);
       setHeld(p);
       if (p >= 1) { stop(); onPass(); }
     }, 50);
   };
-  useEffect(() => stop, []);
+  useEffect(() => {
+    // 👑 A background tab or lost window focus must never finish a child's abandoned hold.
+    const onHide = () => { if (document.visibilityState === 'hidden') stop(); };
+    window.addEventListener('blur', stop);
+    document.addEventListener('visibilitychange', onHide);
+    return () => { stop(); window.removeEventListener('blur', stop); document.removeEventListener('visibilitychange', onHide); };
+  }, []);
   return (
     <Modal onClose={onCancel} label="Grown-ups only">
       <h2>Grown-ups only</h2>
       <p>Press and hold the button for 3 seconds.</p>
-      <button className="hold-btn" onPointerDown={start} onPointerUp={stop} onPointerLeave={stop} onPointerCancel={stop}
+      <button className="hold-btn" onPointerDown={(e) => { if (e.button === 0) start(); }} onPointerUp={stop} onPointerLeave={stop} onPointerCancel={stop}
+        onKeyDown={(e) => {
+          if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); start(); }
+        }} onKeyUp={(e) => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); stop(); } }} onBlur={stop}
         onContextMenu={(e) => e.preventDefault()} style={{ ['--p' as string]: held }}>Hold</button>
       <button className="text-btn" onClick={onCancel}>Cancel</button>
     </Modal>
@@ -28,17 +37,47 @@ export function ParentGate({ onPass, onCancel }: { onPass: () => void; onCancel:
 }
 
 export function Modal({ children, onClose, label }: { children: React.ReactNode; onClose: () => void; label: string }) {
+  const dialog = useRef<HTMLDivElement>(null);
+  const close = useRef(onClose);
+  close.current = onClose;
   useEffect(() => {
+    // 👑 Trap focus and restore it on close; background settings must not be operable through a dialog.
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     // 👑 Lock body scroll while a modal is open (iOS Safari otherwise scrolls the page behind it).
     const prev = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
-    window.addEventListener('keydown', onKey);
-    return () => { document.body.style.overflow = prev; window.removeEventListener('keydown', onKey); };
-  }, [onClose]);
+    const controls = () => Array.from(dialog.current?.querySelectorAll<HTMLElement>(
+      'button:not(:disabled), input:not(:disabled), select:not(:disabled), textarea:not(:disabled), a[href], [tabindex="0"]',
+    ) ?? []).filter((el) => !el.hidden);
+    const focusFirst = () => (controls()[0] ?? dialog.current)?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close.current(); }
+      if (e.key === 'Tab') {
+        const items = controls();
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (!first) { e.preventDefault(); dialog.current?.focus(); }
+        else if (e.shiftKey && (document.activeElement === first || !dialog.current?.contains(document.activeElement))) {
+          e.preventDefault(); last.focus();
+        } else if (!e.shiftKey && (document.activeElement === last || !dialog.current?.contains(document.activeElement))) {
+          e.preventDefault(); first.focus();
+        }
+      }
+    };
+    const onFocus = (e: FocusEvent) => { if (!dialog.current?.contains(e.target as Node)) focusFirst(); };
+    document.addEventListener('keydown', onKey, true);
+    document.addEventListener('focusin', onFocus);
+    focusFirst();
+    return () => {
+      document.body.style.overflow = prev;
+      document.removeEventListener('keydown', onKey, true);
+      document.removeEventListener('focusin', onFocus);
+      if (previousFocus?.isConnected) previousFocus.focus();
+    };
+  }, []);
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal" role="dialog" aria-modal="true" aria-label={label} onClick={(e) => e.stopPropagation()}>{children}</div>
+      <div ref={dialog} tabIndex={-1} className="modal" role="dialog" aria-modal="true" aria-label={label} onClick={(e) => e.stopPropagation()}>{children}</div>
     </div>
   );
 }
