@@ -1,0 +1,3827 @@
+{
+  "schemaVersion": 1,
+  "emoji": {
+    "apple": {
+      "word": "apple",
+      "emoji": "🍎"
+    },
+    "ant": {
+      "word": "ant",
+      "emoji": "🐜"
+    },
+    "airplane": {
+      "word": "airplane",
+      "emoji": "✈️"
+    },
+    "ball": {
+      "word": "ball",
+      "emoji": "⚽"
+    },
+    "banana": {
+      "word": "banana",
+      "emoji": "🍌"
+    },
+    "bear": {
+      "word": "bear",
+      "emoji": "🐻"
+    },
+    "cat": {
+      "word": "cat",
+      "emoji": "🐱"
+    },
+    "car": {
+      "word": "car",
+      "emoji": "🚗"
+    },
+    "cake": {
+      "word": "cake",
+      "emoji": "🎂"
+    },
+    "dog": {
+      "word": "dog",
+      "emoji": "🐶"
+    },
+    "duck": {
+      "word": "duck",
+      "emoji": "🦆"
+    },
+    "drum": {
+      "word": "drum",
+      "emoji": "🥁"
+    },
+    "egg": {
+      "word": "egg",
+      "emoji": "🥚"
+    },
+    "elephant": {
+      "word": "elephant",
+      "emoji": "🐘"
+    },
+    "ear": {
+      "word": "ear",
+      "emoji": "👂"
+    },
+    "fish": {
+      "word": "fish",
+      "emoji": "🐟"
+    },
+    "frog": {
+      "word": "frog",
+      "emoji": "🐸"
+    },
+    "flower": {
+      "word": "flower",
+      "emoji": "🌸"
+    },
+    "goat": {
+      "word": "goat",
+      "emoji": "🐐"
+    },
+    "grapes": {
+      "word": "grapes",
+      "emoji": "🍇"
+    },
+    "gift": {
+      "word": "gift",
+      "emoji": "🎁"
+    },
+    "hat": {
+      "word": "hat",
+      "emoji": "🎩"
+    },
+    "horse": {
+      "word": "horse",
+      "emoji": "🐴"
+    },
+    "house": {
+      "word": "house",
+      "emoji": "🏠"
+    },
+    "ice-cream": {
+      "word": "ice cream",
+      "emoji": "🍦"
+    },
+    "insect": {
+      "word": "insect",
+      "emoji": "🐛"
+    },
+    "island": {
+      "word": "island",
+      "emoji": "🏝️"
+    },
+    "juice": {
+      "word": "juice",
+      "emoji": "🧃"
+    },
+    "jeans": {
+      "word": "jeans",
+      "emoji": "👖"
+    },
+    "jacket": {
+      "word": "jacket",
+      "emoji": "🧥"
+    },
+    "kite": {
+      "word": "kite",
+      "emoji": "🪁"
+    },
+    "key": {
+      "word": "key",
+      "emoji": "🔑"
+    },
+    "kangaroo": {
+      "word": "kangaroo",
+      "emoji": "🦘"
+    },
+    "lion": {
+      "word": "lion",
+      "emoji": "🦁"
+    },
+    "lemon": {
+      "word": "lemon",
+      "emoji": "🍋"
+    },
+    "leaf": {
+      "word": "leaf",
+      "emoji": "🍃"
+    },
+    "moon": {
+      "word": "moon",
+      "emoji": "🌙"
+    },
+    "monkey": {
+      "word": "monkey",
+      "emoji": "🐵"
+    },
+    "milk": {
+      "word": "milk",
+      "emoji": "🥛"
+    },
+    "nose": {
+      "word": "nose",
+      "emoji": "👃"
+    },
+    "nut": {
+      "word": "nut",
+      "emoji": "🥜"
+    },
+    "noodles": {
+      "word": "noodles",
+      "emoji": "🍜"
+    },
+    "octopus": {
+      "word": "octopus",
+      "emoji": "🐙"
+    },
+    "orange": {
+      "word": "orange",
+      "emoji": "🍊"
+    },
+    "owl": {
+      "word": "owl",
+      "emoji": "🦉"
+    },
+    "pig": {
+      "word": "pig",
+      "emoji": "🐷"
+    },
+    "pizza": {
+      "word": "pizza",
+      "emoji": "🍕"
+    },
+    "penguin": {
+      "word": "penguin",
+      "emoji": "🐧"
+    },
+    "queen": {
+      "word": "queen",
+      "emoji": "👸"
+    },
+    "quilt": {
+      "word": "quilt",
+      "emoji": "🛏️"
+    },
+    "rabbit": {
+      "word": "rabbit",
+      "emoji": "🐰"
+    },
+    "rainbow": {
+      "word": "rainbow",
+      "emoji": "🌈"
+    },
+    "robot": {
+      "word": "robot",
+      "emoji": "🤖"
+    },
+    "sun": {
+      "word": "sun",
+      "emoji": "☀️"
+    },
+    "star": {
+      "word": "star",
+      "emoji": "⭐"
+    },
+    "snake": {
+      "word": "snake",
+      "emoji": "🐍"
+    },
+    "tiger": {
+      "word": "tiger",
+      "emoji": "🐯"
+    },
+    "train": {
+      "word": "train",
+      "emoji": "🚂"
+    },
+    "tree": {
+      "word": "tree",
+      "emoji": "🌳"
+    },
+    "umbrella": {
+      "word": "umbrella",
+      "emoji": "☂️"
+    },
+    "unicorn": {
+      "word": "unicorn",
+      "emoji": "🦄"
+    },
+    "van": {
+      "word": "van",
+      "emoji": "🚐"
+    },
+    "violin": {
+      "word": "violin",
+      "emoji": "🎻"
+    },
+    "volcano": {
+      "word": "volcano",
+      "emoji": "🌋"
+    },
+    "whale": {
+      "word": "whale",
+      "emoji": "🐳"
+    },
+    "watch": {
+      "word": "watch",
+      "emoji": "⌚"
+    },
+    "web": {
+      "word": "web",
+      "emoji": "🕸️"
+    },
+    "fox": {
+      "word": "fox",
+      "emoji": "🦊"
+    },
+    "box": {
+      "word": "box",
+      "emoji": "📦"
+    },
+    "yo-yo": {
+      "word": "yo-yo",
+      "emoji": "🪀"
+    },
+    "yarn": {
+      "word": "yarn",
+      "emoji": "🧶"
+    },
+    "zebra": {
+      "word": "zebra",
+      "emoji": "🦓"
+    },
+    "zip": {
+      "word": "zip",
+      "emoji": "🤐"
+    },
+    "zero": {
+      "word": "zero",
+      "emoji": "0️⃣"
+    }
+  },
+  "lessons": [
+    {
+      "id": "words.letter-a",
+      "title": "A words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "A",
+      "steps": [
+        {
+          "id": "teach-apple",
+          "kind": "teach",
+          "conceptId": "word.apple",
+          "promptAudioId": "words.letter-a.apple.teach",
+          "visual": {
+            "kind": "word",
+            "value": "apple",
+            "label": "apple"
+          }
+        },
+        {
+          "id": "choice-apple",
+          "kind": "choice",
+          "conceptId": "word.apple",
+          "visual": {
+            "kind": "word",
+            "value": "apple",
+            "label": "apple"
+          },
+          "promptAudioId": "words.letter-a.apple.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "apple",
+              "conceptId": "word.apple"
+            },
+            {
+              "id": "other-1",
+              "label": "bear",
+              "conceptId": "word.bear"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-ant",
+          "kind": "teach",
+          "conceptId": "word.ant",
+          "promptAudioId": "words.letter-a.ant.teach",
+          "visual": {
+            "kind": "word",
+            "value": "ant",
+            "label": "ant"
+          }
+        },
+        {
+          "id": "choice-ant",
+          "kind": "choice",
+          "conceptId": "word.ant",
+          "visual": {
+            "kind": "word",
+            "value": "ant",
+            "label": "ant"
+          },
+          "promptAudioId": "words.letter-a.ant.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "ant",
+              "conceptId": "word.ant"
+            },
+            {
+              "id": "other-1",
+              "label": "cat",
+              "conceptId": "word.cat"
+            },
+            {
+              "id": "other-2",
+              "label": "egg",
+              "conceptId": "word.egg"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-airplane",
+          "kind": "teach",
+          "conceptId": "word.airplane",
+          "promptAudioId": "words.letter-a.airplane.teach",
+          "visual": {
+            "kind": "word",
+            "value": "airplane",
+            "label": "airplane"
+          }
+        },
+        {
+          "id": "choice-airplane",
+          "kind": "choice",
+          "conceptId": "word.airplane",
+          "visual": {
+            "kind": "word",
+            "value": "airplane",
+            "label": "airplane"
+          },
+          "promptAudioId": "words.letter-a.airplane.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "airplane",
+              "conceptId": "word.airplane"
+            },
+            {
+              "id": "other-1",
+              "label": "car",
+              "conceptId": "word.car"
+            },
+            {
+              "id": "other-2",
+              "label": "elephant",
+              "conceptId": "word.elephant"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.apple",
+          "visual": {
+            "kind": "word",
+            "value": "apple",
+            "label": "apple"
+          },
+          "promptAudioId": "words.letter-a.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-b",
+      "title": "B words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "B",
+      "steps": [
+        {
+          "id": "teach-ball",
+          "kind": "teach",
+          "conceptId": "word.ball",
+          "promptAudioId": "words.letter-b.ball.teach",
+          "visual": {
+            "kind": "word",
+            "value": "ball",
+            "label": "ball"
+          }
+        },
+        {
+          "id": "choice-ball",
+          "kind": "choice",
+          "conceptId": "word.ball",
+          "visual": {
+            "kind": "word",
+            "value": "ball",
+            "label": "ball"
+          },
+          "promptAudioId": "words.letter-b.ball.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "ball",
+              "conceptId": "word.ball"
+            },
+            {
+              "id": "other-1",
+              "label": "cake",
+              "conceptId": "word.cake"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-banana",
+          "kind": "teach",
+          "conceptId": "word.banana",
+          "promptAudioId": "words.letter-b.banana.teach",
+          "visual": {
+            "kind": "word",
+            "value": "banana",
+            "label": "banana"
+          }
+        },
+        {
+          "id": "choice-banana",
+          "kind": "choice",
+          "conceptId": "word.banana",
+          "visual": {
+            "kind": "word",
+            "value": "banana",
+            "label": "banana"
+          },
+          "promptAudioId": "words.letter-b.banana.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "banana",
+              "conceptId": "word.banana"
+            },
+            {
+              "id": "other-1",
+              "label": "dog",
+              "conceptId": "word.dog"
+            },
+            {
+              "id": "other-2",
+              "label": "fish",
+              "conceptId": "word.fish"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-bear",
+          "kind": "teach",
+          "conceptId": "word.bear",
+          "promptAudioId": "words.letter-b.bear.teach",
+          "visual": {
+            "kind": "word",
+            "value": "bear",
+            "label": "bear"
+          }
+        },
+        {
+          "id": "choice-bear",
+          "kind": "choice",
+          "conceptId": "word.bear",
+          "visual": {
+            "kind": "word",
+            "value": "bear",
+            "label": "bear"
+          },
+          "promptAudioId": "words.letter-b.bear.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "bear",
+              "conceptId": "word.bear"
+            },
+            {
+              "id": "other-1",
+              "label": "duck",
+              "conceptId": "word.duck"
+            },
+            {
+              "id": "other-2",
+              "label": "frog",
+              "conceptId": "word.frog"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.ball",
+          "visual": {
+            "kind": "word",
+            "value": "ball",
+            "label": "ball"
+          },
+          "promptAudioId": "words.letter-b.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-c",
+      "title": "C words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "C",
+      "steps": [
+        {
+          "id": "teach-cat",
+          "kind": "teach",
+          "conceptId": "word.cat",
+          "promptAudioId": "words.letter-c.cat.teach",
+          "visual": {
+            "kind": "word",
+            "value": "cat",
+            "label": "cat"
+          }
+        },
+        {
+          "id": "choice-cat",
+          "kind": "choice",
+          "conceptId": "word.cat",
+          "visual": {
+            "kind": "word",
+            "value": "cat",
+            "label": "cat"
+          },
+          "promptAudioId": "words.letter-c.cat.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "cat",
+              "conceptId": "word.cat"
+            },
+            {
+              "id": "other-1",
+              "label": "drum",
+              "conceptId": "word.drum"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-car",
+          "kind": "teach",
+          "conceptId": "word.car",
+          "promptAudioId": "words.letter-c.car.teach",
+          "visual": {
+            "kind": "word",
+            "value": "car",
+            "label": "car"
+          }
+        },
+        {
+          "id": "choice-car",
+          "kind": "choice",
+          "conceptId": "word.car",
+          "visual": {
+            "kind": "word",
+            "value": "car",
+            "label": "car"
+          },
+          "promptAudioId": "words.letter-c.car.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "car",
+              "conceptId": "word.car"
+            },
+            {
+              "id": "other-1",
+              "label": "egg",
+              "conceptId": "word.egg"
+            },
+            {
+              "id": "other-2",
+              "label": "goat",
+              "conceptId": "word.goat"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-cake",
+          "kind": "teach",
+          "conceptId": "word.cake",
+          "promptAudioId": "words.letter-c.cake.teach",
+          "visual": {
+            "kind": "word",
+            "value": "cake",
+            "label": "cake"
+          }
+        },
+        {
+          "id": "choice-cake",
+          "kind": "choice",
+          "conceptId": "word.cake",
+          "visual": {
+            "kind": "word",
+            "value": "cake",
+            "label": "cake"
+          },
+          "promptAudioId": "words.letter-c.cake.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "cake",
+              "conceptId": "word.cake"
+            },
+            {
+              "id": "other-1",
+              "label": "elephant",
+              "conceptId": "word.elephant"
+            },
+            {
+              "id": "other-2",
+              "label": "grapes",
+              "conceptId": "word.grapes"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.cat",
+          "visual": {
+            "kind": "word",
+            "value": "cat",
+            "label": "cat"
+          },
+          "promptAudioId": "words.letter-c.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-d",
+      "title": "D words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "D",
+      "steps": [
+        {
+          "id": "teach-dog",
+          "kind": "teach",
+          "conceptId": "word.dog",
+          "promptAudioId": "words.letter-d.dog.teach",
+          "visual": {
+            "kind": "word",
+            "value": "dog",
+            "label": "dog"
+          }
+        },
+        {
+          "id": "choice-dog",
+          "kind": "choice",
+          "conceptId": "word.dog",
+          "visual": {
+            "kind": "word",
+            "value": "dog",
+            "label": "dog"
+          },
+          "promptAudioId": "words.letter-d.dog.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "dog",
+              "conceptId": "word.dog"
+            },
+            {
+              "id": "other-1",
+              "label": "ear",
+              "conceptId": "word.ear"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-duck",
+          "kind": "teach",
+          "conceptId": "word.duck",
+          "promptAudioId": "words.letter-d.duck.teach",
+          "visual": {
+            "kind": "word",
+            "value": "duck",
+            "label": "duck"
+          }
+        },
+        {
+          "id": "choice-duck",
+          "kind": "choice",
+          "conceptId": "word.duck",
+          "visual": {
+            "kind": "word",
+            "value": "duck",
+            "label": "duck"
+          },
+          "promptAudioId": "words.letter-d.duck.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "duck",
+              "conceptId": "word.duck"
+            },
+            {
+              "id": "other-1",
+              "label": "fish",
+              "conceptId": "word.fish"
+            },
+            {
+              "id": "other-2",
+              "label": "hat",
+              "conceptId": "word.hat"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-drum",
+          "kind": "teach",
+          "conceptId": "word.drum",
+          "promptAudioId": "words.letter-d.drum.teach",
+          "visual": {
+            "kind": "word",
+            "value": "drum",
+            "label": "drum"
+          }
+        },
+        {
+          "id": "choice-drum",
+          "kind": "choice",
+          "conceptId": "word.drum",
+          "visual": {
+            "kind": "word",
+            "value": "drum",
+            "label": "drum"
+          },
+          "promptAudioId": "words.letter-d.drum.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "drum",
+              "conceptId": "word.drum"
+            },
+            {
+              "id": "other-1",
+              "label": "frog",
+              "conceptId": "word.frog"
+            },
+            {
+              "id": "other-2",
+              "label": "horse",
+              "conceptId": "word.horse"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.dog",
+          "visual": {
+            "kind": "word",
+            "value": "dog",
+            "label": "dog"
+          },
+          "promptAudioId": "words.letter-d.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-e",
+      "title": "E words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "E",
+      "steps": [
+        {
+          "id": "teach-egg",
+          "kind": "teach",
+          "conceptId": "word.egg",
+          "promptAudioId": "words.letter-e.egg.teach",
+          "visual": {
+            "kind": "word",
+            "value": "egg",
+            "label": "egg"
+          }
+        },
+        {
+          "id": "choice-egg",
+          "kind": "choice",
+          "conceptId": "word.egg",
+          "visual": {
+            "kind": "word",
+            "value": "egg",
+            "label": "egg"
+          },
+          "promptAudioId": "words.letter-e.egg.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "egg",
+              "conceptId": "word.egg"
+            },
+            {
+              "id": "other-1",
+              "label": "flower",
+              "conceptId": "word.flower"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-elephant",
+          "kind": "teach",
+          "conceptId": "word.elephant",
+          "promptAudioId": "words.letter-e.elephant.teach",
+          "visual": {
+            "kind": "word",
+            "value": "elephant",
+            "label": "elephant"
+          }
+        },
+        {
+          "id": "choice-elephant",
+          "kind": "choice",
+          "conceptId": "word.elephant",
+          "visual": {
+            "kind": "word",
+            "value": "elephant",
+            "label": "elephant"
+          },
+          "promptAudioId": "words.letter-e.elephant.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "elephant",
+              "conceptId": "word.elephant"
+            },
+            {
+              "id": "other-1",
+              "label": "goat",
+              "conceptId": "word.goat"
+            },
+            {
+              "id": "other-2",
+              "label": "ice cream",
+              "conceptId": "word.ice-cream"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-ear",
+          "kind": "teach",
+          "conceptId": "word.ear",
+          "promptAudioId": "words.letter-e.ear.teach",
+          "visual": {
+            "kind": "word",
+            "value": "ear",
+            "label": "ear"
+          }
+        },
+        {
+          "id": "choice-ear",
+          "kind": "choice",
+          "conceptId": "word.ear",
+          "visual": {
+            "kind": "word",
+            "value": "ear",
+            "label": "ear"
+          },
+          "promptAudioId": "words.letter-e.ear.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "ear",
+              "conceptId": "word.ear"
+            },
+            {
+              "id": "other-1",
+              "label": "grapes",
+              "conceptId": "word.grapes"
+            },
+            {
+              "id": "other-2",
+              "label": "insect",
+              "conceptId": "word.insect"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.egg",
+          "visual": {
+            "kind": "word",
+            "value": "egg",
+            "label": "egg"
+          },
+          "promptAudioId": "words.letter-e.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-f",
+      "title": "F words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "F",
+      "steps": [
+        {
+          "id": "teach-fish",
+          "kind": "teach",
+          "conceptId": "word.fish",
+          "promptAudioId": "words.letter-f.fish.teach",
+          "visual": {
+            "kind": "word",
+            "value": "fish",
+            "label": "fish"
+          }
+        },
+        {
+          "id": "choice-fish",
+          "kind": "choice",
+          "conceptId": "word.fish",
+          "visual": {
+            "kind": "word",
+            "value": "fish",
+            "label": "fish"
+          },
+          "promptAudioId": "words.letter-f.fish.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "fish",
+              "conceptId": "word.fish"
+            },
+            {
+              "id": "other-1",
+              "label": "gift",
+              "conceptId": "word.gift"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-frog",
+          "kind": "teach",
+          "conceptId": "word.frog",
+          "promptAudioId": "words.letter-f.frog.teach",
+          "visual": {
+            "kind": "word",
+            "value": "frog",
+            "label": "frog"
+          }
+        },
+        {
+          "id": "choice-frog",
+          "kind": "choice",
+          "conceptId": "word.frog",
+          "visual": {
+            "kind": "word",
+            "value": "frog",
+            "label": "frog"
+          },
+          "promptAudioId": "words.letter-f.frog.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "frog",
+              "conceptId": "word.frog"
+            },
+            {
+              "id": "other-1",
+              "label": "hat",
+              "conceptId": "word.hat"
+            },
+            {
+              "id": "other-2",
+              "label": "juice",
+              "conceptId": "word.juice"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-flower",
+          "kind": "teach",
+          "conceptId": "word.flower",
+          "promptAudioId": "words.letter-f.flower.teach",
+          "visual": {
+            "kind": "word",
+            "value": "flower",
+            "label": "flower"
+          }
+        },
+        {
+          "id": "choice-flower",
+          "kind": "choice",
+          "conceptId": "word.flower",
+          "visual": {
+            "kind": "word",
+            "value": "flower",
+            "label": "flower"
+          },
+          "promptAudioId": "words.letter-f.flower.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "flower",
+              "conceptId": "word.flower"
+            },
+            {
+              "id": "other-1",
+              "label": "horse",
+              "conceptId": "word.horse"
+            },
+            {
+              "id": "other-2",
+              "label": "jeans",
+              "conceptId": "word.jeans"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.fish",
+          "visual": {
+            "kind": "word",
+            "value": "fish",
+            "label": "fish"
+          },
+          "promptAudioId": "words.letter-f.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-g",
+      "title": "G words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "G",
+      "steps": [
+        {
+          "id": "teach-goat",
+          "kind": "teach",
+          "conceptId": "word.goat",
+          "promptAudioId": "words.letter-g.goat.teach",
+          "visual": {
+            "kind": "word",
+            "value": "goat",
+            "label": "goat"
+          }
+        },
+        {
+          "id": "choice-goat",
+          "kind": "choice",
+          "conceptId": "word.goat",
+          "visual": {
+            "kind": "word",
+            "value": "goat",
+            "label": "goat"
+          },
+          "promptAudioId": "words.letter-g.goat.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "goat",
+              "conceptId": "word.goat"
+            },
+            {
+              "id": "other-1",
+              "label": "house",
+              "conceptId": "word.house"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-grapes",
+          "kind": "teach",
+          "conceptId": "word.grapes",
+          "promptAudioId": "words.letter-g.grapes.teach",
+          "visual": {
+            "kind": "word",
+            "value": "grapes",
+            "label": "grapes"
+          }
+        },
+        {
+          "id": "choice-grapes",
+          "kind": "choice",
+          "conceptId": "word.grapes",
+          "visual": {
+            "kind": "word",
+            "value": "grapes",
+            "label": "grapes"
+          },
+          "promptAudioId": "words.letter-g.grapes.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "grapes",
+              "conceptId": "word.grapes"
+            },
+            {
+              "id": "other-1",
+              "label": "ice cream",
+              "conceptId": "word.ice-cream"
+            },
+            {
+              "id": "other-2",
+              "label": "kite",
+              "conceptId": "word.kite"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-gift",
+          "kind": "teach",
+          "conceptId": "word.gift",
+          "promptAudioId": "words.letter-g.gift.teach",
+          "visual": {
+            "kind": "word",
+            "value": "gift",
+            "label": "gift"
+          }
+        },
+        {
+          "id": "choice-gift",
+          "kind": "choice",
+          "conceptId": "word.gift",
+          "visual": {
+            "kind": "word",
+            "value": "gift",
+            "label": "gift"
+          },
+          "promptAudioId": "words.letter-g.gift.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "gift",
+              "conceptId": "word.gift"
+            },
+            {
+              "id": "other-1",
+              "label": "insect",
+              "conceptId": "word.insect"
+            },
+            {
+              "id": "other-2",
+              "label": "key",
+              "conceptId": "word.key"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.goat",
+          "visual": {
+            "kind": "word",
+            "value": "goat",
+            "label": "goat"
+          },
+          "promptAudioId": "words.letter-g.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-h",
+      "title": "H words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "H",
+      "steps": [
+        {
+          "id": "teach-hat",
+          "kind": "teach",
+          "conceptId": "word.hat",
+          "promptAudioId": "words.letter-h.hat.teach",
+          "visual": {
+            "kind": "word",
+            "value": "hat",
+            "label": "hat"
+          }
+        },
+        {
+          "id": "choice-hat",
+          "kind": "choice",
+          "conceptId": "word.hat",
+          "visual": {
+            "kind": "word",
+            "value": "hat",
+            "label": "hat"
+          },
+          "promptAudioId": "words.letter-h.hat.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "hat",
+              "conceptId": "word.hat"
+            },
+            {
+              "id": "other-1",
+              "label": "island",
+              "conceptId": "word.island"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-horse",
+          "kind": "teach",
+          "conceptId": "word.horse",
+          "promptAudioId": "words.letter-h.horse.teach",
+          "visual": {
+            "kind": "word",
+            "value": "horse",
+            "label": "horse"
+          }
+        },
+        {
+          "id": "choice-horse",
+          "kind": "choice",
+          "conceptId": "word.horse",
+          "visual": {
+            "kind": "word",
+            "value": "horse",
+            "label": "horse"
+          },
+          "promptAudioId": "words.letter-h.horse.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "horse",
+              "conceptId": "word.horse"
+            },
+            {
+              "id": "other-1",
+              "label": "juice",
+              "conceptId": "word.juice"
+            },
+            {
+              "id": "other-2",
+              "label": "lion",
+              "conceptId": "word.lion"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-house",
+          "kind": "teach",
+          "conceptId": "word.house",
+          "promptAudioId": "words.letter-h.house.teach",
+          "visual": {
+            "kind": "word",
+            "value": "house",
+            "label": "house"
+          }
+        },
+        {
+          "id": "choice-house",
+          "kind": "choice",
+          "conceptId": "word.house",
+          "visual": {
+            "kind": "word",
+            "value": "house",
+            "label": "house"
+          },
+          "promptAudioId": "words.letter-h.house.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "house",
+              "conceptId": "word.house"
+            },
+            {
+              "id": "other-1",
+              "label": "jeans",
+              "conceptId": "word.jeans"
+            },
+            {
+              "id": "other-2",
+              "label": "lemon",
+              "conceptId": "word.lemon"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.hat",
+          "visual": {
+            "kind": "word",
+            "value": "hat",
+            "label": "hat"
+          },
+          "promptAudioId": "words.letter-h.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-i",
+      "title": "I words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "I",
+      "steps": [
+        {
+          "id": "teach-ice-cream",
+          "kind": "teach",
+          "conceptId": "word.ice-cream",
+          "promptAudioId": "words.letter-i.ice-cream.teach",
+          "visual": {
+            "kind": "word",
+            "value": "ice-cream",
+            "label": "ice cream"
+          }
+        },
+        {
+          "id": "choice-ice-cream",
+          "kind": "choice",
+          "conceptId": "word.ice-cream",
+          "visual": {
+            "kind": "word",
+            "value": "ice-cream",
+            "label": "ice cream"
+          },
+          "promptAudioId": "words.letter-i.ice-cream.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "ice cream",
+              "conceptId": "word.ice-cream"
+            },
+            {
+              "id": "other-1",
+              "label": "jacket",
+              "conceptId": "word.jacket"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-insect",
+          "kind": "teach",
+          "conceptId": "word.insect",
+          "promptAudioId": "words.letter-i.insect.teach",
+          "visual": {
+            "kind": "word",
+            "value": "insect",
+            "label": "insect"
+          }
+        },
+        {
+          "id": "choice-insect",
+          "kind": "choice",
+          "conceptId": "word.insect",
+          "visual": {
+            "kind": "word",
+            "value": "insect",
+            "label": "insect"
+          },
+          "promptAudioId": "words.letter-i.insect.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "insect",
+              "conceptId": "word.insect"
+            },
+            {
+              "id": "other-1",
+              "label": "kite",
+              "conceptId": "word.kite"
+            },
+            {
+              "id": "other-2",
+              "label": "moon",
+              "conceptId": "word.moon"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-island",
+          "kind": "teach",
+          "conceptId": "word.island",
+          "promptAudioId": "words.letter-i.island.teach",
+          "visual": {
+            "kind": "word",
+            "value": "island",
+            "label": "island"
+          }
+        },
+        {
+          "id": "choice-island",
+          "kind": "choice",
+          "conceptId": "word.island",
+          "visual": {
+            "kind": "word",
+            "value": "island",
+            "label": "island"
+          },
+          "promptAudioId": "words.letter-i.island.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "island",
+              "conceptId": "word.island"
+            },
+            {
+              "id": "other-1",
+              "label": "key",
+              "conceptId": "word.key"
+            },
+            {
+              "id": "other-2",
+              "label": "monkey",
+              "conceptId": "word.monkey"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.ice-cream",
+          "visual": {
+            "kind": "word",
+            "value": "ice-cream",
+            "label": "ice cream"
+          },
+          "promptAudioId": "words.letter-i.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-j",
+      "title": "J words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "J",
+      "steps": [
+        {
+          "id": "teach-juice",
+          "kind": "teach",
+          "conceptId": "word.juice",
+          "promptAudioId": "words.letter-j.juice.teach",
+          "visual": {
+            "kind": "word",
+            "value": "juice",
+            "label": "juice"
+          }
+        },
+        {
+          "id": "choice-juice",
+          "kind": "choice",
+          "conceptId": "word.juice",
+          "visual": {
+            "kind": "word",
+            "value": "juice",
+            "label": "juice"
+          },
+          "promptAudioId": "words.letter-j.juice.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "juice",
+              "conceptId": "word.juice"
+            },
+            {
+              "id": "other-1",
+              "label": "kangaroo",
+              "conceptId": "word.kangaroo"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-jeans",
+          "kind": "teach",
+          "conceptId": "word.jeans",
+          "promptAudioId": "words.letter-j.jeans.teach",
+          "visual": {
+            "kind": "word",
+            "value": "jeans",
+            "label": "jeans"
+          }
+        },
+        {
+          "id": "choice-jeans",
+          "kind": "choice",
+          "conceptId": "word.jeans",
+          "visual": {
+            "kind": "word",
+            "value": "jeans",
+            "label": "jeans"
+          },
+          "promptAudioId": "words.letter-j.jeans.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "jeans",
+              "conceptId": "word.jeans"
+            },
+            {
+              "id": "other-1",
+              "label": "lion",
+              "conceptId": "word.lion"
+            },
+            {
+              "id": "other-2",
+              "label": "nose",
+              "conceptId": "word.nose"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-jacket",
+          "kind": "teach",
+          "conceptId": "word.jacket",
+          "promptAudioId": "words.letter-j.jacket.teach",
+          "visual": {
+            "kind": "word",
+            "value": "jacket",
+            "label": "jacket"
+          }
+        },
+        {
+          "id": "choice-jacket",
+          "kind": "choice",
+          "conceptId": "word.jacket",
+          "visual": {
+            "kind": "word",
+            "value": "jacket",
+            "label": "jacket"
+          },
+          "promptAudioId": "words.letter-j.jacket.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "jacket",
+              "conceptId": "word.jacket"
+            },
+            {
+              "id": "other-1",
+              "label": "lemon",
+              "conceptId": "word.lemon"
+            },
+            {
+              "id": "other-2",
+              "label": "nut",
+              "conceptId": "word.nut"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.juice",
+          "visual": {
+            "kind": "word",
+            "value": "juice",
+            "label": "juice"
+          },
+          "promptAudioId": "words.letter-j.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-k",
+      "title": "K words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "K",
+      "steps": [
+        {
+          "id": "teach-kite",
+          "kind": "teach",
+          "conceptId": "word.kite",
+          "promptAudioId": "words.letter-k.kite.teach",
+          "visual": {
+            "kind": "word",
+            "value": "kite",
+            "label": "kite"
+          }
+        },
+        {
+          "id": "choice-kite",
+          "kind": "choice",
+          "conceptId": "word.kite",
+          "visual": {
+            "kind": "word",
+            "value": "kite",
+            "label": "kite"
+          },
+          "promptAudioId": "words.letter-k.kite.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "kite",
+              "conceptId": "word.kite"
+            },
+            {
+              "id": "other-1",
+              "label": "leaf",
+              "conceptId": "word.leaf"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-key",
+          "kind": "teach",
+          "conceptId": "word.key",
+          "promptAudioId": "words.letter-k.key.teach",
+          "visual": {
+            "kind": "word",
+            "value": "key",
+            "label": "key"
+          }
+        },
+        {
+          "id": "choice-key",
+          "kind": "choice",
+          "conceptId": "word.key",
+          "visual": {
+            "kind": "word",
+            "value": "key",
+            "label": "key"
+          },
+          "promptAudioId": "words.letter-k.key.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "key",
+              "conceptId": "word.key"
+            },
+            {
+              "id": "other-1",
+              "label": "moon",
+              "conceptId": "word.moon"
+            },
+            {
+              "id": "other-2",
+              "label": "octopus",
+              "conceptId": "word.octopus"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-kangaroo",
+          "kind": "teach",
+          "conceptId": "word.kangaroo",
+          "promptAudioId": "words.letter-k.kangaroo.teach",
+          "visual": {
+            "kind": "word",
+            "value": "kangaroo",
+            "label": "kangaroo"
+          }
+        },
+        {
+          "id": "choice-kangaroo",
+          "kind": "choice",
+          "conceptId": "word.kangaroo",
+          "visual": {
+            "kind": "word",
+            "value": "kangaroo",
+            "label": "kangaroo"
+          },
+          "promptAudioId": "words.letter-k.kangaroo.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "kangaroo",
+              "conceptId": "word.kangaroo"
+            },
+            {
+              "id": "other-1",
+              "label": "monkey",
+              "conceptId": "word.monkey"
+            },
+            {
+              "id": "other-2",
+              "label": "orange",
+              "conceptId": "word.orange"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.kite",
+          "visual": {
+            "kind": "word",
+            "value": "kite",
+            "label": "kite"
+          },
+          "promptAudioId": "words.letter-k.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-l",
+      "title": "L words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "L",
+      "steps": [
+        {
+          "id": "teach-lion",
+          "kind": "teach",
+          "conceptId": "word.lion",
+          "promptAudioId": "words.letter-l.lion.teach",
+          "visual": {
+            "kind": "word",
+            "value": "lion",
+            "label": "lion"
+          }
+        },
+        {
+          "id": "choice-lion",
+          "kind": "choice",
+          "conceptId": "word.lion",
+          "visual": {
+            "kind": "word",
+            "value": "lion",
+            "label": "lion"
+          },
+          "promptAudioId": "words.letter-l.lion.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "lion",
+              "conceptId": "word.lion"
+            },
+            {
+              "id": "other-1",
+              "label": "milk",
+              "conceptId": "word.milk"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-lemon",
+          "kind": "teach",
+          "conceptId": "word.lemon",
+          "promptAudioId": "words.letter-l.lemon.teach",
+          "visual": {
+            "kind": "word",
+            "value": "lemon",
+            "label": "lemon"
+          }
+        },
+        {
+          "id": "choice-lemon",
+          "kind": "choice",
+          "conceptId": "word.lemon",
+          "visual": {
+            "kind": "word",
+            "value": "lemon",
+            "label": "lemon"
+          },
+          "promptAudioId": "words.letter-l.lemon.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "lemon",
+              "conceptId": "word.lemon"
+            },
+            {
+              "id": "other-1",
+              "label": "nose",
+              "conceptId": "word.nose"
+            },
+            {
+              "id": "other-2",
+              "label": "pig",
+              "conceptId": "word.pig"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-leaf",
+          "kind": "teach",
+          "conceptId": "word.leaf",
+          "promptAudioId": "words.letter-l.leaf.teach",
+          "visual": {
+            "kind": "word",
+            "value": "leaf",
+            "label": "leaf"
+          }
+        },
+        {
+          "id": "choice-leaf",
+          "kind": "choice",
+          "conceptId": "word.leaf",
+          "visual": {
+            "kind": "word",
+            "value": "leaf",
+            "label": "leaf"
+          },
+          "promptAudioId": "words.letter-l.leaf.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "leaf",
+              "conceptId": "word.leaf"
+            },
+            {
+              "id": "other-1",
+              "label": "nut",
+              "conceptId": "word.nut"
+            },
+            {
+              "id": "other-2",
+              "label": "pizza",
+              "conceptId": "word.pizza"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.lion",
+          "visual": {
+            "kind": "word",
+            "value": "lion",
+            "label": "lion"
+          },
+          "promptAudioId": "words.letter-l.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-m",
+      "title": "M words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "M",
+      "steps": [
+        {
+          "id": "teach-moon",
+          "kind": "teach",
+          "conceptId": "word.moon",
+          "promptAudioId": "words.letter-m.moon.teach",
+          "visual": {
+            "kind": "word",
+            "value": "moon",
+            "label": "moon"
+          }
+        },
+        {
+          "id": "choice-moon",
+          "kind": "choice",
+          "conceptId": "word.moon",
+          "visual": {
+            "kind": "word",
+            "value": "moon",
+            "label": "moon"
+          },
+          "promptAudioId": "words.letter-m.moon.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "moon",
+              "conceptId": "word.moon"
+            },
+            {
+              "id": "other-1",
+              "label": "noodles",
+              "conceptId": "word.noodles"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-monkey",
+          "kind": "teach",
+          "conceptId": "word.monkey",
+          "promptAudioId": "words.letter-m.monkey.teach",
+          "visual": {
+            "kind": "word",
+            "value": "monkey",
+            "label": "monkey"
+          }
+        },
+        {
+          "id": "choice-monkey",
+          "kind": "choice",
+          "conceptId": "word.monkey",
+          "visual": {
+            "kind": "word",
+            "value": "monkey",
+            "label": "monkey"
+          },
+          "promptAudioId": "words.letter-m.monkey.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "monkey",
+              "conceptId": "word.monkey"
+            },
+            {
+              "id": "other-1",
+              "label": "octopus",
+              "conceptId": "word.octopus"
+            },
+            {
+              "id": "other-2",
+              "label": "queen",
+              "conceptId": "word.queen"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-milk",
+          "kind": "teach",
+          "conceptId": "word.milk",
+          "promptAudioId": "words.letter-m.milk.teach",
+          "visual": {
+            "kind": "word",
+            "value": "milk",
+            "label": "milk"
+          }
+        },
+        {
+          "id": "choice-milk",
+          "kind": "choice",
+          "conceptId": "word.milk",
+          "visual": {
+            "kind": "word",
+            "value": "milk",
+            "label": "milk"
+          },
+          "promptAudioId": "words.letter-m.milk.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "milk",
+              "conceptId": "word.milk"
+            },
+            {
+              "id": "other-1",
+              "label": "orange",
+              "conceptId": "word.orange"
+            },
+            {
+              "id": "other-2",
+              "label": "quilt",
+              "conceptId": "word.quilt"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.moon",
+          "visual": {
+            "kind": "word",
+            "value": "moon",
+            "label": "moon"
+          },
+          "promptAudioId": "words.letter-m.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-n",
+      "title": "N words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "N",
+      "steps": [
+        {
+          "id": "teach-nose",
+          "kind": "teach",
+          "conceptId": "word.nose",
+          "promptAudioId": "words.letter-n.nose.teach",
+          "visual": {
+            "kind": "word",
+            "value": "nose",
+            "label": "nose"
+          }
+        },
+        {
+          "id": "choice-nose",
+          "kind": "choice",
+          "conceptId": "word.nose",
+          "visual": {
+            "kind": "word",
+            "value": "nose",
+            "label": "nose"
+          },
+          "promptAudioId": "words.letter-n.nose.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "nose",
+              "conceptId": "word.nose"
+            },
+            {
+              "id": "other-1",
+              "label": "owl",
+              "conceptId": "word.owl"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-nut",
+          "kind": "teach",
+          "conceptId": "word.nut",
+          "promptAudioId": "words.letter-n.nut.teach",
+          "visual": {
+            "kind": "word",
+            "value": "nut",
+            "label": "nut"
+          }
+        },
+        {
+          "id": "choice-nut",
+          "kind": "choice",
+          "conceptId": "word.nut",
+          "visual": {
+            "kind": "word",
+            "value": "nut",
+            "label": "nut"
+          },
+          "promptAudioId": "words.letter-n.nut.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "nut",
+              "conceptId": "word.nut"
+            },
+            {
+              "id": "other-1",
+              "label": "pig",
+              "conceptId": "word.pig"
+            },
+            {
+              "id": "other-2",
+              "label": "rainbow",
+              "conceptId": "word.rainbow"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-noodles",
+          "kind": "teach",
+          "conceptId": "word.noodles",
+          "promptAudioId": "words.letter-n.noodles.teach",
+          "visual": {
+            "kind": "word",
+            "value": "noodles",
+            "label": "noodles"
+          }
+        },
+        {
+          "id": "choice-noodles",
+          "kind": "choice",
+          "conceptId": "word.noodles",
+          "visual": {
+            "kind": "word",
+            "value": "noodles",
+            "label": "noodles"
+          },
+          "promptAudioId": "words.letter-n.noodles.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "noodles",
+              "conceptId": "word.noodles"
+            },
+            {
+              "id": "other-1",
+              "label": "pizza",
+              "conceptId": "word.pizza"
+            },
+            {
+              "id": "other-2",
+              "label": "robot",
+              "conceptId": "word.robot"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.nose",
+          "visual": {
+            "kind": "word",
+            "value": "nose",
+            "label": "nose"
+          },
+          "promptAudioId": "words.letter-n.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-o",
+      "title": "O words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "O",
+      "steps": [
+        {
+          "id": "teach-octopus",
+          "kind": "teach",
+          "conceptId": "word.octopus",
+          "promptAudioId": "words.letter-o.octopus.teach",
+          "visual": {
+            "kind": "word",
+            "value": "octopus",
+            "label": "octopus"
+          }
+        },
+        {
+          "id": "choice-octopus",
+          "kind": "choice",
+          "conceptId": "word.octopus",
+          "visual": {
+            "kind": "word",
+            "value": "octopus",
+            "label": "octopus"
+          },
+          "promptAudioId": "words.letter-o.octopus.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "octopus",
+              "conceptId": "word.octopus"
+            },
+            {
+              "id": "other-1",
+              "label": "penguin",
+              "conceptId": "word.penguin"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-orange",
+          "kind": "teach",
+          "conceptId": "word.orange",
+          "promptAudioId": "words.letter-o.orange.teach",
+          "visual": {
+            "kind": "word",
+            "value": "orange",
+            "label": "orange"
+          }
+        },
+        {
+          "id": "choice-orange",
+          "kind": "choice",
+          "conceptId": "word.orange",
+          "visual": {
+            "kind": "word",
+            "value": "orange",
+            "label": "orange"
+          },
+          "promptAudioId": "words.letter-o.orange.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "orange",
+              "conceptId": "word.orange"
+            },
+            {
+              "id": "other-1",
+              "label": "queen",
+              "conceptId": "word.queen"
+            },
+            {
+              "id": "other-2",
+              "label": "star",
+              "conceptId": "word.star"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-owl",
+          "kind": "teach",
+          "conceptId": "word.owl",
+          "promptAudioId": "words.letter-o.owl.teach",
+          "visual": {
+            "kind": "word",
+            "value": "owl",
+            "label": "owl"
+          }
+        },
+        {
+          "id": "choice-owl",
+          "kind": "choice",
+          "conceptId": "word.owl",
+          "visual": {
+            "kind": "word",
+            "value": "owl",
+            "label": "owl"
+          },
+          "promptAudioId": "words.letter-o.owl.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "owl",
+              "conceptId": "word.owl"
+            },
+            {
+              "id": "other-1",
+              "label": "quilt",
+              "conceptId": "word.quilt"
+            },
+            {
+              "id": "other-2",
+              "label": "snake",
+              "conceptId": "word.snake"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.octopus",
+          "visual": {
+            "kind": "word",
+            "value": "octopus",
+            "label": "octopus"
+          },
+          "promptAudioId": "words.letter-o.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-p",
+      "title": "P words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "P",
+      "steps": [
+        {
+          "id": "teach-pig",
+          "kind": "teach",
+          "conceptId": "word.pig",
+          "promptAudioId": "words.letter-p.pig.teach",
+          "visual": {
+            "kind": "word",
+            "value": "pig",
+            "label": "pig"
+          }
+        },
+        {
+          "id": "choice-pig",
+          "kind": "choice",
+          "conceptId": "word.pig",
+          "visual": {
+            "kind": "word",
+            "value": "pig",
+            "label": "pig"
+          },
+          "promptAudioId": "words.letter-p.pig.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "pig",
+              "conceptId": "word.pig"
+            },
+            {
+              "id": "other-1",
+              "label": "rabbit",
+              "conceptId": "word.rabbit"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-pizza",
+          "kind": "teach",
+          "conceptId": "word.pizza",
+          "promptAudioId": "words.letter-p.pizza.teach",
+          "visual": {
+            "kind": "word",
+            "value": "pizza",
+            "label": "pizza"
+          }
+        },
+        {
+          "id": "choice-pizza",
+          "kind": "choice",
+          "conceptId": "word.pizza",
+          "visual": {
+            "kind": "word",
+            "value": "pizza",
+            "label": "pizza"
+          },
+          "promptAudioId": "words.letter-p.pizza.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "pizza",
+              "conceptId": "word.pizza"
+            },
+            {
+              "id": "other-1",
+              "label": "rainbow",
+              "conceptId": "word.rainbow"
+            },
+            {
+              "id": "other-2",
+              "label": "train",
+              "conceptId": "word.train"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-penguin",
+          "kind": "teach",
+          "conceptId": "word.penguin",
+          "promptAudioId": "words.letter-p.penguin.teach",
+          "visual": {
+            "kind": "word",
+            "value": "penguin",
+            "label": "penguin"
+          }
+        },
+        {
+          "id": "choice-penguin",
+          "kind": "choice",
+          "conceptId": "word.penguin",
+          "visual": {
+            "kind": "word",
+            "value": "penguin",
+            "label": "penguin"
+          },
+          "promptAudioId": "words.letter-p.penguin.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "penguin",
+              "conceptId": "word.penguin"
+            },
+            {
+              "id": "other-1",
+              "label": "robot",
+              "conceptId": "word.robot"
+            },
+            {
+              "id": "other-2",
+              "label": "tree",
+              "conceptId": "word.tree"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.pig",
+          "visual": {
+            "kind": "word",
+            "value": "pig",
+            "label": "pig"
+          },
+          "promptAudioId": "words.letter-p.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-q",
+      "title": "Q words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "Q",
+      "steps": [
+        {
+          "id": "teach-queen",
+          "kind": "teach",
+          "conceptId": "word.queen",
+          "promptAudioId": "words.letter-q.queen.teach",
+          "visual": {
+            "kind": "word",
+            "value": "queen",
+            "label": "queen"
+          }
+        },
+        {
+          "id": "choice-queen",
+          "kind": "choice",
+          "conceptId": "word.queen",
+          "visual": {
+            "kind": "word",
+            "value": "queen",
+            "label": "queen"
+          },
+          "promptAudioId": "words.letter-q.queen.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "queen",
+              "conceptId": "word.queen"
+            },
+            {
+              "id": "other-1",
+              "label": "sun",
+              "conceptId": "word.sun"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-quilt",
+          "kind": "teach",
+          "conceptId": "word.quilt",
+          "promptAudioId": "words.letter-q.quilt.teach",
+          "visual": {
+            "kind": "word",
+            "value": "quilt",
+            "label": "quilt"
+          }
+        },
+        {
+          "id": "choice-quilt",
+          "kind": "choice",
+          "conceptId": "word.quilt",
+          "visual": {
+            "kind": "word",
+            "value": "quilt",
+            "label": "quilt"
+          },
+          "promptAudioId": "words.letter-q.quilt.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "quilt",
+              "conceptId": "word.quilt"
+            },
+            {
+              "id": "other-1",
+              "label": "star",
+              "conceptId": "word.star"
+            },
+            {
+              "id": "other-2",
+              "label": "unicorn",
+              "conceptId": "word.unicorn"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.queen",
+          "visual": {
+            "kind": "word",
+            "value": "queen",
+            "label": "queen"
+          },
+          "promptAudioId": "words.letter-q.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-r",
+      "title": "R words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "R",
+      "steps": [
+        {
+          "id": "teach-rabbit",
+          "kind": "teach",
+          "conceptId": "word.rabbit",
+          "promptAudioId": "words.letter-r.rabbit.teach",
+          "visual": {
+            "kind": "word",
+            "value": "rabbit",
+            "label": "rabbit"
+          }
+        },
+        {
+          "id": "choice-rabbit",
+          "kind": "choice",
+          "conceptId": "word.rabbit",
+          "visual": {
+            "kind": "word",
+            "value": "rabbit",
+            "label": "rabbit"
+          },
+          "promptAudioId": "words.letter-r.rabbit.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "rabbit",
+              "conceptId": "word.rabbit"
+            },
+            {
+              "id": "other-1",
+              "label": "snake",
+              "conceptId": "word.snake"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-rainbow",
+          "kind": "teach",
+          "conceptId": "word.rainbow",
+          "promptAudioId": "words.letter-r.rainbow.teach",
+          "visual": {
+            "kind": "word",
+            "value": "rainbow",
+            "label": "rainbow"
+          }
+        },
+        {
+          "id": "choice-rainbow",
+          "kind": "choice",
+          "conceptId": "word.rainbow",
+          "visual": {
+            "kind": "word",
+            "value": "rainbow",
+            "label": "rainbow"
+          },
+          "promptAudioId": "words.letter-r.rainbow.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "rainbow",
+              "conceptId": "word.rainbow"
+            },
+            {
+              "id": "other-1",
+              "label": "tiger",
+              "conceptId": "word.tiger"
+            },
+            {
+              "id": "other-2",
+              "label": "violin",
+              "conceptId": "word.violin"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-robot",
+          "kind": "teach",
+          "conceptId": "word.robot",
+          "promptAudioId": "words.letter-r.robot.teach",
+          "visual": {
+            "kind": "word",
+            "value": "robot",
+            "label": "robot"
+          }
+        },
+        {
+          "id": "choice-robot",
+          "kind": "choice",
+          "conceptId": "word.robot",
+          "visual": {
+            "kind": "word",
+            "value": "robot",
+            "label": "robot"
+          },
+          "promptAudioId": "words.letter-r.robot.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "robot",
+              "conceptId": "word.robot"
+            },
+            {
+              "id": "other-1",
+              "label": "train",
+              "conceptId": "word.train"
+            },
+            {
+              "id": "other-2",
+              "label": "volcano",
+              "conceptId": "word.volcano"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.rabbit",
+          "visual": {
+            "kind": "word",
+            "value": "rabbit",
+            "label": "rabbit"
+          },
+          "promptAudioId": "words.letter-r.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-s",
+      "title": "S words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "S",
+      "steps": [
+        {
+          "id": "teach-sun",
+          "kind": "teach",
+          "conceptId": "word.sun",
+          "promptAudioId": "words.letter-s.sun.teach",
+          "visual": {
+            "kind": "word",
+            "value": "sun",
+            "label": "sun"
+          }
+        },
+        {
+          "id": "choice-sun",
+          "kind": "choice",
+          "conceptId": "word.sun",
+          "visual": {
+            "kind": "word",
+            "value": "sun",
+            "label": "sun"
+          },
+          "promptAudioId": "words.letter-s.sun.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "sun",
+              "conceptId": "word.sun"
+            },
+            {
+              "id": "other-1",
+              "label": "tree",
+              "conceptId": "word.tree"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-star",
+          "kind": "teach",
+          "conceptId": "word.star",
+          "promptAudioId": "words.letter-s.star.teach",
+          "visual": {
+            "kind": "word",
+            "value": "star",
+            "label": "star"
+          }
+        },
+        {
+          "id": "choice-star",
+          "kind": "choice",
+          "conceptId": "word.star",
+          "visual": {
+            "kind": "word",
+            "value": "star",
+            "label": "star"
+          },
+          "promptAudioId": "words.letter-s.star.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "star",
+              "conceptId": "word.star"
+            },
+            {
+              "id": "other-1",
+              "label": "umbrella",
+              "conceptId": "word.umbrella"
+            },
+            {
+              "id": "other-2",
+              "label": "watch",
+              "conceptId": "word.watch"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-snake",
+          "kind": "teach",
+          "conceptId": "word.snake",
+          "promptAudioId": "words.letter-s.snake.teach",
+          "visual": {
+            "kind": "word",
+            "value": "snake",
+            "label": "snake"
+          }
+        },
+        {
+          "id": "choice-snake",
+          "kind": "choice",
+          "conceptId": "word.snake",
+          "visual": {
+            "kind": "word",
+            "value": "snake",
+            "label": "snake"
+          },
+          "promptAudioId": "words.letter-s.snake.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "snake",
+              "conceptId": "word.snake"
+            },
+            {
+              "id": "other-1",
+              "label": "unicorn",
+              "conceptId": "word.unicorn"
+            },
+            {
+              "id": "other-2",
+              "label": "web",
+              "conceptId": "word.web"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.sun",
+          "visual": {
+            "kind": "word",
+            "value": "sun",
+            "label": "sun"
+          },
+          "promptAudioId": "words.letter-s.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-t",
+      "title": "T words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "T",
+      "steps": [
+        {
+          "id": "teach-tiger",
+          "kind": "teach",
+          "conceptId": "word.tiger",
+          "promptAudioId": "words.letter-t.tiger.teach",
+          "visual": {
+            "kind": "word",
+            "value": "tiger",
+            "label": "tiger"
+          }
+        },
+        {
+          "id": "choice-tiger",
+          "kind": "choice",
+          "conceptId": "word.tiger",
+          "visual": {
+            "kind": "word",
+            "value": "tiger",
+            "label": "tiger"
+          },
+          "promptAudioId": "words.letter-t.tiger.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "tiger",
+              "conceptId": "word.tiger"
+            },
+            {
+              "id": "other-1",
+              "label": "van",
+              "conceptId": "word.van"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-train",
+          "kind": "teach",
+          "conceptId": "word.train",
+          "promptAudioId": "words.letter-t.train.teach",
+          "visual": {
+            "kind": "word",
+            "value": "train",
+            "label": "train"
+          }
+        },
+        {
+          "id": "choice-train",
+          "kind": "choice",
+          "conceptId": "word.train",
+          "visual": {
+            "kind": "word",
+            "value": "train",
+            "label": "train"
+          },
+          "promptAudioId": "words.letter-t.train.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "train",
+              "conceptId": "word.train"
+            },
+            {
+              "id": "other-1",
+              "label": "violin",
+              "conceptId": "word.violin"
+            },
+            {
+              "id": "other-2",
+              "label": "box",
+              "conceptId": "word.box"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-tree",
+          "kind": "teach",
+          "conceptId": "word.tree",
+          "promptAudioId": "words.letter-t.tree.teach",
+          "visual": {
+            "kind": "word",
+            "value": "tree",
+            "label": "tree"
+          }
+        },
+        {
+          "id": "choice-tree",
+          "kind": "choice",
+          "conceptId": "word.tree",
+          "visual": {
+            "kind": "word",
+            "value": "tree",
+            "label": "tree"
+          },
+          "promptAudioId": "words.letter-t.tree.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "tree",
+              "conceptId": "word.tree"
+            },
+            {
+              "id": "other-1",
+              "label": "volcano",
+              "conceptId": "word.volcano"
+            },
+            {
+              "id": "other-2",
+              "label": "yo-yo",
+              "conceptId": "word.yo-yo"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.tiger",
+          "visual": {
+            "kind": "word",
+            "value": "tiger",
+            "label": "tiger"
+          },
+          "promptAudioId": "words.letter-t.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-u",
+      "title": "U words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "U",
+      "steps": [
+        {
+          "id": "teach-umbrella",
+          "kind": "teach",
+          "conceptId": "word.umbrella",
+          "promptAudioId": "words.letter-u.umbrella.teach",
+          "visual": {
+            "kind": "word",
+            "value": "umbrella",
+            "label": "umbrella"
+          }
+        },
+        {
+          "id": "choice-umbrella",
+          "kind": "choice",
+          "conceptId": "word.umbrella",
+          "visual": {
+            "kind": "word",
+            "value": "umbrella",
+            "label": "umbrella"
+          },
+          "promptAudioId": "words.letter-u.umbrella.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "umbrella",
+              "conceptId": "word.umbrella"
+            },
+            {
+              "id": "other-1",
+              "label": "whale",
+              "conceptId": "word.whale"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-unicorn",
+          "kind": "teach",
+          "conceptId": "word.unicorn",
+          "promptAudioId": "words.letter-u.unicorn.teach",
+          "visual": {
+            "kind": "word",
+            "value": "unicorn",
+            "label": "unicorn"
+          }
+        },
+        {
+          "id": "choice-unicorn",
+          "kind": "choice",
+          "conceptId": "word.unicorn",
+          "visual": {
+            "kind": "word",
+            "value": "unicorn",
+            "label": "unicorn"
+          },
+          "promptAudioId": "words.letter-u.unicorn.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "unicorn",
+              "conceptId": "word.unicorn"
+            },
+            {
+              "id": "other-1",
+              "label": "watch",
+              "conceptId": "word.watch"
+            },
+            {
+              "id": "other-2",
+              "label": "zebra",
+              "conceptId": "word.zebra"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.umbrella",
+          "visual": {
+            "kind": "word",
+            "value": "umbrella",
+            "label": "umbrella"
+          },
+          "promptAudioId": "words.letter-u.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-v",
+      "title": "V words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "V",
+      "steps": [
+        {
+          "id": "teach-van",
+          "kind": "teach",
+          "conceptId": "word.van",
+          "promptAudioId": "words.letter-v.van.teach",
+          "visual": {
+            "kind": "word",
+            "value": "van",
+            "label": "van"
+          }
+        },
+        {
+          "id": "choice-van",
+          "kind": "choice",
+          "conceptId": "word.van",
+          "visual": {
+            "kind": "word",
+            "value": "van",
+            "label": "van"
+          },
+          "promptAudioId": "words.letter-v.van.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "van",
+              "conceptId": "word.van"
+            },
+            {
+              "id": "other-1",
+              "label": "web",
+              "conceptId": "word.web"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-violin",
+          "kind": "teach",
+          "conceptId": "word.violin",
+          "promptAudioId": "words.letter-v.violin.teach",
+          "visual": {
+            "kind": "word",
+            "value": "violin",
+            "label": "violin"
+          }
+        },
+        {
+          "id": "choice-violin",
+          "kind": "choice",
+          "conceptId": "word.violin",
+          "visual": {
+            "kind": "word",
+            "value": "violin",
+            "label": "violin"
+          },
+          "promptAudioId": "words.letter-v.violin.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "violin",
+              "conceptId": "word.violin"
+            },
+            {
+              "id": "other-1",
+              "label": "fox",
+              "conceptId": "word.fox"
+            },
+            {
+              "id": "other-2",
+              "label": "zero",
+              "conceptId": "word.zero"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-volcano",
+          "kind": "teach",
+          "conceptId": "word.volcano",
+          "promptAudioId": "words.letter-v.volcano.teach",
+          "visual": {
+            "kind": "word",
+            "value": "volcano",
+            "label": "volcano"
+          }
+        },
+        {
+          "id": "choice-volcano",
+          "kind": "choice",
+          "conceptId": "word.volcano",
+          "visual": {
+            "kind": "word",
+            "value": "volcano",
+            "label": "volcano"
+          },
+          "promptAudioId": "words.letter-v.volcano.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "volcano",
+              "conceptId": "word.volcano"
+            },
+            {
+              "id": "other-1",
+              "label": "box",
+              "conceptId": "word.box"
+            },
+            {
+              "id": "other-2",
+              "label": "apple",
+              "conceptId": "word.apple"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.van",
+          "visual": {
+            "kind": "word",
+            "value": "van",
+            "label": "van"
+          },
+          "promptAudioId": "words.letter-v.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-w",
+      "title": "W words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "W",
+      "steps": [
+        {
+          "id": "teach-whale",
+          "kind": "teach",
+          "conceptId": "word.whale",
+          "promptAudioId": "words.letter-w.whale.teach",
+          "visual": {
+            "kind": "word",
+            "value": "whale",
+            "label": "whale"
+          }
+        },
+        {
+          "id": "choice-whale",
+          "kind": "choice",
+          "conceptId": "word.whale",
+          "visual": {
+            "kind": "word",
+            "value": "whale",
+            "label": "whale"
+          },
+          "promptAudioId": "words.letter-w.whale.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "whale",
+              "conceptId": "word.whale"
+            },
+            {
+              "id": "other-1",
+              "label": "yo-yo",
+              "conceptId": "word.yo-yo"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-watch",
+          "kind": "teach",
+          "conceptId": "word.watch",
+          "promptAudioId": "words.letter-w.watch.teach",
+          "visual": {
+            "kind": "word",
+            "value": "watch",
+            "label": "watch"
+          }
+        },
+        {
+          "id": "choice-watch",
+          "kind": "choice",
+          "conceptId": "word.watch",
+          "visual": {
+            "kind": "word",
+            "value": "watch",
+            "label": "watch"
+          },
+          "promptAudioId": "words.letter-w.watch.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "watch",
+              "conceptId": "word.watch"
+            },
+            {
+              "id": "other-1",
+              "label": "yarn",
+              "conceptId": "word.yarn"
+            },
+            {
+              "id": "other-2",
+              "label": "airplane",
+              "conceptId": "word.airplane"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-web",
+          "kind": "teach",
+          "conceptId": "word.web",
+          "promptAudioId": "words.letter-w.web.teach",
+          "visual": {
+            "kind": "word",
+            "value": "web",
+            "label": "web"
+          }
+        },
+        {
+          "id": "choice-web",
+          "kind": "choice",
+          "conceptId": "word.web",
+          "visual": {
+            "kind": "word",
+            "value": "web",
+            "label": "web"
+          },
+          "promptAudioId": "words.letter-w.web.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "web",
+              "conceptId": "word.web"
+            },
+            {
+              "id": "other-1",
+              "label": "zebra",
+              "conceptId": "word.zebra"
+            },
+            {
+              "id": "other-2",
+              "label": "ball",
+              "conceptId": "word.ball"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.whale",
+          "visual": {
+            "kind": "word",
+            "value": "whale",
+            "label": "whale"
+          },
+          "promptAudioId": "words.letter-w.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-x",
+      "title": "X words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "X",
+      "steps": [
+        {
+          "id": "teach-fox",
+          "kind": "teach",
+          "conceptId": "word.fox",
+          "promptAudioId": "words.letter-x.fox.teach",
+          "visual": {
+            "kind": "word",
+            "value": "fox",
+            "label": "fox"
+          }
+        },
+        {
+          "id": "choice-fox",
+          "kind": "choice",
+          "conceptId": "word.fox",
+          "visual": {
+            "kind": "word",
+            "value": "fox",
+            "label": "fox"
+          },
+          "promptAudioId": "words.letter-x.fox.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "fox",
+              "conceptId": "word.fox"
+            },
+            {
+              "id": "other-1",
+              "label": "zip",
+              "conceptId": "word.zip"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-box",
+          "kind": "teach",
+          "conceptId": "word.box",
+          "promptAudioId": "words.letter-x.box.teach",
+          "visual": {
+            "kind": "word",
+            "value": "box",
+            "label": "box"
+          }
+        },
+        {
+          "id": "choice-box",
+          "kind": "choice",
+          "conceptId": "word.box",
+          "visual": {
+            "kind": "word",
+            "value": "box",
+            "label": "box"
+          },
+          "promptAudioId": "words.letter-x.box.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "box",
+              "conceptId": "word.box"
+            },
+            {
+              "id": "other-1",
+              "label": "zero",
+              "conceptId": "word.zero"
+            },
+            {
+              "id": "other-2",
+              "label": "bear",
+              "conceptId": "word.bear"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.fox",
+          "visual": {
+            "kind": "word",
+            "value": "fox",
+            "label": "fox"
+          },
+          "promptAudioId": "words.letter-x.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-y",
+      "title": "Y words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "Y",
+      "steps": [
+        {
+          "id": "teach-yo-yo",
+          "kind": "teach",
+          "conceptId": "word.yo-yo",
+          "promptAudioId": "words.letter-y.yo-yo.teach",
+          "visual": {
+            "kind": "word",
+            "value": "yo-yo",
+            "label": "yo-yo"
+          }
+        },
+        {
+          "id": "choice-yo-yo",
+          "kind": "choice",
+          "conceptId": "word.yo-yo",
+          "visual": {
+            "kind": "word",
+            "value": "yo-yo",
+            "label": "yo-yo"
+          },
+          "promptAudioId": "words.letter-y.yo-yo.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "yo-yo",
+              "conceptId": "word.yo-yo"
+            },
+            {
+              "id": "other-1",
+              "label": "apple",
+              "conceptId": "word.apple"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-yarn",
+          "kind": "teach",
+          "conceptId": "word.yarn",
+          "promptAudioId": "words.letter-y.yarn.teach",
+          "visual": {
+            "kind": "word",
+            "value": "yarn",
+            "label": "yarn"
+          }
+        },
+        {
+          "id": "choice-yarn",
+          "kind": "choice",
+          "conceptId": "word.yarn",
+          "visual": {
+            "kind": "word",
+            "value": "yarn",
+            "label": "yarn"
+          },
+          "promptAudioId": "words.letter-y.yarn.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "yarn",
+              "conceptId": "word.yarn"
+            },
+            {
+              "id": "other-1",
+              "label": "ant",
+              "conceptId": "word.ant"
+            },
+            {
+              "id": "other-2",
+              "label": "car",
+              "conceptId": "word.car"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.yo-yo",
+          "visual": {
+            "kind": "word",
+            "value": "yo-yo",
+            "label": "yo-yo"
+          },
+          "promptAudioId": "words.letter-y.review"
+        }
+      ]
+    },
+    {
+      "id": "words.letter-z",
+      "title": "Z words",
+      "subject": "words",
+      "ageBand": "2-3",
+      "status": "draft",
+      "letter": "Z",
+      "steps": [
+        {
+          "id": "teach-zebra",
+          "kind": "teach",
+          "conceptId": "word.zebra",
+          "promptAudioId": "words.letter-z.zebra.teach",
+          "visual": {
+            "kind": "word",
+            "value": "zebra",
+            "label": "zebra"
+          }
+        },
+        {
+          "id": "choice-zebra",
+          "kind": "choice",
+          "conceptId": "word.zebra",
+          "visual": {
+            "kind": "word",
+            "value": "zebra",
+            "label": "zebra"
+          },
+          "promptAudioId": "words.letter-z.zebra.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "zebra",
+              "conceptId": "word.zebra"
+            },
+            {
+              "id": "other-1",
+              "label": "airplane",
+              "conceptId": "word.airplane"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-zip",
+          "kind": "teach",
+          "conceptId": "word.zip",
+          "promptAudioId": "words.letter-z.zip.teach",
+          "visual": {
+            "kind": "word",
+            "value": "zip",
+            "label": "zip"
+          }
+        },
+        {
+          "id": "choice-zip",
+          "kind": "choice",
+          "conceptId": "word.zip",
+          "visual": {
+            "kind": "word",
+            "value": "zip",
+            "label": "zip"
+          },
+          "promptAudioId": "words.letter-z.zip.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "zip",
+              "conceptId": "word.zip"
+            },
+            {
+              "id": "other-1",
+              "label": "ball",
+              "conceptId": "word.ball"
+            },
+            {
+              "id": "other-2",
+              "label": "dog",
+              "conceptId": "word.dog"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "teach-zero",
+          "kind": "teach",
+          "conceptId": "word.zero",
+          "promptAudioId": "words.letter-z.zero.teach",
+          "visual": {
+            "kind": "word",
+            "value": "zero",
+            "label": "zero"
+          }
+        },
+        {
+          "id": "choice-zero",
+          "kind": "choice",
+          "conceptId": "word.zero",
+          "visual": {
+            "kind": "word",
+            "value": "zero",
+            "label": "zero"
+          },
+          "promptAudioId": "words.letter-z.zero.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "zero",
+              "conceptId": "word.zero"
+            },
+            {
+              "id": "other-1",
+              "label": "banana",
+              "conceptId": "word.banana"
+            },
+            {
+              "id": "other-2",
+              "label": "duck",
+              "conceptId": "word.duck"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "word.zebra",
+          "visual": {
+            "kind": "word",
+            "value": "zebra",
+            "label": "zebra"
+          },
+          "promptAudioId": "words.letter-z.review"
+        }
+      ]
+    }
+  ]
+}

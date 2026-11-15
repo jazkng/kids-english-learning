@@ -1,4 +1,4 @@
-import type { Subject } from '../contracts/course.ts';
+import type { Area as Subject } from './activities.ts';
 
 export type Screen =
   | { name: 'home' }
@@ -17,7 +17,7 @@ export interface HistoryPort {
 function screenFrom(value: unknown): Screen {
   if (!value || typeof value !== 'object') return { name: 'home' };
   const s = value as Record<string, unknown>;
-  if (s.name === 'subject' && ['abc', 'numbers', 'colors'].includes(s.subject as string)) return { name: 'subject', subject: s.subject as Subject };
+  if (s.name === 'subject' && ['abc', 'numbers', 'colors', 'words', 'math'].includes(s.subject as string)) return { name: 'subject', subject: s.subject as Subject };
   if (s.name === 'lesson' && typeof s.id === 'string' && /^[a-z0-9][a-z0-9.-]{0,127}$/.test(s.id)
     && typeof s.run === 'number' && Number.isFinite(s.run)) return { name: 'lesson', id: s.id, run: s.run };
   // 👑 Parent access is transient: restored history, Forward and reload never grant access.

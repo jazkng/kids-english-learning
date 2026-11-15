@@ -1,6 +1,12 @@
 // Pure lesson state machine so playback, UI and tests share one source of truth.
 // Kept free of React/DOM imports so Node's type stripping can run it in tests.
-import type { Lesson, LessonStep, TeacherState } from '../../contracts/course.ts';
+import type { LessonStep, TeacherState } from '../../contracts/course.ts';
+
+// Structural shape the player needs. Curriculum lessons satisfy it, and so do Words/Math activities
+// and generated quizzes, whose visual kinds ('word', 'sum') sit outside the v1 lesson contract.
+export type PlayableStep = Omit<LessonStep, 'visual'> & { visual: { kind: string; value: string; label: string } };
+export interface PlayableLesson { id: string; title: string; ageBand: string; steps: PlayableStep[] }
+type Lesson = PlayableLesson;
 
 export type AudioOutcome = 'ended' | 'missing' | 'error' | 'blocked' | 'muted';
 export type Phase = 'speaking' | 'await-next' | 'await-choice' | 'feedback' | 'done';
@@ -33,7 +39,7 @@ export type EngineAction =
   | { type: 'pause' }
   | { type: 'resume' };
 
-function order(step: LessonStep, seed: number): string[] {
+function order(step: PlayableStep, seed: number): string[] {
   const ids = (step.choices ?? []).map((c) => c.id);
   if (ids.length < 2) return ids;
   // Deterministic rotation keeps the correct answer from always sitting in the same spot.

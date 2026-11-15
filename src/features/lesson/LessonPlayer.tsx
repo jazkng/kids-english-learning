@@ -1,9 +1,8 @@
 import { useEffect, useReducer, useState } from 'react';
-import type { Lesson } from '../../contracts/course.ts';
 import { audioController } from '../../services/audio.ts';
 import { audioEntry } from '../../services/content.ts';
 import { Teacher } from '../teacher/Teacher.tsx';
-import { initEngine, lessonCompleted, reduce, teacherState, type EngineAction, type EngineState } from './engine.ts';
+import { initEngine, lessonCompleted, type PlayableLesson as Lesson, reduce, teacherState, type EngineAction, type EngineState } from './engine.ts';
 import { Visual, conceptValue } from './Visual.tsx';
 
 interface Props {
@@ -68,7 +67,8 @@ export function LessonPlayer(props: Props) {
       <div className="lesson-progress" aria-hidden="true"><span style={{ width: `${progress * 100}%` }} /></div>
       <div className="stage">
         <Teacher state={teacherState(state)} />
-        {step.kind !== 'choice' && <Visual {...step.visual} />}
+        {/* A sum is the question itself, so it stays visible while the child picks the answer. */}
+        {(step.kind !== 'choice' || step.visual.kind === 'sum') && <Visual {...step.visual} />}
         {step.kind === 'choice' && (
           <div className={`choices n${state.choiceOrder.length}`} role="group" aria-label="Choices">
             {state.choiceOrder.map((id) => {
@@ -78,7 +78,7 @@ export function LessonPlayer(props: Props) {
               return (
                 <button key={id} className={`choice ${hint ? 'hint' : ''} ${won ? 'won' : ''}`} aria-label={c.label}
                   disabled={state.phase !== 'await-choice' || state.paused} onClick={() => dispatch({ type: 'choose', choiceId: id })}>
-                  <Visual kind={step.visual.kind} value={conceptValue(c.conceptId)} label={c.label} small />
+                  <Visual kind={step.visual.kind === 'sum' ? 'quantity' : step.visual.kind} value={conceptValue(c.conceptId)} label={c.label} small />
                 </button>
               );
             })}
