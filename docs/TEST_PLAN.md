@@ -44,3 +44,9 @@ Manual checks still required:
 ## Build rejects partial offline packages
 
 The shared extension list drives both Workbox's glob and a build-directory scan. Before writing the readiness index, every packaged runtime/media resource must appear in Workbox's entries. Oversized assets skipped by Workbox warnings now fail the build. `precache-policy.test.mjs` covers complete packages and skipped audio/scripts. Local integration fault injection added a temporary >2 MiB public audio fixture: real Vite/Workbox build failed with the named omitted file; the fixture was removed and normal build passed again. These synthetic bytes test packaging only, not audio decoding.
+
+## More-choice practice regression
+
+`choice-practice.test.mjs` validates every expanded lesson against the canonical contracts, deep-freezes source input, compares all original options/targets/audio references, and checks idempotence. Boundary-number and familiar-color checks prevent added distractors exceeding the original age range. Expanded three/four-option lessons exercise wrong → original retry → Replay → original success → completion, and deterministic seeds cover every answer position. No source course, script, manifest or audio file is modified.
+
+Manual device check pending: on a 320px phone, common Android and tablet, open ABC A, number 0, color red (three choices) and number 11/100 (four choices). Check all labels/quantities are visible in two columns, touch targets remain at least 56px, the smaller teacher leaves room for options, Replay retains option positions, and feedback still plays the original line. No new timing pressure, penalty or sound generation. Test narrow landscape/long captions with ordinary scrolling; do not claim browser/device acceptance from these unit tests.

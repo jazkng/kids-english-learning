@@ -36,14 +36,19 @@ export type EngineAction =
 function order(step: LessonStep, seed: number): string[] {
   const ids = (step.choices ?? []).map((c) => c.id);
   if (ids.length < 2) return ids;
-  // Deterministic rotation keeps the correct answer from always sitting in the same spot.
-  const shift = Math.abs(seed) % ids.length;
-  return [...ids.slice(shift), ...ids.slice(0, shift)];
+  // 👑 Bounded seeded shuffle varies every answer position without changing the authored answer ID.
+  let random = seed >>> 0;
+  for (let i = ids.length - 1; i > 0; i--) {
+    random = (Math.imul(random, 1664525) + 1013904223) >>> 0;
+    const j = Math.floor((random / 4294967296) * (i + 1));
+    [ids[i], ids[j]] = [ids[j], ids[i]];
+  }
+  return ids;
 }
 
 function enter(state: EngineState, lesson: Lesson, stepIndex: number): EngineState {
   const step = lesson.steps[stepIndex];
-  const seed = state.seed * 31 + stepIndex + 7;
+  const seed = (Math.imul(state.seed, 31) + stepIndex + 7) >>> 0;
   return {
     ...state, stepIndex, phase: 'speaking', feedback: null, audioId: step.promptAudioId, line: step.promptAudioId,
     token: state.token + 1, paused: false, hint: false, choiceOrder: order(step, seed), audioIssue: null, seed,

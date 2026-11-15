@@ -28,6 +28,8 @@ Shared by Codex, Claude Code and Gemini through merged Git files. No private cha
 
 | KEL-AUDIO-006 | 2026-11-15 | Draft media verification | verified | CC #16 merged 570 Lily/Flash v2.5 draft narration files, with an explicit owner-family-use decision and provider approval still blocked. Codex verified all 570 files decode with ffmpeg and all appear in the generated offline index; full audio bundle builds and 37 tests pass. This does not certify pronunciation, consent/licensing or device playback. | CC #16; ffmpeg decode and offline-index check on integration branch | Adult listening/pronunciation and Android/PWA airplane-mode acceptance; do not mark provider/asset approval from this technical check. |
 
+| KEL-PRACTICE-007 | 2026-11-15 | Practice difficulty | user-confirmed | Owner requested harder existing basic lessons while CC creates new content, without changing original audio. Runtime overlay adds at least 3 choices for age 2–3 and 4 for age 4–5, preserving original options/answers/audio; same-subject nearby distractors and seeded shuffle; two-column mobile choices. | Owner request; choice-practice tests | 42 local tests/full audio build passed; merge after CI/APK, physical-device usability and child acceptance remain pending. |
+
 ## Current work
 
 Initialization #8, runtime #9, Android #10, full draft #13, offline verification #14 and curriculum guards #15 are merged. CC merged 570 draft Lily narration files in #16; Codex checked full-content integration. Codex continues independent navigation/parent recovery and #4 verification. Human pronunciation review and physical-device acceptance remain pending. Family-use scope supersedes public-app planning; no public app deployment is requested.
