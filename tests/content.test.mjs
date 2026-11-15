@@ -57,7 +57,10 @@ test('ElevenLabs stays blocked even for offline audio', () => {
   assert.match(validateContent(data).join('\n'), /ElevenLabs approval blocked/);
 });
 test('release rejects drafts, missing audio and incomplete 0–100 coverage', () => {
-  const result = validateContent(fresh(), { release: true }).join('\n');
+  const data = fresh();
+  // 👑 Remove the targets explicitly so this negative test keeps working as real coverage grows.
+  data.lessons = data.lessons.filter((l) => !l.conceptIds.some((c) => c === 'letter.z' || c === 'number.100'));
+  const result = validateContent(data, { release: true }).join('\n');
   assert.match(result, /Unapproved lesson/);
   assert.match(result, /Unapproved audio/);
   assert.match(result, /Missing coverage: number.100/);

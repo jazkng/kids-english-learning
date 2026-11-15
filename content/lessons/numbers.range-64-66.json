@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "numbers.range-64-66",
+  "version": "0.1.0",
+  "subject": "numbers",
+  "title": "Numbers 64–66",
+  "locale": "en-GB",
+  "ageBand": "4-5",
+  "status": "draft",
+  "conceptIds": [
+    "number.64",
+    "number.65",
+    "number.66"
+  ],
+  "steps": [
+    {
+      "id": "teach-64",
+      "kind": "teach",
+      "conceptId": "number.64",
+      "promptAudioId": "numbers.range-64-66.64.teach",
+      "visual": {
+        "kind": "quantity",
+        "value": "64",
+        "label": "64"
+      }
+    },
+    {
+      "id": "demo-64",
+      "kind": "demo",
+      "conceptId": "number.64",
+      "promptAudioId": "numbers.range-64-66.64.demo",
+      "visual": {
+        "kind": "quantity",
+        "value": "64",
+        "label": "64"
+      }
+    },
+    {
+      "id": "choice-64",
+      "kind": "choice",
+      "conceptId": "number.64",
+      "promptAudioId": "numbers.range-64-66.64.choice",
+      "visual": {
+        "kind": "quantity",
+        "value": "64",
+        "label": "64"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "64",
+          "conceptId": "number.64"
+        },
+        {
+          "id": "other-1",
+          "label": "65",
+          "conceptId": "number.65"
+        },
+        {
+          "id": "other-2",
+          "label": "63",
+          "conceptId": "number.63"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review-64",
+      "kind": "review",
+      "conceptId": "number.64",
+      "promptAudioId": "numbers.range-64-66.64.review",
+      "visual": {
+        "kind": "quantity",
+        "value": "64",
+        "label": "64"
+      }
+    },
+    {
+      "id": "teach-65",
+      "kind": "teach",
+      "conceptId": "number.65",
+      "promptAudioId": "numbers.range-64-66.65.teach",
+      "visual": {
+        "kind": "quantity",
+        "value": "65",
+        "label": "65"
+      }
+    },
+    {
+      "id": "demo-65",
+      "kind": "demo",
+      "conceptId": "number.65",
+      "promptAudioId": "numbers.range-64-66.65.demo",
+      "visual": {
+        "kind": "quantity",
+        "value": "65",
+        "label": "65"
+      }
+    },
+    {
+      "id": "choice-65",
+      "kind": "choice",
+      "conceptId": "number.65",
+      "promptAudioId": "numbers.range-64-66.65.choice",
+      "visual": {
+        "kind": "quantity",
+        "value": "65",
+        "label": "65"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "65",
+          "conceptId": "number.65"
+        },
+        {
+          "id": "other-1",
+          "label": "66",
+          "conceptId": "number.66"
+        },
+        {
+          "id": "other-2",
+          "label": "64",
+          "conceptId": "number.64"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review-65",
+      "kind": "review",
+      "conceptId": "number.65",
+      "promptAudioId": "numbers.range-64-66.65.review",
+      "visual": {
+        "kind": "quantity",
+        "value": "65",
+        "label": "65"
+      }
+    },
+    {
+      "id": "teach-66",
+      "kind": "teach",
+      "conceptId": "number.66",
+      "promptAudioId": "numbers.range-64-66.66.teach",
+      "visual": {
+        "kind": "quantity",
+        "value": "66",
+        "label": "66"
+      }
+    },
+    {
+      "id": "demo-66",
+      "kind": "demo",
+      "conceptId": "number.66",
+      "promptAudioId": "numbers.range-64-66.66.demo",
+      "visual": {
+        "kind": "quantity",
+        "value": "66",
+        "label": "66"
+      }
+    },
+    {
+      "id": "choice-66",
+      "kind": "choice",
+      "conceptId": "number.66",
+      "promptAudioId": "numbers.range-64-66.66.choice",
+      "visual": {
+        "kind": "quantity",
+        "value": "66",
+        "label": "66"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "66",
+          "conceptId": "number.66"
+        },
+        {
+          "id": "other-1",
+          "label": "67",
+          "conceptId": "number.67"
+        },
+        {
+          "id": "other-2",
+          "label": "65",
+          "conceptId": "number.65"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review-66",
+      "kind": "review",
+      "conceptId": "number.66",
+      "promptAudioId": "numbers.range-64-66.66.review",
+      "visual": {
+        "kind": "quantity",
+        "value": "66",
+        "label": "66"
+      }
+    }
+  ]
+}

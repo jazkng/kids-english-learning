@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "numbers.teen-14",
+  "version": "0.1.0",
+  "subject": "numbers",
+  "title": "Number 14",
+  "locale": "en-GB",
+  "ageBand": "4-5",
+  "status": "draft",
+  "conceptIds": [
+    "number.14"
+  ],
+  "steps": [
+    {
+      "id": "teach-14",
+      "kind": "teach",
+      "conceptId": "number.14",
+      "promptAudioId": "numbers.teen-14.14.teach",
+      "visual": {
+        "kind": "quantity",
+        "value": "14",
+        "label": "14"
+      }
+    },
+    {
+      "id": "demo-14",
+      "kind": "demo",
+      "conceptId": "number.14",
+      "promptAudioId": "numbers.teen-14.14.demo",
+      "visual": {
+        "kind": "quantity",
+        "value": "14",
+        "label": "14"
+      }
+    },
+    {
+      "id": "choice-14",
+      "kind": "choice",
+      "conceptId": "number.14",
+      "promptAudioId": "numbers.teen-14.14.choice",
+      "visual": {
+        "kind": "quantity",
+        "value": "14",
+        "label": "14"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "14",
+          "conceptId": "number.14"
+        },
+        {
+          "id": "other-1",
+          "label": "40",
+          "conceptId": "number.40"
+        },
+        {
+          "id": "other-2",
+          "label": "15",
+          "conceptId": "number.15"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review-14",
+      "kind": "review",
+      "conceptId": "number.14",
+      "promptAudioId": "numbers.teen-14.14.review",
+      "visual": {
+        "kind": "quantity",
+        "value": "14",
+        "label": "14"
+      }
+    }
+  ]
+}

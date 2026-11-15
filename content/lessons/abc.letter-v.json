@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "abc.letter-v",
+  "version": "0.1.0",
+  "subject": "abc",
+  "title": "Letter V",
+  "locale": "en-GB",
+  "ageBand": "2-3",
+  "status": "draft",
+  "conceptIds": [
+    "letter.v"
+  ],
+  "steps": [
+    {
+      "id": "teach",
+      "kind": "teach",
+      "conceptId": "letter.v",
+      "promptAudioId": "abc.letter-v.teach",
+      "visual": {
+        "kind": "letter",
+        "value": "V",
+        "label": "V"
+      }
+    },
+    {
+      "id": "demo",
+      "kind": "demo",
+      "conceptId": "letter.v",
+      "promptAudioId": "abc.letter-v.demo",
+      "visual": {
+        "kind": "letter",
+        "value": "V",
+        "label": "V"
+      }
+    },
+    {
+      "id": "choice",
+      "kind": "choice",
+      "conceptId": "letter.v",
+      "promptAudioId": "abc.letter-v.choice",
+      "visual": {
+        "kind": "letter",
+        "value": "V",
+        "label": "V"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "V",
+          "conceptId": "letter.v"
+        },
+        {
+          "id": "other-1",
+          "label": "W",
+          "conceptId": "letter.w"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review",
+      "kind": "review",
+      "conceptId": "letter.v",
+      "promptAudioId": "abc.letter-v.review",
+      "visual": {
+        "kind": "letter",
+        "value": "V",
+        "label": "V"
+      }
+    }
+  ]
+}

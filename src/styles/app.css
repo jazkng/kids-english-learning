@@ -116,3 +116,12 @@ aside { border-left: 4px solid #e89835; padding: 12px 16px; background: #f5ebd7;
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 .reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation: none !important; transition: none !important; }
+
+/* Three-choice number questions (ages 4–5) must fit a phone screen without scrolling past the controls. */
+.choices.n3 { grid-template-columns: repeat(3, minmax(0, 200px)); gap: 10px; }
+.choices.n3 .choice { min-height: 120px; padding: 8px 4px; border-radius: 20px; }
+.quantity.small { gap: 3px; max-width: 100%; }
+.quantity.small .ten-bar { padding: 1px; gap: 1px; border-width: 1px; border-radius: 4px; }
+.quantity.small .ten-bar i { width: 5px; height: 5px; }
+.quantity.small .ones { gap: 2px; max-width: 40px; }
+.quantity.small .dot { width: 7px; height: 7px; }
