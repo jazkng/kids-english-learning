@@ -1,0 +1,46 @@
+name: Android debug APK
+# Builds an unsigned-for-release debug APK for adult testing only. Uses free GitHub-hosted runners
+# (public repository); no signing secrets, no store upload, no deployment.
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ['android/**', 'src/**', 'content/**', 'public/**', 'capacitor.config.ts', 'package-lock.json', '.github/workflows/android-debug.yml']
+permissions:
+  contents: read
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - name: Guard against a remote server.url in the native config
+        run: npx cap sync android && ! grep -q '"url"' android/app/src/main/assets/capacitor.config.json
+      - run: ./gradlew assembleDebug --no-daemon
+        working-directory: android
+      - name: Checksum
+        run: |
+          cd android/app/build/outputs/apk/debug
+          mv app-debug.apk kids-english-learning-debug-${GITHUB_SHA::7}.apk
+          sha256sum *.apk | tee SHA256SUMS.txt
+          cat SHA256SUMS.txt >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kids-english-learning-debug-apk
+          path: |
+            android/app/build/outputs/apk/debug/*.apk
+            android/app/build/outputs/apk/debug/SHA256SUMS.txt
+          retention-days: 14
