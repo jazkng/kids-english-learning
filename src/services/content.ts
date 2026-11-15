@@ -32,8 +32,9 @@ export const audioEntry = (id: string) => audio.get(id);
 export function audioUrl(id: string): string | null {
   const entry = audio.get(id);
   if (!entry?.file) return null;
-  // 👑 Production plays only approved media; drafts are adult-development only.
-  if (import.meta.env.PROD && entry.status !== 'approved') return null;
+  // 👑 Family-use scope (2026-11-15): bundled draft narration may play in the private APK/PWA.
+  // The validator still keeps unapproved provider audio out of any release build.
+  if (entry.status !== 'approved' && entry.status !== 'draft') return null;
   if (!/^audio\/[a-z0-9._/-]+\.(mp3|wav|ogg)$/.test(entry.file) || entry.file.includes('..')) return null;
   return `${import.meta.env.BASE_URL}${entry.file}`;
 }

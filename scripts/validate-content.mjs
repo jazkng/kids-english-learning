@@ -82,7 +82,8 @@ export function validateContent({ lessons, manifest, policy }, { release = false
         add(`Unsafe audio path: ${entry.id}`);
       } else if (!existsSync(path)) {
         add(`Missing audio file: ${entry.file}`);
-      } else if (approved) {
+      } else if (approved || entry.sha256) {
+        // Recorded draft media is integrity-checked too, so a truncated download cannot ship silently.
         const bytes = readFileSync(path);
         if (bytes.length !== entry.bytes || digest(bytes) !== entry.sha256) add(`Audio integrity mismatch: ${entry.id}`);
       }
@@ -97,6 +98,10 @@ export function validateContent({ lessons, manifest, policy }, { release = false
     if (entry.provider === 'elevenlabs') {
       const gate = policy?.elevenlabs;
       // 👑 Offline output must not bypass the written child-product approval.
+      // Family-use exception: the owner's recorded decision allows DRAFT ElevenLabs lines for private use only;
+      // it never satisfies the release gate or lets an ElevenLabs line become approved.
+      const familyUse = !release && entry.status === 'draft' && gate?.ownerFamilyUseDecision?.scope === 'family-use-only';
+      if (familyUse) continue;
       if (gate?.status !== 'approved' || !['writtenApprovalRef', 'voiceRightsRef', 'distributionLicenseRef', 'ownerCostApprovalRef'].every((key) => gate[key])) {
         add(`ElevenLabs approval blocked: ${entry.id}`);
       }

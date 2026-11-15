@@ -7,6 +7,12 @@
     "distributionLicenseRef": null,
     "ownerCostApprovalRef": null,
     "reviewedOn": "2026-11-15",
-    "issue": 5
+    "issue": 5,
+    "ownerFamilyUseDecision": {
+      "decidedOn": "2026-11-15",
+      "scope": "family-use-only",
+      "ref": "owner-chat-2026-11-15: owner chose Lily / Flash v2.5 on own free plan for private family use; provider child-product approval NOT obtained",
+      "allowsRelease": false
+    }
   }
 }
