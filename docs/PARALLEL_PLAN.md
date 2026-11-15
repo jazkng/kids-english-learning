@@ -1,4 +1,12 @@
-# 三 AI 并行开发计划
+# 协作开发计划
+
+## 当前安排（2026-11-15，优先于原三 AI 分工）
+
+用户确认 App 仅给自己儿子家庭使用，暂不公开部署、上架或商用。课程转交 CC：远端未见 Gemini 分支、提交、PR 或交接，不能据此判定 Gemini 私有会话失败，但继续等无可审核产出会阻塞项目。CC 的运行时 PR #9 和 Android PR #10 已合并，APK CI 已成功；真实设备和实际部署仍未验收。
+
+CC 从最新 main 开 `claude/curriculum-v1`，接 #3。先提交 A–C、0–3、red/blue/yellow 的可审核小样 PR，再分科目补全；每批运行校验和测试。保留所有现有内容；若 Gemini 有未推送成果，先导出并按 ID 比对。Gemini 暂停继续写课程，以免双写；Codex 继续 #4 审核/集成。登记任务不等于 CC 已收到或正在运行，本会话无法直接启动其私有会话。
+
+语音的个人试听与家庭 App 用途分开记录。当前查询到的供应商回复不是批准；原先以公开儿童产品描述的申请与家庭自用范围有差别，其适用性待确认，不阻止无服务依赖的开发。不自行标记 provider approval 为 approved。
 
 ## 启动和分支
 
@@ -7,8 +15,8 @@
 | AI | 首个分支 / Issue | 允许主要编辑 | 避免编辑 |
 |---|---|---|---|
 | Codex | codex/quality-gates / #4 | schemas、src/contracts、scripts、tests、CI、架构及验收规范 | CC 运行时、Gemini 课程正文 |
-| Claude Code | claude/learning-runtime / #2 | src/app、src/features、src/services、src/styles、public/icons | content、schemas |
-| Gemini | gemini/curriculum-v1 / #3 | content/lessons、content/scripts、content/audio/manifest.json、docs/content | src、schemas、package/lockfile |
+| Claude Code | claude/curriculum-v1 / #3（#2/#6 工程已合并） | 课程 content、英文脚本、docs/content；运行时另开 PR | schemas、src/contracts、共享 package/记忆文件 |
+| Gemini | 暂停课程写入 | 导出并移交已有未提交成果供 CC 比对 | 不继续双写课程或改 CC 分支 |
 
 Android 后续由 CC 用 claude/android-preview / #6 编辑 android、Capacitor 配置与部署文档。实际音频 #7 分两次 PR：Gemini 脚本/元数据审稿，CC 打包/播放器；不能同时修改 manifest。public/audio 文件先由 CC 统一集成。
 
@@ -28,8 +36,8 @@ package.json、package-lock.json、AGENTS.md、PROJECT_MEMORY.md 和 policy-appr
 
 ## 可直接交给 CC
 
-接手 jazkng/kids-english-learning，读取 AGENTS、PROJECT_MEMORY、docs/PARALLEL_PLAN、ARCHITECTURE、COURSE_DATA_SPEC、TEST_PLAN 和 #2 全部评论。拉最新 main，在 claude/learning-runtime 开发 #2；先用 draft 课程跑通老师讲解→示范→点选→反馈→复习，离线音频走本地适配器。不要改 Gemini 课程或 Codex 契约。之后用独立 PR 处理 #6 Android 调试 APK/零新增费用预览部署。不得开通收费或调用 ElevenLabs；审批见 #5。完成开 PR 并中文交接，区分构建/部署/实机结果。
+接手 jazkng/kids-english-learning 的 Issue #3，先读 AGENTS、PROJECT_MEMORY、COURSE_DATA_SPEC 和 #3 最新评论。从最新 main 开 claude/curriculum-v1，先交 A–C、0–3、red/blue/yellow 的完整小样 PR，再按科目补全；逐批提交和校验，保持 draft。保留现有样例及可能收到的 Gemini 导出，不改 Codex 契约。项目仅家庭自用，暂不公开部署、上架或做商用；不启用收费或直接接入未经确认的语音服务。#2/#6 工程已合并，真实设备验收仍待完成。
 
 ## 可直接交给 Gemini
 
-接手 jazkng/kids-english-learning，读取 AGENTS、PROJECT_MEMORY、docs/PARALLEL_PLAN、COURSE_DATA_SPEC 和 #3 评论。在 gemini/curriculum-v1 按 JSON Schema 编写全英文课程与语音脚本，先交 A–C、0–3、red/blue/yellow 小样供 CC 集成，再覆盖 A–Z、0–100、12 色。所有台词保存在 audio manifest，发音/停顿另存 delivery，不修改 src/schema/package 文件。保持 draft 交人工审稿；只准备脚本，不生成音频、不上传儿童录音、不启用收费。跑校验和测试，开 PR 并中文交接。
+课程作者已改为 CC。Gemini 若有本地/会话内成果，请先导出全部课程、脚本、错误信息及完成范围，交 CC 按 ID 比对；暂停继续写入。当前没有已推送成果可供 Codex 审核，不能把原启动指令当作仍在执行。

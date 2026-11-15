@@ -21,7 +21,7 @@ Colors: red, blue, yellow, green, orange, purple, pink, brown, black, white, gre
 
 ## Steps
 
-All steps: id, kind, conceptId, promptAudioId, visual {kind, value, label}. kind = teach/demo/choice/review. Visual kind matches the subject: letter/quantity/color. value matches the target: A, 0, red, etc.; label is an English accessible label.
+All steps: id, kind, conceptId, promptAudioId, visual {kind, value, label}. For each target, the first occurrences must follow teach → demo → choice → review in array order; the runtime does not reorder curriculum phases. kind = teach/demo/choice/review. Visual kind matches the subject: letter/quantity/color. value matches the target: A, 0, red, etc.; label is an English accessible label.
 
 Choice steps additionally require 2–4 choices {id,label,conceptId}, correctChoiceId, successAudioId, retryAudioId. Correct choice must match the step concept; distractors are distinct concepts within that subject. Non-choice steps omit these choice-only fields. Begin with two choices for younger learners. Randomize presentation in the runtime without moving correctChoiceId away from its semantic target.
 

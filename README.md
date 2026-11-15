@@ -2,7 +2,7 @@
 
 面向 2–5 岁儿童的全英文、卡通老师引导式互动学习 App。技术：React + TypeScript + Vite + Capacitor + PWA。
 
-**当前是开发骨架，供成人开发验收；不是完整课程、可用有声产品或已部署 APK。** 初始 A、0、red 示例均为 draft，音频未生成，ElevenLabs 接入被阻止。
+**当前按家庭自用推进，先给家长验收。** CC 的老师引导、课程播放器和本地进度已实现，Android 工程与云端 debug APK 构建已完成；课程仍只有 A、0、red 三份 draft，完整课程、正式音频和实机验收待完成。暂不公开部署、上架或商用。源码仓库的公开状态与 App 部署不同，不存放家庭隐私或录音。
 
 ## 本机运行
 
@@ -18,7 +18,7 @@ npm run preview
 
 `npm run check` 校验类型、课程与跨文件引用并执行测试。`npm run check:release` 要求正式课程覆盖与获批音频；初始化阶段**应失败**，不能为通过检查而删掉门槛。
 
-Android 由 CC 在具备 Android Studio/SDK/JDK 的环境继续：`npm run android:add` → `npm run android:sync` → `npm run android:open`。当前未生成 android/ 或 APK；appId 为开发占位值，正式签名前确认。
+Android 由 CC 在具备 Android Studio/SDK/JDK 的环境继续：`npm run android:add` → `npm run android:sync` → `npm run android:open`。Android 工程已建立，debug APK 构建见 [成功的构建运行](https://github.com/jazkng/kids-english-learning/actions/runs/43663563490)；实机安装仍待验收。appId 为开发占位值，正式签名前确认。
 
 ## 开发入口
 

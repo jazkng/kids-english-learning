@@ -20,6 +20,7 @@ export interface EngineState {
   audioIssue: AudioOutcome | null;
   // 👑 A lesson whose narration failed is not recorded as completed (TEST_PLAN §3).
   audioFailed: boolean;
+  failedAudioRequests: string[];
   seed: number;
 }
 
@@ -52,7 +53,7 @@ function enter(state: EngineState, lesson: Lesson, stepIndex: number): EngineSta
 export function initEngine(lesson: Lesson, seed = Date.now()): EngineState {
   const base: EngineState = {
     stepIndex: 0, phase: 'speaking', feedback: null, audioId: null, line: null, token: 0, paused: false, hint: false,
-    choiceOrder: [], audioIssue: null, audioFailed: false, seed: seed % 9973,
+    choiceOrder: [], audioIssue: null, audioFailed: false, failedAudioRequests: [], seed: seed % 9973,
   };
   return enter(base, lesson, 0);
 }
@@ -72,16 +73,20 @@ export function reduce(state: EngineState, action: EngineAction, lesson: Lesson)
       if (action.token !== state.token || state.paused) return state;
       const ok = action.outcome === 'ended';
       const issue = ok || action.outcome === 'muted' ? null : action.outcome;
-      const failed = state.audioFailed || isFailure(action.outcome);
+      // 👑 A successful replay resolves only that step's failed line, never an earlier skipped failure.
+      const request = `${state.stepIndex}:${state.audioId}`;
+      const failedAudioRequests = ok ? state.failedAudioRequests.filter((id) => id !== request)
+        : isFailure(action.outcome) ? [...new Set([...state.failedAudioRequests, request])] : state.failedAudioRequests;
+      const failed = failedAudioRequests.length > 0;
       if (state.phase === 'speaking') {
-        if (step.kind === 'choice') return { ...state, phase: 'await-choice', audioId: null, audioIssue: issue, audioFailed: failed };
-        if (ok) return advance({ ...state, audioFailed: failed }, lesson);
-        return { ...state, phase: 'await-next', audioId: null, audioIssue: issue, audioFailed: failed };
+        if (step.kind === 'choice') return { ...state, phase: 'await-choice', audioId: null, audioIssue: issue, audioFailed: failed, failedAudioRequests };
+        if (ok) return advance({ ...state, audioFailed: failed, failedAudioRequests }, lesson);
+        return { ...state, phase: 'await-next', audioId: null, audioIssue: issue, audioFailed: failed, failedAudioRequests };
       }
       if (state.phase === 'feedback') {
-        if (state.feedback === 'retry') return { ...state, phase: 'await-choice', audioId: null, hint: true, audioIssue: issue, audioFailed: failed };
-        if (ok) return advance({ ...state, audioFailed: failed }, lesson);
-        return { ...state, phase: 'await-next', audioId: null, audioIssue: issue, audioFailed: failed };
+        if (state.feedback === 'retry') return { ...state, phase: 'await-choice', audioId: null, hint: true, audioIssue: issue, audioFailed: failed, failedAudioRequests };
+        if (ok) return advance({ ...state, audioFailed: failed, failedAudioRequests }, lesson);
+        return { ...state, phase: 'await-next', audioId: null, audioIssue: issue, audioFailed: failed, failedAudioRequests };
       }
       return state;
     }

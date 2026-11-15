@@ -68,3 +68,24 @@ test('progress parsing recovers from corrupt or foreign data and storage failure
   assert.equal(loadProgress('1', denied).schemaVersion, 1);
   assert.equal(saveProgress(p, denied), false);
 });
+
+test('a blocked prompt can be replayed successfully without losing lesson completion', () => {
+  let s = initEngine(lesson, 1);
+  s = done(s, 'blocked');
+  assert.equal(s.audioFailed, true);
+  s = run(s, { type: 'replay' });
+  s = done(s);
+  assert.equal(s.audioFailed, false, 'successful retry resolves this prompt failure');
+  for (let i = 0; i < 20 && s.phase !== 'done'; i++) {
+    s = s.phase === 'await-choice' ? run(s, { type: 'choose', choiceId: 'target' }) : done(s);
+  }
+  assert.equal(lessonCompleted(s), true);
+});
+
+test('replaying a later step cannot erase an earlier skipped audio failure', () => {
+  let s = done(initEngine(lesson, 1), 'error');
+  s = run(s, { type: 'next' });
+  s = run(s, { type: 'replay' });
+  s = done(s);
+  assert.equal(s.audioFailed, true);
+});

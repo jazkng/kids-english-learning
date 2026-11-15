@@ -1,24 +1,29 @@
 # Project memory
 
-Shared by Codex, Claude Code and Gemini through merged Git files. No private chat synchronization is implied. Read AGENTS.md and relevant issues before work. Entry statuses distinguish plans, build, deployment and physical-device acceptance. Initialization changes are pending integration until their PR merges.
+Shared by Codex, Claude Code and Gemini through merged Git files. No private chat synchronization is implied. Read AGENTS.md and relevant issues before work. Entry statuses distinguish plans, build, deployment and physical-device acceptance. Branch-only changes remain pending integration until their PR merges.
 
 | ID | Date | Category | Status | Fact / decision | Source | Next action |
 |---|---|---|---|---|---|---|
 | KEL-SCOPE-001 | 2026-11-15 | Product | user-confirmed | Ages 2–5; English-only teacher-led ABC, Numbers 0–100 and Colors; offline support. | Owner initialization request | Build progressive short lessons. |
 | KEL-STACK-001 | 2026-11-15 | Architecture | user-confirmed | React + TypeScript + Vite + Capacitor + PWA. | Owner request | CC implements runtime and Android. |
-| KEL-TEAM-001 | 2026-11-15 | Collaboration | user-confirmed | Codex: architecture/tests/review; CC: app/APK/deployment; Gemini: curriculum/scripts. | Owner request; docs/PARALLEL_PLAN.md | Separate branches and file boundaries; actual remote AI pickup pending. |
+| KEL-TEAM-001 | 2026-11-15 | Collaboration | user-confirmed | Original assignment: Codex architecture/tests/review; CC app/APK/deployment; Gemini curriculum/scripts. Curriculum author assignment superseded by KEL-TEAM-002. | Owner request; docs/PARALLEL_PLAN.md | CC runtime/Android delivery verified; curriculum now follows KEL-TEAM-002. |
 | KEL-COST-001 | 2026-11-15 | Cost | user-confirmed | No paid services may be enabled without approval. | Owner request | Apply to provider, hosting and CI changes. |
-| KEL-VOICE-001 | 2026-11-15 | Provider policy | verified | ElevenLabs child-directed use requires written approval; offline distribution is not assumed exempt. No provider audio generated or integrated. | Official use-policy and terms; docs/ELEVENLABS_POLICY_GATE.md | #5 approval evidence; #7 remains blocked. |
+| KEL-VOICE-001 | 2026-11-15 | Provider policy | verified | ElevenLabs child-directed use requires written approval; offline distribution is not assumed exempt. No provider audio has been integrated into the App. Adult personal tool-learning samples were generated separately; they are not curriculum assets. | Official use-policy and terms; docs/ELEVENLABS_POLICY_GATE.md | #5 approval evidence; #7 remains blocked. |
 | KEL-INIT-001 | 2026-11-15 | Initialization | completed | Initialization artifacts, contracts, draft examples and #1–#7 task plan are complete. Samples remain draft and silent; integration status is inspectable in PR #8. | PR #8; local verification; #1 | CC #2 and Gemini #3 can start after PR #8 merges. |
 | KEL-BUILD-001 | 2026-11-15 | Verification | verified | Local typecheck, content validation, 9 tests and production PWA build passed. Release validation correctly rejects draft/incomplete fixtures. npm audit reports zero vulnerabilities with documented build-only overrides. | Node 24 local command output; docs/TEST_PLAN.md | Verify GitHub CI on initialization PR; browser/device checks still pending. |
-| KEL-DEPLOY-001 | 2026-11-15 | Deployment | pending | No preview hosting, Android project, APK or production deployment created. | Initialization scope | CC #2 then #6. |
-| KEL-DEVICE-001 | 2026-11-15 | Acceptance | pending | Browser offline, physical-device, narration and child/parent acceptance are unverified. | Initialization scope | Execute docs/TEST_PLAN.md after implementation. |
+| KEL-DEPLOY-001 | 2026-11-15 | Deployment | pending | Android project merged in PR #10; Android debug APK workflow 43663563490 completed successfully with an unexpired artifact. No app hosting/deployment has been verified. | Initialization scope | Family-device installation acceptance; no public hosting requested. |
+| KEL-DEVICE-001 | 2026-11-15 | Acceptance | pending | CC reports browser flows/offline checks in PR #9; Codex has not independently verified them. Physical-device, real narration and child/parent acceptance remain unverified. | Initialization scope | Execute docs/TEST_PLAN.md after implementation. |
 | KEL-DEFAULTS-001 | 2026-11-15 | Editorial | proposed | en-GB locale, 12 colors and 2–3/4–5 pacing are starter defaults, not owner approval of accent or voice. | docs/COURSE_DATA_SPEC.md | Gemini proposes content, adult review confirms. |
+
+| KEL-SCOPE-002 | 2026-11-15 | Distribution | user-confirmed | App is for the owner's son and private family use. Public app hosting, store release and commercial features are out of current scope. No family identity or recording belongs in the public source repository. | Owner clarification in this conversation | Prioritize a usable family prototype; confirm provider applicability separately. |
+| KEL-TEAM-002 | 2026-11-15 | Curriculum handoff | user-confirmed | User authorized CC takeover if Gemini could not continue. GitHub has no Gemini branch/commit/PR/handoff and only three initial fixtures; CC now owns #3 to avoid blocking. Gemini private/unpushed work is unknown, not proven failed. | Issue #3 inspection and updated owner | CC must read latest #3 and deliver small PRs; actual pickup pending. |
+| KEL-RUNTIME-002 | 2026-11-15 | Review | verified | PR #9 runtime and PR #10 Android are merged. Review reproduced blocked-audio replay permanently preventing completion; fixed step/line-scoped failure recovery. Curriculum validation now rejects out-of-order phases and malformed collections. | Regression tests; quality/handoff PR referencing #4 | Re-run CI and continue device/offline review. |
+| KEL-POLICY-002 | 2026-11-15 | Approval evidence | pending | Owner reported agreement, but the currently accessible provider reply is an AI support limitations response, not a product approval. Earlier inquiry described a child product; applicability to clarified family-only use remains unconfirmed. | Private correspondence reviewed; owner scope clarification | Do not mark approval granted; continue development without provider integration. |
 
 ## Current work
 
-Initialization artifacts are complete; PR #8 tracks integration. Next parallel work #2/#3/#4. #5 policy evidence blocks ElevenLabs #7, while app/content development can proceed. Source merge is not proof of hosting or APK deployment.
+Initialization PR #8, runtime PR #9 and Android PR #10 are merged. CC takes curriculum #3 in small batches. Codex continues #4 quality review; real audio and device acceptance remain pending. Personal voice experiments stay separate from curriculum assets. Family-use scope supersedes public-app planning; no public app deployment is requested.
 
 ## Superseded decisions
 
-None.
+KEL-TEAM-001 curriculum authorship is superseded by KEL-TEAM-002; preserve original assignment as history. KEL-SCOPE-002 narrows distribution scope without changing the English/offline learning requirements.
