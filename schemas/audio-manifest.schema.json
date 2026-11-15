@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Audio manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "locale",
+    "entries"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "locale": {
+      "const": "en-GB"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "text",
+          "status",
+          "delivery",
+          "provider",
+          "file",
+          "durationMs",
+          "bytes",
+          "sha256",
+          "textSha256",
+          "licenseRef",
+          "approvalRef",
+          "voiceRef",
+          "modelRef"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 250
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved"
+            ]
+          },
+          "delivery": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "pace",
+              "pauseAfterMs",
+              "pronunciationNote"
+            ],
+            "properties": {
+              "pace": {
+                "enum": [
+                  "slow",
+                  "normal"
+                ]
+              },
+              "pauseAfterMs": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5000
+              },
+              "pronunciationNote": {
+                "type": "string"
+              }
+            }
+          },
+          "provider": {
+            "enum": [
+              "pending",
+              "human",
+              "elevenlabs"
+            ]
+          },
+          "file": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string",
+                "pattern": "^audio/[a-z0-9][a-z0-9/.-]*\\.(mp3|wav|ogg)$"
+              }
+            ]
+          },
+          "durationMs": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "textSha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "licenseRef": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "approvalRef": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "voiceRef": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "modelRef": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

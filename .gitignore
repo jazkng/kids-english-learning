@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+*.pem
+*.key
+*.keystore
+*.jks
+*service-account*.json
+credentials.json
+android/.gradle/
+android/local.properties
+android/**/build/
+ios/App/Pods/
+.DS_Store

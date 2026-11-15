@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0",
+  "locale": "en-GB",
+  "subjects": [
+    {
+      "id": "abc",
+      "title": "ABC",
+      "symbol": "Aa",
+      "description": "Meet letters A to Z."
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "symbol": "123",
+      "description": "Explore zero to one hundred."
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "symbol": "●",
+      "description": "Discover colors around us."
+    }
+  ],
+  "colors": [
+    "red",
+    "blue",
+    "yellow",
+    "green",
+    "orange",
+    "purple",
+    "pink",
+    "brown",
+    "black",
+    "white",
+    "grey",
+    "light-blue"
+  ]
+}

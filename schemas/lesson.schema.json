@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lesson v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "version",
+    "subject",
+    "title",
+    "locale",
+    "ageBand",
+    "status",
+    "conceptIds",
+    "steps"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "subject": {
+      "enum": [
+        "abc",
+        "numbers",
+        "colors"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locale": {
+      "const": "en-GB"
+    },
+    "ageBand": {
+      "enum": [
+        "2-3",
+        "4-5"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved"
+      ]
+    },
+    "conceptIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(letter\\.[a-z]|number\\.(0|[1-9][0-9]?|100)|color\\.(red|blue|yellow|green|orange|purple|pink|brown|black|white|grey|light-blue))$"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "conceptId",
+          "promptAudioId",
+          "visual"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "kind": {
+            "enum": [
+              "teach",
+              "demo",
+              "choice",
+              "review"
+            ]
+          },
+          "conceptId": {
+            "type": "string",
+            "pattern": "^(letter\\.[a-z]|number\\.(0|[1-9][0-9]?|100)|color\\.(red|blue|yellow|green|orange|purple|pink|brown|black|white|grey|light-blue))$"
+          },
+          "promptAudioId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "visual": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "value",
+              "label"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "letter",
+                  "quantity",
+                  "color"
+                ]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "label",
+                "conceptId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "conceptId": {
+                  "type": "string",
+                  "pattern": "^(letter\\.[a-z]|number\\.(0|[1-9][0-9]?|100)|color\\.(red|blue|yellow|green|orange|purple|pink|brown|black|white|grey|light-blue))$"
+                }
+              }
+            }
+          },
+          "correctChoiceId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "successAudioId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "retryAudioId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "choice"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "choices",
+                "correctChoiceId",
+                "successAudioId",
+                "retryAudioId"
+              ]
+            },
+            "else": {
+              "not": {
+                "anyOf": [
+                  {
+                    "required": [
+                      "choices"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "correctChoiceId"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "successAudioId"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "retryAudioId"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

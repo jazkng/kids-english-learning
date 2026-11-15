@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "colors.sample",
+  "version": "0.1.0",
+  "subject": "colors",
+  "title": "Meet red",
+  "locale": "en-GB",
+  "ageBand": "2-3",
+  "status": "draft",
+  "conceptIds": [
+    "color.red"
+  ],
+  "steps": [
+    {
+      "id": "teach",
+      "kind": "teach",
+      "conceptId": "color.red",
+      "promptAudioId": "colors.sample.teach",
+      "visual": {
+        "kind": "color",
+        "value": "red",
+        "label": "red"
+      }
+    },
+    {
+      "id": "demo",
+      "kind": "demo",
+      "conceptId": "color.red",
+      "promptAudioId": "colors.sample.demo",
+      "visual": {
+        "kind": "color",
+        "value": "red",
+        "label": "red"
+      }
+    },
+    {
+      "id": "choice",
+      "kind": "choice",
+      "conceptId": "color.red",
+      "promptAudioId": "colors.sample.choice",
+      "visual": {
+        "kind": "color",
+        "value": "red",
+        "label": "red"
+      },
+      "choices": [
+        {
+          "id": "target",
+          "label": "red",
+          "conceptId": "color.red"
+        },
+        {
+          "id": "other",
+          "label": "blue",
+          "conceptId": "color.blue"
+        }
+      ],
+      "correctChoiceId": "target",
+      "successAudioId": "shared.great",
+      "retryAudioId": "shared.try-again"
+    },
+    {
+      "id": "review",
+      "kind": "review",
+      "conceptId": "color.red",
+      "promptAudioId": "colors.sample.review",
+      "visual": {
+        "kind": "color",
+        "value": "red",
+        "label": "red"
+      }
+    }
+  ]
+}
