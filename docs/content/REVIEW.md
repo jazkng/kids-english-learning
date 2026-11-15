@@ -19,7 +19,9 @@ Locale: en-GB (provisional). Reviewer ticks each line after listening/reading; a
 - Z is "zed" (en-GB), H is "aitch", W is "double-you", R is non-rhotic.
 - X uses "X is in box" because few child words start with x.
 - Number scripts count every dot aloud up to ten ("one, two, … seven. Seven dots."); 0 is an empty plate.
+- 11–19: "Thirteen is ten and three more"; stress "-teen". Tens: "Thirty is three tens"; stress the first syllable. Choices pair teens with their tens (13 vs 30) on purpose.
+- 21–99: "Forty-eight is four tens and eight"; the picture shows tens bars plus ones dots, so scripts do not count every dot.
 - Light blue is two words in speech and on screen.
 
 ## Lines covered
-196 lines: `abc.letter-{a..z}.*`, `numbers.number-{0..10}.*`, `colors.color-*` for all 12 colors (teach/demo/choice/review each). Feedback reuses `shared.great` / `shared.try-again`.
+556 lines: `abc.letter-{a..z}.*`, `numbers.number-{0..10}.*`, `numbers.teen-*`, `numbers.tens-*`, `numbers.range-*`, `colors.color-*` for all 12 colors (teach/demo/choice/review each). Feedback reuses `shared.great` / `shared.try-again`.

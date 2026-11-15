@@ -117,7 +117,7 @@ numberWords.forEach((w, n) => {
     id: base, subject: 'numbers', title: `Number ${n}`, ageBand: '2-3', concept: `number.${n}`, visualKind: 'quantity', value: String(n), label: String(n),
     distractors: [{ label: String(other), concept: `number.${other}` }],
     lines: {
-      teach: line(`${base}.teach`, `This is ${w}. ${numberThings(n)}`, n === 0 ? 'Zero shows an EMPTY plate; gentle, not sad.' : 'Count slowly, one beat per apple.'),
+      teach: line(`${base}.teach`, `This is ${w}. ${numberThings(n)}`, n === 0 ? 'Zero shows an EMPTY plate; gentle, not sad.' : 'Count slowly, one beat per dot.'),
       demo: line(`${base}.demo`, `Look! ${w.charAt(0).toUpperCase() + w.slice(1)}. ${w.charAt(0).toUpperCase() + w.slice(1)}.`, 'Repeat the number word twice.'),
       choice: line(`${base}.choice`, `Where is ${w}? Tap ${w}.`, '', 400),
       review: line(`${base}.review`, `Hooray! That is ${w}. Well done!`, ''),
@@ -143,6 +143,63 @@ colorKeys.forEach((c, i) => {
     },
   }));
 });
+
+// --- Numbers 11–100 for ages 4–5: teens one per lesson, tens one per lesson, 21–99 three per lesson ---
+const ones = numberWords; // zero..ten
+const teens = ['eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+const tensWords = ['', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+const say = (n) => {
+  if (n <= 10) return ones[n];
+  if (n < 20) return teens[n - 11];
+  if (n === 100) return 'one hundred';
+  const t = Math.floor(n / 10); const o = n % 10;
+  return o ? `${tensWords[t]}-${ones[o]}` : tensWords[t];
+};
+const tensPhrase = (t) => (t === 1 ? 'one ten' : `${ones[t]} tens`);
+function explain(n) {
+  // Visual is tens bars + ones dots, so scripts describe that split instead of counting every dot.
+  if (n < 20) return `${cap(say(n))} is ten and ${ones[n - 10]} more.`;
+  if (n === 100) return 'One hundred is ten tens!';
+  const t = Math.floor(n / 10); const o = n % 10;
+  return o ? `${cap(say(n))} is ${tensPhrase(t)} and ${ones[o]}.` : `${cap(say(n))} is ${tensPhrase(t)}.`;
+}
+function distractorsFor(n) {
+  // 👑 Teen/tens confusion (13 vs 30) is the classic error, so offer it when it exists.
+  const pool = [];
+  if (n >= 13 && n <= 19) pool.push((n - 10) * 10);
+  if (n % 10 === 0 && n >= 30 && n <= 90) pool.push(10 + n / 10);
+  pool.push(n === 100 ? 90 : n + 1, n - 1);
+  return [...new Set(pool)].filter((d) => d !== n && d >= 0 && d <= 100).slice(0, 2);
+}
+function numberLesson(id, title, targets) {
+  const steps = [];
+  for (const n of targets) {
+    const concept = `number.${n}`; const w = say(n); const base = `${id}.${n}`;
+    const visual = { kind: 'quantity', value: String(n), label: String(n) };
+    const st = (kind, audio, extra = {}) => steps.push({ id: `${kind}-${n}`, kind, conceptId: concept, promptAudioId: audio, visual, ...extra });
+    const note = n >= 13 && n <= 19 ? 'Stress the "-teen" ending clearly to contrast with "-ty".' : (n % 10 === 0 && n > 10 && n < 100 ? 'Stress the first syllable of "-ty" numbers to contrast with "-teen".' : '');
+    st('teach', line(`${base}.teach`, `This is ${w}. ${explain(n)}`, note));
+    st('demo', line(`${base}.demo`, `Look! ${cap(w)}. ${cap(w)}.`, note));
+    st('choice', line(`${base}.choice`, `Where is ${w}? Tap ${w}.`, '', 400), {
+      // Three choices for 4–5 year olds.
+      choices: [{ id: 'target', label: String(n), conceptId: concept }, ...distractorsFor(n).map((d, i) => ({ id: `other-${i + 1}`, label: String(d), conceptId: `number.${d}` }))],
+      correctChoiceId: 'target', successAudioId: 'shared.great', retryAudioId: 'shared.try-again',
+    });
+    st('review', line(`${base}.review`, `Well done! That is ${w}.`, ''));
+  }
+  lessons.push({
+    schemaVersion: 1, id, version: '0.1.0', subject: 'numbers', title, locale: 'en-GB', ageBand: '4-5', status: 'draft',
+    conceptIds: targets.map((n) => `number.${n}`), steps,
+  });
+}
+for (let n = 11; n <= 19; n++) numberLesson(`numbers.teen-${n}`, `Number ${n}`, [n]);
+for (let n = 20; n <= 100; n += 10) numberLesson(`numbers.tens-${n}`, `Number ${n}`, [n]);
+for (let t = 2; t <= 9; t++) {
+  for (const group of [[1, 2, 3], [4, 5, 6], [7, 8, 9]]) {
+    const targets = group.map((o) => t * 10 + o);
+    numberLesson(`numbers.range-${targets[0]}-${targets[2]}`, `Numbers ${targets[0]}–${targets[2]}`, targets);
+  }
+}
 
 for (const l of lessons) writeFileSync(resolve(root, `content/lessons/${l.id}.json`), `${JSON.stringify(l, null, 2)}\n`);
 // 👑 Merge by stable ID. Only still-draft, file-less entries are refreshed; reviewed/approved text or
