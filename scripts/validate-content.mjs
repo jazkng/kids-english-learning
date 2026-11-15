@@ -26,7 +26,7 @@ export function validateContent({ lessons, manifest, policy }, { release = false
   // 👑 Cross-file validation requires structurally valid objects; malformed data must fail clearly.
   if (!audioSchema(manifest)) add(`audio schema: ${ajv.errorsText(audioSchema.errors)}`);
   if (!Array.isArray(lessons) || lessons.length === 0) add('At least one lesson is required');
-  for (const lesson of lessons ?? []) {
+  for (const lesson of Array.isArray(lessons) ? lessons : []) {
     if (!lessonSchema(lesson)) add(`lesson schema: ${ajv.errorsText(lessonSchema.errors)}`);
   }
   if (errors.length) return errors;
@@ -46,6 +46,11 @@ export function validateContent({ lessons, manifest, policy }, { release = false
       // 👑 Coverage must include teaching and practice rather than a declared target alone.
       for (const kind of ['teach', 'demo', 'choice', 'review']) {
         if (!lesson.steps.some((s) => s.kind === kind && s.conceptId === concept)) add(`Missing ${kind} for ${concept}`);
+      }
+      // 👑 The player follows array order; listing every phase does not prevent testing a child before teaching.
+      const positions = ['teach', 'demo', 'choice', 'review'].map((kind) => lesson.steps.findIndex((s) => s.kind === kind && s.conceptId === concept));
+      if (positions.every((index) => index >= 0) && positions.some((index, i) => i > 0 && index < positions[i - 1])) {
+        add(`Out-of-order learning phases: ${lesson.id}/${concept}`);
       }
     }
     for (const step of lesson.steps) {

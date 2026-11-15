@@ -71,3 +71,15 @@ test('structural errors fail clearly instead of crashing validation', () => {
   const data = fresh(); delete data.lessons[0].steps;
   assert.match(validateContent(data).join('\n'), /lesson schema/);
 });
+
+test('curriculum phases must follow teach → demo → choice → review for each target', () => {
+  const data = fresh();
+  const steps = data.lessons[0].steps;
+  [steps[0], steps[2]] = [steps[2], steps[0]];
+  assert.match(validateContent(data).join('\n'), /Out-of-order learning phases/);
+});
+
+test('malformed lesson collections return an error rather than throwing', () => {
+  const data = fresh(); data.lessons = {};
+  assert.match(validateContent(data).join('\n'), /At least one lesson/);
+});
