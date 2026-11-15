@@ -41,6 +41,8 @@ test('approved local media must match both its bytes and script', () => {
     writeFileSync(join(publicDir, 'audio/test.mp3'), bytes);
     const data = fresh();
     const entry = data.manifest.entries[0];
+    // Isolate this fixture from real bundled narration, which lives in the repository's public/ dir.
+    for (const other of data.manifest.entries.slice(1)) other.file = null;
     Object.assign(entry, { status: 'approved', provider: 'human', file: 'audio/test.mp3', durationMs: 1000,
       bytes: bytes.length, sha256: sha(bytes), textSha256: sha(entry.text),
       licenseRef: 'test-license', approvalRef: 'test-review', voiceRef: 'test-adult', modelRef: 'human-recording' });
@@ -54,6 +56,15 @@ test('approved local media must match both its bytes and script', () => {
 });
 test('ElevenLabs stays blocked even for offline audio', () => {
   const data = fresh(); data.manifest.entries[0].provider = 'elevenlabs';
+  delete data.policy.elevenlabs.ownerFamilyUseDecision;
+  assert.match(validateContent(data).join('\n'), /ElevenLabs approval blocked/);
+});
+test('owner family-use decision allows draft ElevenLabs lines but never release or approval', () => {
+  const data = fresh(); data.manifest.entries[0].provider = 'elevenlabs';
+  data.policy.elevenlabs.ownerFamilyUseDecision = { scope: 'family-use-only' };
+  assert.doesNotMatch(validateContent(data).join('\n'), /ElevenLabs approval blocked/);
+  assert.match(validateContent(data, { release: true }).join('\n'), /ElevenLabs approval blocked/);
+  data.manifest.entries[0].status = 'approved';
   assert.match(validateContent(data).join('\n'), /ElevenLabs approval blocked/);
 });
 test('release rejects drafts, missing audio and incomplete 0–100 coverage', () => {
