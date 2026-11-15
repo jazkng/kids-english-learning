@@ -4,11 +4,11 @@
 |---|---|---|---|
 | [#1 初始化](https://github.com/jazkng/kids-english-learning/issues/1) | Codex | 初始化 PR | 架构、共享规范、契约、样例、检查、并行计划 |
 | [#2 学习运行时](https://github.com/jazkng/kids-english-learning/issues/2) | CC | PR #9 已合并 | 真实音频及实机验收仍待完成 |
-| [#3 课程及台词](https://github.com/jazkng/kids-english-learning/issues/3) | CC（接手） | CC #12 已合并，#13 全量草稿待整合 | 全范围已写为草稿；生成器保护、内容/发音审核、音频与实机继续跟进 |
-| [#4 测试与审核](https://github.com/jazkng/kids-english-learning/issues/4) | Codex | 后续开发 | 契约、覆盖、离线和发布验收 |
+| [#3 课程及台词](https://github.com/jazkng/kids-english-learning/issues/3) | CC（接手） | CC #12/#13、Codex #15 已合并 | 全范围草稿及生成器保护已交付；内容/发音审核、音频与实机继续跟进 |
+| [#4 测试与审核](https://github.com/jazkng/kids-english-learning/issues/4) | Codex | 持续审核；离线/排序/导航回归已补 | 最终有声及实机验收仍待完成 |
 | [#5 ElevenLabs 审批](https://github.com/jazkng/kids-english-learning/issues/5) | Codex / 负责人 | BLOCKED pending evidence | 书面儿童产品批准、声音/分发许可及费用决定 |
 | [#6 APK 与预览](https://github.com/jazkng/kids-english-learning/issues/6) | CC | PR #10 已合并；APK CI 成功 | 家庭设备安装验收未完成；暂不公开部署 |
-| [#7 音频制作及集成](https://github.com/jazkng/kids-english-learning/issues/7) | Gemini / CC / Codex | BLOCKED by #5 | 获批后样本试听→批量→完整离线包 |
+| [#7 音频制作及集成](https://github.com/jazkng/kids-english-learning/issues/7) | CC / Codex | CC #16 已交付 570 段家庭自用 draft 音频 | 技术解码/离线索引已核验；真人试听、实机和正式批准仍待验收 |
 
 ## 第一版完成定义
 
