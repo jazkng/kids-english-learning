@@ -1,0 +1,1810 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "math.add-5-a",
+      "title": "Add to 5",
+      "subject": "math",
+      "ageBand": "2-3",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "1+1",
+            "label": "1 plus 1"
+          },
+          "promptAudioId": "math.add-5-a.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "1+1",
+            "label": "1 plus 1"
+          },
+          "promptAudioId": "math.add-5-a.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "2",
+              "conceptId": "number.2"
+            },
+            {
+              "id": "other-1",
+              "label": "3",
+              "conceptId": "number.3"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.3",
+          "visual": {
+            "kind": "sum",
+            "value": "2+1",
+            "label": "2 plus 1"
+          },
+          "promptAudioId": "math.add-5-a.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-1",
+              "label": "4",
+              "conceptId": "number.4"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.3",
+          "visual": {
+            "kind": "sum",
+            "value": "1+2",
+            "label": "1 plus 2"
+          },
+          "promptAudioId": "math.add-5-a.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-1",
+              "label": "4",
+              "conceptId": "number.4"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "2+2",
+            "label": "2 plus 2"
+          },
+          "promptAudioId": "math.add-5-a.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-1",
+              "label": "5",
+              "conceptId": "number.5"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "3+1",
+            "label": "3 plus 1"
+          },
+          "promptAudioId": "math.add-5-a.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-1",
+              "label": "5",
+              "conceptId": "number.5"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "1+1",
+            "label": "1 plus 1"
+          },
+          "promptAudioId": "math.add-5-a.review"
+        }
+      ]
+    },
+    {
+      "id": "math.add-5-b",
+      "title": "Add to 5 again",
+      "subject": "math",
+      "ageBand": "2-3",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "1+3",
+            "label": "1 plus 3"
+          },
+          "promptAudioId": "math.add-5-b.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "1+3",
+            "label": "1 plus 3"
+          },
+          "promptAudioId": "math.add-5-b.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-1",
+              "label": "5",
+              "conceptId": "number.5"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "3+2",
+            "label": "3 plus 2"
+          },
+          "promptAudioId": "math.add-5-b.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-1",
+              "label": "6",
+              "conceptId": "number.6"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "2+3",
+            "label": "2 plus 3"
+          },
+          "promptAudioId": "math.add-5-b.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-1",
+              "label": "6",
+              "conceptId": "number.6"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "4+1",
+            "label": "4 plus 1"
+          },
+          "promptAudioId": "math.add-5-b.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-1",
+              "label": "6",
+              "conceptId": "number.6"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "1+4",
+            "label": "1 plus 4"
+          },
+          "promptAudioId": "math.add-5-b.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-1",
+              "label": "6",
+              "conceptId": "number.6"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "1+3",
+            "label": "1 plus 3"
+          },
+          "promptAudioId": "math.add-5-b.review"
+        }
+      ]
+    },
+    {
+      "id": "math.add-10-a",
+      "title": "Add to 10",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.6",
+          "visual": {
+            "kind": "sum",
+            "value": "3+3",
+            "label": "3 plus 3"
+          },
+          "promptAudioId": "math.add-10-a.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.6",
+          "visual": {
+            "kind": "sum",
+            "value": "3+3",
+            "label": "3 plus 3"
+          },
+          "promptAudioId": "math.add-10-a.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "6",
+              "conceptId": "number.6"
+            },
+            {
+              "id": "other-1",
+              "label": "7",
+              "conceptId": "number.7"
+            },
+            {
+              "id": "other-2",
+              "label": "5",
+              "conceptId": "number.5"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.6",
+          "visual": {
+            "kind": "sum",
+            "value": "4+2",
+            "label": "4 plus 2"
+          },
+          "promptAudioId": "math.add-10-a.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "6",
+              "conceptId": "number.6"
+            },
+            {
+              "id": "other-1",
+              "label": "7",
+              "conceptId": "number.7"
+            },
+            {
+              "id": "other-2",
+              "label": "5",
+              "conceptId": "number.5"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "5+3",
+            "label": "5 plus 3"
+          },
+          "promptAudioId": "math.add-10-a.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "6+2",
+            "label": "6 plus 2"
+          },
+          "promptAudioId": "math.add-10-a.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "4+4",
+            "label": "4 plus 4"
+          },
+          "promptAudioId": "math.add-10-a.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.6",
+          "visual": {
+            "kind": "sum",
+            "value": "3+3",
+            "label": "3 plus 3"
+          },
+          "promptAudioId": "math.add-10-a.review"
+        }
+      ]
+    },
+    {
+      "id": "math.add-10-b",
+      "title": "Add to 10 again",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "5+5",
+            "label": "5 plus 5"
+          },
+          "promptAudioId": "math.add-10-b.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "5+5",
+            "label": "5 plus 5"
+          },
+          "promptAudioId": "math.add-10-b.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.9",
+          "visual": {
+            "kind": "sum",
+            "value": "6+3",
+            "label": "6 plus 3"
+          },
+          "promptAudioId": "math.add-10-b.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-1",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-2",
+              "label": "8",
+              "conceptId": "number.8"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.9",
+          "visual": {
+            "kind": "sum",
+            "value": "7+2",
+            "label": "7 plus 2"
+          },
+          "promptAudioId": "math.add-10-b.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-1",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-2",
+              "label": "8",
+              "conceptId": "number.8"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "2+8",
+            "label": "2 plus 8"
+          },
+          "promptAudioId": "math.add-10-b.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.9",
+          "visual": {
+            "kind": "sum",
+            "value": "3+6",
+            "label": "3 plus 6"
+          },
+          "promptAudioId": "math.add-10-b.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-1",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-2",
+              "label": "8",
+              "conceptId": "number.8"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "5+5",
+            "label": "5 plus 5"
+          },
+          "promptAudioId": "math.add-10-b.review"
+        }
+      ]
+    },
+    {
+      "id": "math.sub-10-a",
+      "title": "Take away to 10",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "3-1",
+            "label": "3 minus 1"
+          },
+          "promptAudioId": "math.sub-10-a.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "3-1",
+            "label": "3 minus 1"
+          },
+          "promptAudioId": "math.sub-10-a.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "2",
+              "conceptId": "number.2"
+            },
+            {
+              "id": "other-1",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-2",
+              "label": "1",
+              "conceptId": "number.1"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.3",
+          "visual": {
+            "kind": "sum",
+            "value": "5-2",
+            "label": "5 minus 2"
+          },
+          "promptAudioId": "math.sub-10-a.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-1",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-2",
+              "label": "2",
+              "conceptId": "number.2"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "4-2",
+            "label": "4 minus 2"
+          },
+          "promptAudioId": "math.sub-10-a.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "2",
+              "conceptId": "number.2"
+            },
+            {
+              "id": "other-1",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-2",
+              "label": "1",
+              "conceptId": "number.1"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.3",
+          "visual": {
+            "kind": "sum",
+            "value": "6-3",
+            "label": "6 minus 3"
+          },
+          "promptAudioId": "math.sub-10-a.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-1",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-2",
+              "label": "2",
+              "conceptId": "number.2"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.1",
+          "visual": {
+            "kind": "sum",
+            "value": "5-4",
+            "label": "5 minus 4"
+          },
+          "promptAudioId": "math.sub-10-a.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "1",
+              "conceptId": "number.1"
+            },
+            {
+              "id": "other-1",
+              "label": "2",
+              "conceptId": "number.2"
+            },
+            {
+              "id": "other-2",
+              "label": "0",
+              "conceptId": "number.0"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.2",
+          "visual": {
+            "kind": "sum",
+            "value": "3-1",
+            "label": "3 minus 1"
+          },
+          "promptAudioId": "math.sub-10-a.review"
+        }
+      ]
+    },
+    {
+      "id": "math.sub-10-b",
+      "title": "Take away to 10 again",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "8-3",
+            "label": "8 minus 3"
+          },
+          "promptAudioId": "math.sub-10-b.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "8-3",
+            "label": "8 minus 3"
+          },
+          "promptAudioId": "math.sub-10-b.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-1",
+              "label": "6",
+              "conceptId": "number.6"
+            },
+            {
+              "id": "other-2",
+              "label": "4",
+              "conceptId": "number.4"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.3",
+          "visual": {
+            "kind": "sum",
+            "value": "7-4",
+            "label": "7 minus 4"
+          },
+          "promptAudioId": "math.sub-10-b.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "3",
+              "conceptId": "number.3"
+            },
+            {
+              "id": "other-1",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-2",
+              "label": "2",
+              "conceptId": "number.2"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "9-5",
+            "label": "9 minus 5"
+          },
+          "promptAudioId": "math.sub-10-b.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-1",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-2",
+              "label": "3",
+              "conceptId": "number.3"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "10-2",
+            "label": "10 minus 2"
+          },
+          "promptAudioId": "math.sub-10-b.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.4",
+          "visual": {
+            "kind": "sum",
+            "value": "10-6",
+            "label": "10 minus 6"
+          },
+          "promptAudioId": "math.sub-10-b.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "4",
+              "conceptId": "number.4"
+            },
+            {
+              "id": "other-1",
+              "label": "5",
+              "conceptId": "number.5"
+            },
+            {
+              "id": "other-2",
+              "label": "3",
+              "conceptId": "number.3"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.5",
+          "visual": {
+            "kind": "sum",
+            "value": "8-3",
+            "label": "8 minus 3"
+          },
+          "promptAudioId": "math.sub-10-b.review"
+        }
+      ]
+    },
+    {
+      "id": "math.add-20-a",
+      "title": "Add to 20",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.12",
+          "visual": {
+            "kind": "sum",
+            "value": "10+2",
+            "label": "10 plus 2"
+          },
+          "promptAudioId": "math.add-20-a.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.12",
+          "visual": {
+            "kind": "sum",
+            "value": "10+2",
+            "label": "10 plus 2"
+          },
+          "promptAudioId": "math.add-20-a.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "12",
+              "conceptId": "number.12"
+            },
+            {
+              "id": "other-1",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-2",
+              "label": "11",
+              "conceptId": "number.11"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.15",
+          "visual": {
+            "kind": "sum",
+            "value": "10+5",
+            "label": "10 plus 5"
+          },
+          "promptAudioId": "math.add-20-a.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "15",
+              "conceptId": "number.15"
+            },
+            {
+              "id": "other-1",
+              "label": "16",
+              "conceptId": "number.16"
+            },
+            {
+              "id": "other-2",
+              "label": "14",
+              "conceptId": "number.14"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "8+5",
+            "label": "8 plus 5"
+          },
+          "promptAudioId": "math.add-20-a.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-1",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-2",
+              "label": "12",
+              "conceptId": "number.12"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "9+4",
+            "label": "9 plus 4"
+          },
+          "promptAudioId": "math.add-20-a.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-1",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-2",
+              "label": "12",
+              "conceptId": "number.12"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "7+6",
+            "label": "7 plus 6"
+          },
+          "promptAudioId": "math.add-20-a.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-1",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-2",
+              "label": "12",
+              "conceptId": "number.12"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.12",
+          "visual": {
+            "kind": "sum",
+            "value": "10+2",
+            "label": "10 plus 2"
+          },
+          "promptAudioId": "math.add-20-a.review"
+        }
+      ]
+    },
+    {
+      "id": "math.add-20-b",
+      "title": "Add to 20 again",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.14",
+          "visual": {
+            "kind": "sum",
+            "value": "11+3",
+            "label": "11 plus 3"
+          },
+          "promptAudioId": "math.add-20-b.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.14",
+          "visual": {
+            "kind": "sum",
+            "value": "11+3",
+            "label": "11 plus 3"
+          },
+          "promptAudioId": "math.add-20-b.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-1",
+              "label": "15",
+              "conceptId": "number.15"
+            },
+            {
+              "id": "other-2",
+              "label": "13",
+              "conceptId": "number.13"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.17",
+          "visual": {
+            "kind": "sum",
+            "value": "12+5",
+            "label": "12 plus 5"
+          },
+          "promptAudioId": "math.add-20-b.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "17",
+              "conceptId": "number.17"
+            },
+            {
+              "id": "other-1",
+              "label": "18",
+              "conceptId": "number.18"
+            },
+            {
+              "id": "other-2",
+              "label": "16",
+              "conceptId": "number.16"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.18",
+          "visual": {
+            "kind": "sum",
+            "value": "9+9",
+            "label": "9 plus 9"
+          },
+          "promptAudioId": "math.add-20-b.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "18",
+              "conceptId": "number.18"
+            },
+            {
+              "id": "other-1",
+              "label": "19",
+              "conceptId": "number.19"
+            },
+            {
+              "id": "other-2",
+              "label": "17",
+              "conceptId": "number.17"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.18",
+          "visual": {
+            "kind": "sum",
+            "value": "14+4",
+            "label": "14 plus 4"
+          },
+          "promptAudioId": "math.add-20-b.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "18",
+              "conceptId": "number.18"
+            },
+            {
+              "id": "other-1",
+              "label": "19",
+              "conceptId": "number.19"
+            },
+            {
+              "id": "other-2",
+              "label": "17",
+              "conceptId": "number.17"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.20",
+          "visual": {
+            "kind": "sum",
+            "value": "10+10",
+            "label": "10 plus 10"
+          },
+          "promptAudioId": "math.add-20-b.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "20",
+              "conceptId": "number.20"
+            },
+            {
+              "id": "other-1",
+              "label": "19",
+              "conceptId": "number.19"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.14",
+          "visual": {
+            "kind": "sum",
+            "value": "11+3",
+            "label": "11 plus 3"
+          },
+          "promptAudioId": "math.add-20-b.review"
+        }
+      ]
+    },
+    {
+      "id": "math.sub-20-a",
+      "title": "Take away to 20",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "12-2",
+            "label": "12 minus 2"
+          },
+          "promptAudioId": "math.sub-20-a.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "12-2",
+            "label": "12 minus 2"
+          },
+          "promptAudioId": "math.sub-20-a.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "15-5",
+            "label": "15 minus 5"
+          },
+          "promptAudioId": "math.sub-20-a.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "13-3",
+            "label": "13 minus 3"
+          },
+          "promptAudioId": "math.sub-20-a.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "14-4",
+            "label": "14 minus 4"
+          },
+          "promptAudioId": "math.sub-20-a.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "18-8",
+            "label": "18 minus 8"
+          },
+          "promptAudioId": "math.sub-20-a.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "12-2",
+            "label": "12 minus 2"
+          },
+          "promptAudioId": "math.sub-20-a.review"
+        }
+      ]
+    },
+    {
+      "id": "math.sub-20-b",
+      "title": "Take away to 20 again",
+      "subject": "math",
+      "ageBand": "4-5",
+      "status": "draft",
+      "steps": [
+        {
+          "id": "teach-0",
+          "kind": "teach",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "16-3",
+            "label": "16 minus 3"
+          },
+          "promptAudioId": "math.sub-20-b.p0.teach"
+        },
+        {
+          "id": "choice-0",
+          "kind": "choice",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "16-3",
+            "label": "16 minus 3"
+          },
+          "promptAudioId": "math.sub-20-b.p0.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-1",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-2",
+              "label": "12",
+              "conceptId": "number.12"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-1",
+          "kind": "choice",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "19-6",
+            "label": "19 minus 6"
+          },
+          "promptAudioId": "math.sub-20-b.p1.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "13",
+              "conceptId": "number.13"
+            },
+            {
+              "id": "other-1",
+              "label": "14",
+              "conceptId": "number.14"
+            },
+            {
+              "id": "other-2",
+              "label": "12",
+              "conceptId": "number.12"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-2",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "17-9",
+            "label": "17 minus 9"
+          },
+          "promptAudioId": "math.sub-20-b.p2.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-3",
+          "kind": "choice",
+          "conceptId": "number.10",
+          "visual": {
+            "kind": "sum",
+            "value": "20-10",
+            "label": "20 minus 10"
+          },
+          "promptAudioId": "math.sub-20-b.p3.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "10",
+              "conceptId": "number.10"
+            },
+            {
+              "id": "other-1",
+              "label": "11",
+              "conceptId": "number.11"
+            },
+            {
+              "id": "other-2",
+              "label": "9",
+              "conceptId": "number.9"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "choice-4",
+          "kind": "choice",
+          "conceptId": "number.8",
+          "visual": {
+            "kind": "sum",
+            "value": "15-7",
+            "label": "15 minus 7"
+          },
+          "promptAudioId": "math.sub-20-b.p4.choice",
+          "choices": [
+            {
+              "id": "target",
+              "label": "8",
+              "conceptId": "number.8"
+            },
+            {
+              "id": "other-1",
+              "label": "9",
+              "conceptId": "number.9"
+            },
+            {
+              "id": "other-2",
+              "label": "7",
+              "conceptId": "number.7"
+            }
+          ],
+          "correctChoiceId": "target",
+          "successAudioId": "shared.great",
+          "retryAudioId": "shared.try-again"
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "conceptId": "number.13",
+          "visual": {
+            "kind": "sum",
+            "value": "16-3",
+            "label": "16 minus 3"
+          },
+          "promptAudioId": "math.sub-20-b.review"
+        }
+      ]
+    }
+  ]
+}

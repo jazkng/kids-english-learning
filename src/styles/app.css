@@ -127,3 +127,22 @@ aside { border-left: 4px solid #e89835; padding: 12px 16px; background: #f5ebd7;
 .quantity.small .ten-bar i { width: 5px; height: 5px; }
 .quantity.small .ones { gap: 2px; max-width: 40px; }
 .quantity.small .dot { width: 7px; height: 7px; }
+
+/* Words, Math and Quiz (owner request 2026-11-15) */
+.s-words { background: #e0a21b; } .s-math { background: #1f8fb3; }
+.quiz-btn { margin-left: auto; border: 0; border-radius: 28px; padding: 0 20px; background: #e0a21b; color: #fff; font-weight: 700; font-size: 1.1rem; min-width: 56px; }
+.word .emoji { font-size: clamp(5rem, 22vw, 9rem); line-height: 1; }
+.word .word-label { font-size: 1.6rem; font-weight: 700; }
+.word.small .emoji { font-size: 3.4rem; }
+.word.small .word-label { font-size: 1.1rem; }
+.sum { gap: 12px; }
+.sum-text { font-size: clamp(3rem, 12vw, 5rem); font-weight: 800; color: #1f8fb3; line-height: 1; }
+.sum-groups { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 340px; }
+.sum-groups b { font-size: 2rem; color: #1f8fb3; }
+.sum-dots { display: flex; flex-wrap: wrap; gap: 6px; max-width: 150px; justify-content: center; }
+.sum-dots .dot { display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #e53935; }
+/* Taken-away dots stay visible (faded, crossed) so the child can count what is left. */
+.sum-dots .dot.gone { background: #f3c4c2; position: relative; }
+.sum-dots .dot.gone::after { content: ''; position: absolute; left: -2px; right: -2px; top: 9px; height: 3px; background: #7a2a26; transform: rotate(-35deg); }
+.sum.small .sum-text { font-size: 2rem; }
+@media (max-width: 600px) { .stage:has(.sum) { gap: 8px; } }

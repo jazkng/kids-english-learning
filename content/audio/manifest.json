@@ -11401,6 +11401,4906 @@
       "approvalRef": null,
       "voiceRef": "elevenlabs:premade:lily",
       "modelRef": "eleven_flash_v2_5"
+    },
+    {
+      "id": "words.letter-a.apple.teach",
+      "text": "This is an apple. Apple starts with A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"apple\" slowly and clearly; letter name A."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.apple.choice",
+      "text": "Where is the apple? Tap the apple.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.ant.teach",
+      "text": "This is an ant. Ant starts with A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"ant\" slowly and clearly; letter name A."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.ant.choice",
+      "text": "Where is the ant? Tap the ant.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.airplane.teach",
+      "text": "This is an airplane. Airplane starts with A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"airplane\" slowly and clearly; letter name A."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.airplane.choice",
+      "text": "Where is the airplane? Tap the airplane.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-a.review",
+      "text": "A words: apple, ant, airplane. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.ball.teach",
+      "text": "This is a ball. Ball starts with B.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"ball\" slowly and clearly; letter name B."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.ball.choice",
+      "text": "Where is the ball? Tap the ball.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.banana.teach",
+      "text": "This is a banana. Banana starts with B.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"banana\" slowly and clearly; letter name B."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.banana.choice",
+      "text": "Where is the banana? Tap the banana.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.bear.teach",
+      "text": "This is a bear. Bear starts with B.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"bear\" slowly and clearly; letter name B."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.bear.choice",
+      "text": "Where is the bear? Tap the bear.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-b.review",
+      "text": "B words: ball, banana, bear. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.cat.teach",
+      "text": "This is a cat. Cat starts with C.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"cat\" slowly and clearly; letter name C."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.cat.choice",
+      "text": "Where is the cat? Tap the cat.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.car.teach",
+      "text": "This is a car. Car starts with C.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"car\" slowly and clearly; letter name C."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.car.choice",
+      "text": "Where is the car? Tap the car.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.cake.teach",
+      "text": "This is a cake. Cake starts with C.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"cake\" slowly and clearly; letter name C."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.cake.choice",
+      "text": "Where is the cake? Tap the cake.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-c.review",
+      "text": "C words: cat, car, cake. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.dog.teach",
+      "text": "This is a dog. Dog starts with D.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"dog\" slowly and clearly; letter name D."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.dog.choice",
+      "text": "Where is the dog? Tap the dog.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.duck.teach",
+      "text": "This is a duck. Duck starts with D.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"duck\" slowly and clearly; letter name D."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.duck.choice",
+      "text": "Where is the duck? Tap the duck.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.drum.teach",
+      "text": "This is a drum. Drum starts with D.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"drum\" slowly and clearly; letter name D."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.drum.choice",
+      "text": "Where is the drum? Tap the drum.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-d.review",
+      "text": "D words: dog, duck, drum. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.egg.teach",
+      "text": "This is an egg. Egg starts with E.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"egg\" slowly and clearly; letter name E."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.egg.choice",
+      "text": "Where is the egg? Tap the egg.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.elephant.teach",
+      "text": "This is an elephant. Elephant starts with E.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"elephant\" slowly and clearly; letter name E."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.elephant.choice",
+      "text": "Where is the elephant? Tap the elephant.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.ear.teach",
+      "text": "This is an ear. Ear starts with E.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"ear\" slowly and clearly; letter name E."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.ear.choice",
+      "text": "Where is the ear? Tap the ear.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-e.review",
+      "text": "E words: egg, elephant, ear. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.fish.teach",
+      "text": "This is a fish. Fish starts with F.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"fish\" slowly and clearly; letter name F."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.fish.choice",
+      "text": "Where is the fish? Tap the fish.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.frog.teach",
+      "text": "This is a frog. Frog starts with F.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"frog\" slowly and clearly; letter name F."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.frog.choice",
+      "text": "Where is the frog? Tap the frog.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.flower.teach",
+      "text": "This is a flower. Flower starts with F.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"flower\" slowly and clearly; letter name F."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.flower.choice",
+      "text": "Where is the flower? Tap the flower.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-f.review",
+      "text": "F words: fish, frog, flower. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.goat.teach",
+      "text": "This is a goat. Goat starts with G.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"goat\" slowly and clearly; letter name G."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.goat.choice",
+      "text": "Where is the goat? Tap the goat.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.grapes.teach",
+      "text": "This is grapes. Grapes starts with G.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"grapes\" slowly and clearly; letter name G."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.grapes.choice",
+      "text": "Where is the grapes? Tap the grapes.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.gift.teach",
+      "text": "This is a gift. Gift starts with G.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"gift\" slowly and clearly; letter name G."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.gift.choice",
+      "text": "Where is the gift? Tap the gift.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-g.review",
+      "text": "G words: goat, grapes, gift. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.hat.teach",
+      "text": "This is a hat. Hat starts with H.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"hat\" slowly and clearly; letter name H."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.hat.choice",
+      "text": "Where is the hat? Tap the hat.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.horse.teach",
+      "text": "This is a horse. Horse starts with H.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"horse\" slowly and clearly; letter name H."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.horse.choice",
+      "text": "Where is the horse? Tap the horse.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.house.teach",
+      "text": "This is a house. House starts with H.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"house\" slowly and clearly; letter name H."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.house.choice",
+      "text": "Where is the house? Tap the house.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-h.review",
+      "text": "H words: hat, horse, house. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.ice-cream.teach",
+      "text": "This is ice cream. Ice cream starts with I.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"ice cream\" slowly and clearly; letter name I."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.ice-cream.choice",
+      "text": "Where is the ice cream? Tap the ice cream.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.insect.teach",
+      "text": "This is an insect. Insect starts with I.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"insect\" slowly and clearly; letter name I."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.insect.choice",
+      "text": "Where is the insect? Tap the insect.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.island.teach",
+      "text": "This is an island. Island starts with I.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"island\" slowly and clearly; letter name I."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.island.choice",
+      "text": "Where is the island? Tap the island.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-i.review",
+      "text": "I words: ice cream, insect, island. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.juice.teach",
+      "text": "This is juice. Juice starts with J.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"juice\" slowly and clearly; letter name J."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.juice.choice",
+      "text": "Where is the juice? Tap the juice.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.jeans.teach",
+      "text": "This is jeans. Jeans starts with J.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"jeans\" slowly and clearly; letter name J."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.jeans.choice",
+      "text": "Where is the jeans? Tap the jeans.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.jacket.teach",
+      "text": "This is a jacket. Jacket starts with J.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"jacket\" slowly and clearly; letter name J."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.jacket.choice",
+      "text": "Where is the jacket? Tap the jacket.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-j.review",
+      "text": "J words: juice, jeans, jacket. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.kite.teach",
+      "text": "This is a kite. Kite starts with K.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"kite\" slowly and clearly; letter name K."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.kite.choice",
+      "text": "Where is the kite? Tap the kite.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.key.teach",
+      "text": "This is a key. Key starts with K.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"key\" slowly and clearly; letter name K."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.key.choice",
+      "text": "Where is the key? Tap the key.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.kangaroo.teach",
+      "text": "This is a kangaroo. Kangaroo starts with K.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"kangaroo\" slowly and clearly; letter name K."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.kangaroo.choice",
+      "text": "Where is the kangaroo? Tap the kangaroo.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-k.review",
+      "text": "K words: kite, key, kangaroo. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.lion.teach",
+      "text": "This is a lion. Lion starts with L.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"lion\" slowly and clearly; letter name L."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.lion.choice",
+      "text": "Where is the lion? Tap the lion.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.lemon.teach",
+      "text": "This is a lemon. Lemon starts with L.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"lemon\" slowly and clearly; letter name L."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.lemon.choice",
+      "text": "Where is the lemon? Tap the lemon.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.leaf.teach",
+      "text": "This is a leaf. Leaf starts with L.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"leaf\" slowly and clearly; letter name L."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.leaf.choice",
+      "text": "Where is the leaf? Tap the leaf.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-l.review",
+      "text": "L words: lion, lemon, leaf. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.moon.teach",
+      "text": "This is a moon. Moon starts with M.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"moon\" slowly and clearly; letter name M."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.moon.choice",
+      "text": "Where is the moon? Tap the moon.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.monkey.teach",
+      "text": "This is a monkey. Monkey starts with M.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"monkey\" slowly and clearly; letter name M."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.monkey.choice",
+      "text": "Where is the monkey? Tap the monkey.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.milk.teach",
+      "text": "This is milk. Milk starts with M.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"milk\" slowly and clearly; letter name M."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.milk.choice",
+      "text": "Where is the milk? Tap the milk.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-m.review",
+      "text": "M words: moon, monkey, milk. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.nose.teach",
+      "text": "This is a nose. Nose starts with N.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"nose\" slowly and clearly; letter name N."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.nose.choice",
+      "text": "Where is the nose? Tap the nose.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.nut.teach",
+      "text": "This is a nut. Nut starts with N.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"nut\" slowly and clearly; letter name N."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.nut.choice",
+      "text": "Where is the nut? Tap the nut.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.noodles.teach",
+      "text": "This is noodles. Noodles starts with N.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"noodles\" slowly and clearly; letter name N."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.noodles.choice",
+      "text": "Where is the noodles? Tap the noodles.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-n.review",
+      "text": "N words: nose, nut, noodles. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.octopus.teach",
+      "text": "This is an octopus. Octopus starts with O.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"octopus\" slowly and clearly; letter name O."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.octopus.choice",
+      "text": "Where is the octopus? Tap the octopus.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.orange.teach",
+      "text": "This is an orange. Orange starts with O.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"orange\" slowly and clearly; letter name O."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.orange.choice",
+      "text": "Where is the orange? Tap the orange.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.owl.teach",
+      "text": "This is an owl. Owl starts with O.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"owl\" slowly and clearly; letter name O."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.owl.choice",
+      "text": "Where is the owl? Tap the owl.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-o.review",
+      "text": "O words: octopus, orange, owl. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.pig.teach",
+      "text": "This is a pig. Pig starts with P.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"pig\" slowly and clearly; letter name P."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.pig.choice",
+      "text": "Where is the pig? Tap the pig.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.pizza.teach",
+      "text": "This is a pizza. Pizza starts with P.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"pizza\" slowly and clearly; letter name P."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.pizza.choice",
+      "text": "Where is the pizza? Tap the pizza.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.penguin.teach",
+      "text": "This is a penguin. Penguin starts with P.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"penguin\" slowly and clearly; letter name P."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.penguin.choice",
+      "text": "Where is the penguin? Tap the penguin.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-p.review",
+      "text": "P words: pig, pizza, penguin. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-q.queen.teach",
+      "text": "This is a queen. Queen starts with Q.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"queen\" slowly and clearly; letter name Q."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-q.queen.choice",
+      "text": "Where is the queen? Tap the queen.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-q.quilt.teach",
+      "text": "This is a quilt. Quilt starts with Q.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"quilt\" slowly and clearly; letter name Q."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-q.quilt.choice",
+      "text": "Where is the quilt? Tap the quilt.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-q.review",
+      "text": "Q words: queen, quilt. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.rabbit.teach",
+      "text": "This is a rabbit. Rabbit starts with R.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"rabbit\" slowly and clearly; letter name R."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.rabbit.choice",
+      "text": "Where is the rabbit? Tap the rabbit.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.rainbow.teach",
+      "text": "This is a rainbow. Rainbow starts with R.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"rainbow\" slowly and clearly; letter name R."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.rainbow.choice",
+      "text": "Where is the rainbow? Tap the rainbow.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.robot.teach",
+      "text": "This is a robot. Robot starts with R.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"robot\" slowly and clearly; letter name R."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.robot.choice",
+      "text": "Where is the robot? Tap the robot.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-r.review",
+      "text": "R words: rabbit, rainbow, robot. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.sun.teach",
+      "text": "This is a sun. Sun starts with S.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"sun\" slowly and clearly; letter name S."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.sun.choice",
+      "text": "Where is the sun? Tap the sun.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.star.teach",
+      "text": "This is a star. Star starts with S.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"star\" slowly and clearly; letter name S."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.star.choice",
+      "text": "Where is the star? Tap the star.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.snake.teach",
+      "text": "This is a snake. Snake starts with S.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"snake\" slowly and clearly; letter name S."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.snake.choice",
+      "text": "Where is the snake? Tap the snake.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-s.review",
+      "text": "S words: sun, star, snake. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.tiger.teach",
+      "text": "This is a tiger. Tiger starts with T.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"tiger\" slowly and clearly; letter name T."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.tiger.choice",
+      "text": "Where is the tiger? Tap the tiger.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.train.teach",
+      "text": "This is a train. Train starts with T.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"train\" slowly and clearly; letter name T."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.train.choice",
+      "text": "Where is the train? Tap the train.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.tree.teach",
+      "text": "This is a tree. Tree starts with T.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"tree\" slowly and clearly; letter name T."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.tree.choice",
+      "text": "Where is the tree? Tap the tree.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-t.review",
+      "text": "T words: tiger, train, tree. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-u.umbrella.teach",
+      "text": "This is an umbrella. Umbrella starts with U.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"umbrella\" slowly and clearly; letter name U."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-u.umbrella.choice",
+      "text": "Where is the umbrella? Tap the umbrella.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-u.unicorn.teach",
+      "text": "This is a unicorn. Unicorn starts with U.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"unicorn\" slowly and clearly; letter name U."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-u.unicorn.choice",
+      "text": "Where is the unicorn? Tap the unicorn.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-u.review",
+      "text": "U words: umbrella, unicorn. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.van.teach",
+      "text": "This is a van. Van starts with V.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"van\" slowly and clearly; letter name V."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.van.choice",
+      "text": "Where is the van? Tap the van.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.violin.teach",
+      "text": "This is a violin. Violin starts with V.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"violin\" slowly and clearly; letter name V."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.violin.choice",
+      "text": "Where is the violin? Tap the violin.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.volcano.teach",
+      "text": "This is a volcano. Volcano starts with V.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"volcano\" slowly and clearly; letter name V."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.volcano.choice",
+      "text": "Where is the volcano? Tap the volcano.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-v.review",
+      "text": "V words: van, violin, volcano. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.whale.teach",
+      "text": "This is a whale. Whale starts with W.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"whale\" slowly and clearly; letter name W."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.whale.choice",
+      "text": "Where is the whale? Tap the whale.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.watch.teach",
+      "text": "This is a watch. Watch starts with W.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"watch\" slowly and clearly; letter name W."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.watch.choice",
+      "text": "Where is the watch? Tap the watch.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.web.teach",
+      "text": "This is a web. Web starts with W.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"web\" slowly and clearly; letter name W."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.web.choice",
+      "text": "Where is the web? Tap the web.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-w.review",
+      "text": "W words: whale, watch, web. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-x.fox.teach",
+      "text": "This is a fox. Fox ends with X.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"fox\" slowly and clearly; letter name X."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-x.fox.choice",
+      "text": "Where is the fox? Tap the fox.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-x.box.teach",
+      "text": "This is a box. Box ends with X.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"box\" slowly and clearly; letter name X."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-x.box.choice",
+      "text": "Where is the box? Tap the box.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-x.review",
+      "text": "X words: fox, box. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-y.yo-yo.teach",
+      "text": "This is a yo-yo. Yo-yo starts with Y.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"yo-yo\" slowly and clearly; letter name Y."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-y.yo-yo.choice",
+      "text": "Where is the yo-yo? Tap the yo-yo.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-y.yarn.teach",
+      "text": "This is yarn. Yarn starts with Y.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"yarn\" slowly and clearly; letter name Y."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-y.yarn.choice",
+      "text": "Where is the yarn? Tap the yarn.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-y.review",
+      "text": "Y words: yo-yo, yarn. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zebra.teach",
+      "text": "This is a zebra. Zebra starts with Z.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"zebra\" slowly and clearly; letter name Z is \"zed\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zebra.choice",
+      "text": "Where is the zebra? Tap the zebra.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zip.teach",
+      "text": "This is a zip. Zip starts with Z.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"zip\" slowly and clearly; letter name Z is \"zed\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zip.choice",
+      "text": "Where is the zip? Tap the zip.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zero.teach",
+      "text": "This is a zero. Zero starts with Z.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Say \"zero\" slowly and clearly; letter name Z is \"zed\"."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.zero.choice",
+      "text": "Where is the zero? Tap the zero.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "words.letter-z.review",
+      "text": "Z words: zebra, zip, zero. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p0.teach",
+      "text": "One dots and one more dots. Count them all: two! One plus one makes two.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p0.choice",
+      "text": "One plus one. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p1.choice",
+      "text": "Two plus one. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p2.choice",
+      "text": "One plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p3.choice",
+      "text": "Two plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.p4.choice",
+      "text": "Three plus one. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-a.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p0.teach",
+      "text": "One dots and three more dots. Count them all: four! One plus three makes four.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p0.choice",
+      "text": "One plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p1.choice",
+      "text": "Three plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p2.choice",
+      "text": "Two plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p3.choice",
+      "text": "Four plus one. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.p4.choice",
+      "text": "One plus four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-5-b.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p0.teach",
+      "text": "Three dots and three more dots. Count them all: six! Three plus three makes six.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p0.choice",
+      "text": "Three plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p1.choice",
+      "text": "Four plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p2.choice",
+      "text": "Five plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p3.choice",
+      "text": "Six plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.p4.choice",
+      "text": "Four plus four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-a.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p0.teach",
+      "text": "Five dots and five more dots. Count them all: ten! Five plus five makes ten.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p0.choice",
+      "text": "Five plus five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p1.choice",
+      "text": "Six plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p2.choice",
+      "text": "Seven plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p3.choice",
+      "text": "Two plus eight. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.p4.choice",
+      "text": "Three plus six. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-10-b.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p0.teach",
+      "text": "Three dots. Take away one. Two dots are left! Three take away one makes two.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p0.choice",
+      "text": "Three take away one. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p1.choice",
+      "text": "Five take away two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p2.choice",
+      "text": "Four take away two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p3.choice",
+      "text": "Six take away three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.p4.choice",
+      "text": "Five take away four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-a.review",
+      "text": "Great taking away! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p0.teach",
+      "text": "Eight dots. Take away three. Five dots are left! Eight take away three makes five.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p0.choice",
+      "text": "Eight take away three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p1.choice",
+      "text": "Seven take away four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p2.choice",
+      "text": "Nine take away five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p3.choice",
+      "text": "Ten take away two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.p4.choice",
+      "text": "Ten take away six. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-10-b.review",
+      "text": "Great taking away! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p0.teach",
+      "text": "Ten dots and two more dots. Count them all: twelve! Ten plus two makes twelve.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p0.choice",
+      "text": "Ten plus two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p1.choice",
+      "text": "Ten plus five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p2.choice",
+      "text": "Eight plus five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p3.choice",
+      "text": "Nine plus four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.p4.choice",
+      "text": "Seven plus six. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-a.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p0.teach",
+      "text": "Eleven dots and three more dots. Count them all: fourteen! Eleven plus three makes fourteen.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p0.choice",
+      "text": "Eleven plus three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p1.choice",
+      "text": "Twelve plus five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p2.choice",
+      "text": "Nine plus nine. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p3.choice",
+      "text": "Fourteen plus four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.p4.choice",
+      "text": "Ten plus ten. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.add-20-b.review",
+      "text": "Great adding! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p0.teach",
+      "text": "Twelve dots. Take away two. Ten dots are left! Twelve take away two makes ten.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p0.choice",
+      "text": "Twelve take away two. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p1.choice",
+      "text": "Fifteen take away five. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p2.choice",
+      "text": "Thirteen take away three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p3.choice",
+      "text": "Fourteen take away four. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.p4.choice",
+      "text": "Eighteen take away eight. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-a.review",
+      "text": "Great taking away! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p0.teach",
+      "text": "Sixteen dots. Take away three. Thirteen dots are left! Sixteen take away three makes thirteen.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Point-and-count pace; pause after each number."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p0.choice",
+      "text": "Sixteen take away three. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p1.choice",
+      "text": "Nineteen take away six. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p2.choice",
+      "text": "Seventeen take away nine. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p3.choice",
+      "text": "Twenty take away ten. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.p4.choice",
+      "text": "Fifteen take away seven. How many?",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 400,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "math.sub-20-b.review",
+      "text": "Great taking away! Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "quiz.start",
+      "text": "Quiz time! Listen and tap.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 600,
+        "pronunciationNote": "Playful, upbeat."
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
     }
   ]
 }

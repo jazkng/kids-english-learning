@@ -1,9 +1,10 @@
 import { useEffect, useState, useSyncExternalStore } from 'react';
-import type { Lesson, ProgressV1 } from '../contracts/course.ts';
+import type { ProgressV1 } from '../contracts/course.ts';
+import { areaLessons, findPlayable, playableCount, QUIZ_PREFIX, type AreaLesson as Lesson } from '../services/activities.ts';
 import { Home, LessonList } from '../features/home/Home.tsx';
 import { LessonPlayer } from '../features/lesson/LessonPlayer.tsx';
 import { ParentArea, ParentGate } from '../features/parent/ParentArea.tsx';
-import { contentVersion, findLesson, hasDraftContent, invalidLessonCount, lessons, lessonsFor } from '../services/content.ts';
+import { contentVersion, hasDraftContent, invalidLessonCount } from '../services/content.ts';
 import { AppNavigation } from '../services/navigation.ts';
 import { clearProgress, defaultProgress, loadProgress, saveProgress } from '../services/progress.ts';
 import { pwaState, refreshOfflineReady, subscribePwa } from '../services/pwa.ts';
@@ -57,28 +58,31 @@ export function App() {
 
   let body: React.ReactNode;
   if (screen.name === 'lesson') {
-    const lesson = findLesson(screen.id);
+    const lesson = findPlayable(screen.id, screen.run);
     if (!lesson) body = <Home onSubject={(s) => go({ name: 'subject', subject: s }, true)} onParent={() => setGate(true)} notice="That lesson is not available." />;
     else {
-      const list = lessonsFor(lesson.subject);
-      const nextLesson = list[list.indexOf(lesson) + 1];
-      const open = (l: Lesson) => go({ name: 'lesson', id: l.id, run: Date.now() }, true);
+      const isQuiz = lesson.id.startsWith(QUIZ_PREFIX);
+      const list = areaLessons(lesson.subject);
+      const nextLesson = isQuiz ? undefined : list.find((_, i) => list[i - 1]?.id === lesson.id);
+      const open = (l: { id: string }) => go({ name: 'lesson', id: l.id, run: Date.now() }, true);
       body = (
         <LessonPlayer key={`${lesson.id}:${screen.run}`} lesson={lesson} soundEnabled={progress.soundEnabled} nextLesson={nextLesson}
           onOpen={open}
           // 👑 Restored lessons may have no app-owned predecessor; fall back to their subject list.
           onExit={() => navigation.back({ name: 'subject', subject: lesson.subject })}
-          onFinish={(completed) => update({
+          // Quizzes are practice, not lessons: they never change the finished-lesson count.
+          onFinish={(completed) => !isQuiz && update({
             lastLessonId: lesson.id,
             ...(completed ? { completedLessonIds: [...new Set([...progress.completedLessonIds, lesson.id])] } : {}),
           })} />
       );
     }
   } else if (screen.name === 'subject') {
-    body = <LessonList subject={screen.subject} lessons={lessonsFor(screen.subject)} done={progress.completedLessonIds}
+    body = <LessonList subject={screen.subject} lessons={areaLessons(screen.subject)} done={progress.completedLessonIds}
+      onQuiz={() => go({ name: 'lesson', id: `${QUIZ_PREFIX}${screen.subject}`, run: Date.now() })}
       onOpen={(l) => go({ name: 'lesson', id: l.id, run: Date.now() })} onBack={() => navigation.back({ name: 'home' })} />;
   } else if (screen.name === 'parent') {
-    body = <ParentArea progress={progress} storageOk={storageOk} lessonCount={lessons.length} draft={hasDraftContent}
+    body = <ParentArea progress={progress} storageOk={storageOk} lessonCount={playableCount} draft={hasDraftContent}
       offlineReady={pwaState.offlineReady} updateReady={pwaState.updateReady} onUpdate={() => pwaState.apply?.()}
       onChange={update} onClose={() => navigation.back({ name: 'home' })}
       onReset={() => { setStorageOk(clearProgress()); setProgress(defaultProgress(contentVersion)); }} />;
