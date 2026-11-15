@@ -24,7 +24,7 @@ Shared by Codex, Claude Code and Gemini through merged Git files. No private cha
 
 | KEL-CURRICULUM-004 | 2026-11-15 | Curriculum integration | verified | CC authored 91 draft lessons covering A–Z, all 0–100 integers and 12 colors (plus 3 retained initial fixtures). Codex added conflict-first generator protection and numeric lesson ordering; 30 local tests/type/content checks and PWA build pass. | CC PR #13; generator/order regression tests | PR #13/#15 merged after CI/APK passed; narration and adult pronunciation review remain pending. |
 
-| KEL-NAV-005 | 2026-11-15 | Navigation and parent recovery | verified | Navigation validates restored history, tracks only this run's back depth and falls back inside the app. Parent access does not survive Forward/reload/backgrounding. Hold cancellation and modal focus handling added. 34 local tests and PWA build pass; touch/keyboard and device behavior not independently exercised. | navigation.test.mjs; navigation/parent recovery PR for #4 | Merge after CI/APK; CC keeps narration work; execute manual device gates. |
+| KEL-NAV-005 | 2026-11-15 | Navigation and parent recovery | verified | Navigation validates restored history, tracks only this run's back depth and falls back inside the app. Parent access does not survive Forward/reload/backgrounding. Hold cancellation and modal focus handling added. 36 local tests and PWA build pass; an actual Vite/Workbox build rejects an oversized narration fixture. Build now fails if any packaged runtime/media resource is missing from precache. Touch/keyboard and device behavior not independently exercised. | navigation.test.mjs; navigation/parent recovery PR for #4 | Merge after CI/APK; CC keeps narration work; execute manual device gates. |
 
 ## Current work
 

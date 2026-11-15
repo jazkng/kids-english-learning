@@ -40,3 +40,7 @@ Manual checks still required:
 - Pass the parent hold, leave, press Forward, reload, and background/foreground: settings require a new hold. Existing progress remains unchanged.
 - Hold with touch or Space/Enter for three seconds; release early, move away, lose focus or background partway through: access stays locked.
 - In both parent-entry and reset dialogs, Tab/Shift+Tab stay inside, Escape closes, focus returns to the invoking control, body scroll stays locked. Screen-reader and physical-keyboard acceptance remain pending.
+
+## Build rejects partial offline packages
+
+The shared extension list drives both Workbox's glob and a build-directory scan. Before writing the readiness index, every packaged runtime/media resource must appear in Workbox's entries. Oversized assets skipped by Workbox warnings now fail the build. `precache-policy.test.mjs` covers complete packages and skipped audio/scripts. Local integration fault injection added a temporary >2 MiB public audio fixture: real Vite/Workbox build failed with the named omitted file; the fixture was removed and normal build passed again. These synthetic bytes test packaging only, not audio decoding.

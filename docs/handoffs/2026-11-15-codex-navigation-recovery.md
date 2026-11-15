@@ -1,7 +1,7 @@
 # 交接｜Codex
 
-- 已完成：恢复页面校验、app 内返回降级、家长入口前进/刷新/后台重锁；长按支持 Space/Enter，离开焦点/后台取消，使用单调时钟；弹窗焦点约束与关闭后返回焦点。
-- 改动文件：App、navigation 服务、ParentArea、navigation 测试、任务/模块/验收/项目记忆。没有改动课程、manifest、audio.ts 或供应商设置，CC 声音工作继续。
-- 如何验收：npm run check（34/34）、npm run build 已通过；GitHub CI/APK 待本 PR 检查。
+- 已完成：恢复页面校验、app 内返回降级、家长入口前进/刷新/后台重锁；长按支持 Space/Enter，离开焦点/后台取消，使用单调时钟；弹窗焦点约束与关闭后返回焦点；构建发现 Workbox 跳过运行资源/超大音频时明确失败，不生成假完整离线包。
+- 改动文件：App、navigation 服务、ParentArea、navigation/precache-policy 测试及 Vite 构建配置、任务/模块/验收/项目记忆。没有改动课程、manifest、audio.ts 或供应商设置，CC 声音工作继续。
+- 如何验收：npm run check（36/36）、npm run build 已通过；真实 >2 MiB 音频占位故障注入确认构建失败，移除占位后重建通过；GitHub CI/APK 待本 PR 检查。
 - 未完成：触控/键盘/读屏/Android 实机及真实有声离线验收；未绕过当前环境浏览器 URL policy 限制，未声称完成浏览器交互验证。
 - 风险 / 注意：家长入口只为儿童操作增加阻力，不是身份认证；恢复旧课程仅保存页面，不承诺恢复课内步骤。旧版 history 状态兼容但不继承历史返回深度；本地学习进度字段未改。后台会退出家长页，不改变设置或清除进度。
