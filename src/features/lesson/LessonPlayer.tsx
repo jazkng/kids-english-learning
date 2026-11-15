@@ -65,8 +65,8 @@ export function LessonPlayer(props: Props) {
   return (
     <section className="player" aria-label={lesson.title}>
       <div className="lesson-progress" aria-hidden="true"><span style={{ width: `${progress * 100}%` }} /></div>
-      <div className="stage">
-        <Teacher state={teacherState(state)} />
+      <div className={`stage ${step.kind === 'choice' ? 'choice-stage' : ''}`}>
+        <Teacher state={teacherState(state)} size={step.kind === 'choice' ? 96 : 160} />
         {/* A sum is the question itself, so it stays visible while the child picks the answer. */}
         {(step.kind !== 'choice' || step.visual.kind === 'sum') && <Visual {...step.visual} />}
         {step.kind === 'choice' && (
