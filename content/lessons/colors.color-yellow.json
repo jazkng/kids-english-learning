@@ -51,8 +51,8 @@
         },
         {
           "id": "other-1",
-          "label": "red",
-          "conceptId": "color.red"
+          "label": "green",
+          "conceptId": "color.green"
         }
       ],
       "correctChoiceId": "target",

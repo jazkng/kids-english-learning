@@ -4,14 +4,11 @@ Generated from `content/scripts/curriculum-v1.mjs`. All lessons and lines are `d
 
 | Subject | Target | Lesson ID | Age band | Phases | Status |
 |---|---|---|---|---|---|
-| ABC | A | abc.letter-a (also abc.sample) | 2–3 | teach/demo/choice/review | draft |
-| ABC | B | abc.letter-b | 2–3 | teach/demo/choice/review | draft |
-| ABC | C | abc.letter-c | 2–3 | teach/demo/choice/review | draft |
-| ABC | D–Z | — | — | — | next batch |
-| Numbers | 0 | numbers.number-0 (also numbers.sample) | 2–3 | teach/demo/choice/review | draft |
-| Numbers | 1–3 | numbers.number-1 … number-3 | 2–3 | teach/demo/choice/review | draft |
-| Numbers | 4–100 | — | — | — | next batches (4–10, 11–19, tens, 21–100) |
-| Colors | red, blue, yellow | colors.color-red / -blue / -yellow (red also colors.sample) | 2–3 | teach/demo/choice/review | draft |
-| Colors | other 9 catalog colors | — | — | — | next batch |
+| ABC | A–Z | abc.letter-a … abc.letter-z (A also abc.sample) | 2–3 | teach/demo/choice/review | draft |
+| Numbers | 0–10 | numbers.number-0 … number-10 (0 also numbers.sample) | 2–3 | teach/demo/choice/review | draft |
+| Numbers | 11–19 | — | 4–5 | — | next batch |
+| Numbers | 20–100 (tens, then 21–99, 100) | — | 4–5 | — | next batches |
+| Colors | red, blue, yellow, green, orange, purple | colors.color-* (red also colors.sample) | 2–3 | teach/demo/choice/review | draft |
+| Colors | pink, brown, black, white, grey, light-blue | colors.color-* | 4–5 | teach/demo/choice/review | draft |
 
 Release coverage (`npm run check:release`) intentionally still fails until every target exists and is approved.

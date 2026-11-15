@@ -51,8 +51,8 @@
         },
         {
           "id": "other-1",
-          "label": "A",
-          "conceptId": "letter.a"
+          "label": "D",
+          "conceptId": "letter.d"
         }
       ],
       "correctChoiceId": "target",
