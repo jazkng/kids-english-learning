@@ -27,6 +27,14 @@ for (const entry of manifest.entries) {
   // 👑 Never overwrite reviewed/approved media; only (re)generate draft lines whose script changed or file is missing.
   if (entry.status !== 'draft') continue;
   if (entry.file === file && entry.textSha256 === textSha && existsSync(resolve(root, 'public', file))) continue;
+  // Identical text already voiced by the same voice/model: point at that file instead of paying again.
+  const twin = manifest.entries.find((e) => e !== entry && e.file && e.textSha256 === textSha && e.voiceRef === VOICE.ref
+    && e.modelRef === MODEL && existsSync(resolve(root, 'public', e.file)));
+  if (twin) {
+    Object.assign(entry, { file: twin.file, bytes: twin.bytes, sha256: twin.sha256, textSha256: textSha, durationMs: twin.durationMs,
+      provider: twin.provider, voiceRef: twin.voiceRef, modelRef: twin.modelRef, licenseRef: twin.licenseRef, approvalRef: null });
+    continue;
+  }
   const speed = entry.delivery?.pace === 'slow' ? 0.85 : 1;
   let res;
   for (let attempt = 1; attempt <= 4; attempt++) {
