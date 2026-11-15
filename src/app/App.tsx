@@ -59,7 +59,7 @@ export function App() {
   let body: React.ReactNode;
   if (screen.name === 'lesson') {
     const lesson = findPlayable(screen.id, screen.run);
-    if (!lesson) body = <Home onSubject={(s) => go({ name: 'subject', subject: s }, true)} onParent={() => setGate(true)} notice="That lesson is not available." />;
+    if (!lesson) body = <Home onQuiz={(s) => go({ name: 'lesson', id: `${QUIZ_PREFIX}${s}`, run: Date.now() })} onSubject={(s) => go({ name: 'subject', subject: s }, true)} onParent={() => setGate(true)} notice="That lesson is not available." />;
     else {
       const isQuiz = lesson.id.startsWith(QUIZ_PREFIX);
       const list = areaLessons(lesson.subject);
@@ -87,7 +87,7 @@ export function App() {
       onChange={update} onClose={() => navigation.back({ name: 'home' })}
       onReset={() => { setStorageOk(clearProgress()); setProgress(defaultProgress(contentVersion)); }} />;
   } else {
-    body = <Home onSubject={(s) => go({ name: 'subject', subject: s })} onParent={() => setGate(true)} notice={notice || undefined} />;
+    body = <Home onQuiz={(s) => go({ name: 'lesson', id: `${QUIZ_PREFIX}${s}`, run: Date.now() })} onSubject={(s) => go({ name: 'subject', subject: s })} onParent={() => setGate(true)} notice={notice || undefined} />;
   }
 
   return (

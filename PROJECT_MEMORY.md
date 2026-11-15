@@ -37,3 +37,5 @@ Initialization #8, runtime #9, Android #10, full draft #13, offline verification
 ## Superseded decisions
 
 KEL-TEAM-001 curriculum authorship is superseded by KEL-TEAM-002; preserve original assignment as history. KEL-SCOPE-002 narrows distribution scope without changing the English/offline learning requirements.
+
+| KEL-HOME-008 | 2026-11-15 | Home design | user-confirmed | Owner requested refined home with basics and quizzes in separate rows. Home now separates ABC/Numbers/Colors, Words/Math and direct five-area quizzes; latest CC #20/#21 content and mobile fixes retained. No audio or course changes. | Home integration PR | CI/build and device layout acceptance. |
