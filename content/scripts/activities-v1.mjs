@@ -83,7 +83,7 @@ for (let g = 0; g * 5 < firstWords.length; g++) {
   });
   steps.push({ id: 'review', kind: 'review', conceptId: steps[1].conceptId, visual: steps[1].visual,
     promptAudioId: line(`${id}.review`, 'You found the first letters. Well done!', '') });
-  words.push({ id, title: `First letters ${g + 1}`, subject: 'words', ageBand: '4-5', status: 'draft', letter: group.map(([l]) => l.toUpperCase()).slice(0, 2).join(''), steps });
+  words.push({ id, title: `First letters ${g + 1}`, subject: 'words', ageBand: '4-5', status: 'draft', steps });
 }
 const emoji = Object.fromEntries(allWords.map(([w, e]) => [slug(w), { word: w, emoji: e }]));
 

@@ -3829,7 +3829,6 @@
       "subject": "words",
       "ageBand": "4-5",
       "status": "draft",
-      "letter": "AB",
       "steps": [
         {
           "id": "teach",
@@ -4046,7 +4045,6 @@
       "subject": "words",
       "ageBand": "4-5",
       "status": "draft",
-      "letter": "FG",
       "steps": [
         {
           "id": "teach",
@@ -4263,7 +4261,6 @@
       "subject": "words",
       "ageBand": "4-5",
       "status": "draft",
-      "letter": "KL",
       "steps": [
         {
           "id": "teach",
@@ -4480,7 +4477,6 @@
       "subject": "words",
       "ageBand": "4-5",
       "status": "draft",
-      "letter": "PQ",
       "steps": [
         {
           "id": "teach",
@@ -4697,7 +4693,6 @@
       "subject": "words",
       "ageBand": "4-5",
       "status": "draft",
-      "letter": "UV",
       "steps": [
         {
           "id": "teach",
