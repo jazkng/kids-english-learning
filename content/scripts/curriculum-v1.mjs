@@ -1,14 +1,15 @@
 // Single editorial source for curriculum v1: generates lesson JSON and draft manifest entries.
-// Run: node content/scripts/curriculum-v1.mjs   (idempotent; never touches existing entries it did not create)
-import { readFileSync, writeFileSync } from 'node:fs';
+// Run: node content/scripts/curriculum-v1.mjs   (idempotent; preflights conflicts before changing its stable-ID target set)
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
+import { isDeepStrictEqual } from 'node:util';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const manifestPath = resolve(root, 'content/audio/manifest.json');
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 
-// --- Editorial data: A–Z, 0–10, all 12 catalog colors (11–100 follow in a 4–5 batch) ---
+// --- Editorial data: A–Z, 0–100 and all 12 catalog colors ---
 // Letters: we teach the letter NAME first, then the common short SOUND via a key word.
 // Phoneme notes live in delivery.pronunciationNote only; spoken text never contains IPA.
 const letters = {
@@ -201,12 +202,47 @@ for (let t = 2; t <= 9; t++) {
   }
 }
 
-for (const l of lessons) writeFileSync(resolve(root, `content/lessons/${l.id}.json`), `${JSON.stringify(l, null, 2)}\n`);
-// 👑 Merge by stable ID. Only still-draft, file-less entries are refreshed; reviewed/approved text or
-// anything with recorded audio metadata is never overwritten by the generator.
-const known = new Set(manifest.entries.map((e) => e.id));
-const byId = new Map(entries.map((e) => [e.id, e]));
-manifest.entries = manifest.entries.map((e) => (byId.has(e.id) && e.status === 'draft' && !e.file ? { ...e, text: byId.get(e.id).text, delivery: byId.get(e.id).delivery } : e));
-for (const e of entries) if (!known.has(e.id)) manifest.entries.push(e);
-writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-console.log(`${lessons.length} lessons, ${entries.length} lines (${entries.filter((e) => !known.has(e.id)).length} new)`);
+// 👑 Plan every change before writing: a conflict must not leave lessons and narration half updated.
+const writes = [];
+const conflicts = [];
+const protectedLineIds = new Set();
+const manifestById = new Map(manifest.entries.map((entry) => [entry.id, entry]));
+const hasMedia = (entry) => ['file', 'durationMs', 'bytes', 'sha256', 'textSha256'].some((field) => entry?.[field] != null);
+const protectedLine = (entry) => entry.status !== 'draft' || hasMedia(entry);
+
+for (const generated of lessons) {
+  const path = resolve(root, `content/lessons/${generated.id}.json`);
+  const existing = existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
+  const lineIds = existing?.steps.flatMap((step) => [step.promptAudioId, step.successAudioId, step.retryAudioId].filter(Boolean)) ?? [];
+  const protectedLesson = existing && (existing.status !== 'draft' || lineIds.some((id) => {
+    const entry = manifestById.get(id);
+    return entry && protectedLine(entry);
+  }));
+  if (protectedLesson) {
+    for (const id of lineIds) protectedLineIds.add(id);
+    if (!isDeepStrictEqual(existing, { ...generated, status: existing.status })) conflicts.push(`lesson ${generated.id}`);
+  } else {
+    writes.push([path, `${JSON.stringify(generated, null, 2)}\n`]);
+  }
+}
+
+const known = new Set(manifest.entries.map((entry) => entry.id));
+const byId = new Map(entries.map((entry) => [entry.id, entry]));
+const mergedEntries = manifest.entries.map((existing) => {
+  const generated = byId.get(existing.id);
+  if (!generated) return existing;
+  const updated = { ...existing, text: generated.text, delivery: generated.delivery };
+  // 👑 Reviewed text or any recorded-media metadata requires explicit review before regeneration.
+  if (protectedLine(existing) || protectedLineIds.has(existing.id)) {
+    if (!isDeepStrictEqual(existing, updated)) conflicts.push(`audio ${existing.id}`);
+    return existing;
+  }
+  return updated;
+});
+for (const entry of entries) if (!known.has(entry.id)) mergedEntries.push(entry);
+if (conflicts.length) throw new Error(`Curriculum conflicts; no files changed: ${conflicts.join(', ')}`);
+writes.push([manifestPath, `${JSON.stringify({ ...manifest, entries: mergedEntries }, null, 2)}\n`]);
+for (const [path, content] of writes) {
+  if (!existsSync(path) || readFileSync(path, 'utf8') !== content) writeFileSync(path, content);
+}
+console.log(`${lessons.length} lessons, ${entries.length} lines (${entries.filter((entry) => !known.has(entry.id)).length} new)`);

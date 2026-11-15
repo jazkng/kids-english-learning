@@ -2,7 +2,7 @@
 
 | 业务模块 | 入口 / navigation | 主要组件（计划） | 相关服务 | 读写数据 |
 |---|---|---|---|---|
-| 课程选择 | home / subject（history 栈） | app/App; features/home/Home（Home、LessonList） | services/content（import.meta.glob 注册表） | content/catalog、lessons |
+| 课程选择 | home / subject（history 栈） | app/App; features/home/Home（Home、LessonList） | services/content（import.meta.glob 注册表）与 lesson-order（数字目标递增） | content/catalog、lessons |
 | 卡通老师 | lesson | features/teacher/Teacher（原创猫头鹰 SVG） | features/lesson/engine.teacherState | idle/speaking/waiting/celebrating（内存） |
 | 引导学习及点选 | lesson / review / done | features/lesson/LessonPlayer、Visual | features/lesson/engine（纯状态机） | lessons、audio manifest |
 | 本地语音 | replay / pause / back | LessonPlayer 控制栏 | services/audio（单一 HTMLAudioElement + session token） | public/audio；内存播放状态 |

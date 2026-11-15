@@ -25,3 +25,7 @@ Locale: en-GB (provisional). Reviewer ticks each line after listening/reading; a
 
 ## Lines covered
 556 lines: `abc.letter-{a..z}.*`, `numbers.number-{0..10}.*`, `numbers.teen-*`, `numbers.tens-*`, `numbers.range-*`, `colors.color-*` for all 12 colors (teach/demo/choice/review each). Feedback reuses `shared.great` / `shared.try-again`.
+
+## Generator safety
+
+Run `node content/scripts/curriculum-v1.mjs` from the repository. It preflights the complete generated target set and manifest before writing. Reviewed/approved lessons, their referenced scripts, and any line carrying media metadata are preserved if unchanged; a differing target aborts with its stable ID and no planned content writes. Unrelated IDs remain intact. Repeated generation is idempotent. Make intentional reviewed-content revisions through an explicit reviewed change rather than downgrading status to bypass the guard. Automated tests use isolated copies and cover conflict/no-write cases.

@@ -22,9 +22,11 @@ Shared by Codex, Claude Code and Gemini through merged Git files. No private cha
 
 | KEL-OFFLINE-003 | 2026-11-15 | Offline reliability | verified | PWA readiness now checks an active registration and all exact build cache revisions; missing/old/evicted/denied resources remain unconfirmed. 24 local tests and PWA build passed. | offline.test.mjs; build index / Workbox comparison | CI/Android checks; browser test blocked by URL policy, physical-device test still pending. |
 
+| KEL-CURRICULUM-004 | 2026-11-15 | Curriculum integration | verified | CC authored 91 draft lessons covering A–Z, all 0–100 integers and 12 colors (plus 3 retained initial fixtures). Codex added conflict-first generator protection and numeric lesson ordering; 30 local tests/type/content checks and PWA build pass. | CC PR #13; generator/order regression tests | Merge reviewed integration after CI/APK; narration and adult pronunciation review remain pending. |
+
 ## Current work
 
-Initialization PR #8, runtime PR #9 and Android PR #10 are merged. CC has taken curriculum #3 and submitted sample PR #12 in a small batch. Codex continues #4 quality review, including exact-revision PWA cache validation; real audio and device acceptance remain pending. Personal voice experiments stay separate from curriculum assets. Family-use scope supersedes public-app planning; no public app deployment is requested.
+Initialization PR #8, runtime PR #9 and Android PR #10 are merged. CC delivered sample #12 and complete draft #13; full set is being integrated with review fixes. PWA integrity PR #14 is merged; Codex continues #4 review and full-draft integration. Real audio and device acceptance remain pending. Personal voice experiments stay separate from curriculum assets. Family-use scope supersedes public-app planning; no public app deployment is requested.
 
 ## Superseded decisions
 

@@ -1,6 +1,7 @@
 import type { Lesson, Subject } from '../contracts/course.ts';
 import catalog from '../../content/catalog.json';
 import manifest from '../../content/audio/manifest.json';
+import { compareLessons } from './lesson-order.ts';
 
 export interface AudioEntry { id: string; text: string; status: string; file: string | null }
 
@@ -19,7 +20,7 @@ function usable(value: unknown): value is Lesson {
 }
 
 export const lessons: Lesson[] = Object.values(modules).filter(usable)
-  .sort((a, b) => a.ageBand.localeCompare(b.ageBand) || a.id.localeCompare(b.id));
+  .sort(compareLessons);
 export const invalidLessonCount = Object.keys(modules).length - lessons.length;
 export const contentVersion: string = catalog.contentVersion;
 export const subjectInfo = catalog.subjects as { id: Subject; title: string; symbol: string; description: string }[];
