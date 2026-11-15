@@ -1,3 +1,6 @@
+import wordsData from '../../../content/activities/words.json';
+
+const wordEmoji = wordsData.emoji as Record<string, { word: string; emoji: string }>;
 const COLOR_HEX: Record<string, string> = {
   red: '#e53935', blue: '#1e63d6', yellow: '#fdd835', green: '#43a047', orange: '#fb8c00', purple: '#8e24aa',
   pink: '#f06292', brown: '#8d5524', black: '#222222', white: '#ffffff', grey: '#9e9e9e', 'light-blue': '#81d4fa',
@@ -19,7 +22,30 @@ function Quantity({ n, small }: { n: number; small?: boolean }) {
 
 export function conceptValue(conceptId: string) { return conceptId.split('.').slice(1).join('.'); }
 
-export function Visual({ kind, value, label, small }: { kind: 'letter' | 'quantity' | 'color'; value: string; label: string; small?: boolean }) {
+function Dots({ n, crossed = 0 }: { n: number; crossed?: number }) {
+  return <span className="sum-dots">{Array.from({ length: n }, (_, i) => <i key={i} className={i >= n - crossed ? 'dot gone' : 'dot'} />)}</span>;
+}
+
+export function Visual({ kind, value, label, small }: { kind: string; value: string; label: string; small?: boolean }) {
+  if (kind === 'word') {
+    const item = wordEmoji[value];
+    return <div className={`visual word ${small ? 'small' : ''}`} aria-label={label}><span className="emoji" aria-hidden="true">{item?.emoji ?? '❓'}</span><span className="word-label">{item?.word ?? label}</span></div>;
+  }
+  if (kind === 'sum') {
+    const m = /^(\d+)([+-])(\d+)$/.exec(value);
+    if (m) {
+      const a = Number(m[1]); const b = Number(m[3]);
+      // Subtraction shows the starting dots with the taken-away ones faded and crossed, so it can be counted.
+      return (
+        <div className={`visual sum ${small ? 'small' : ''}`} aria-label={label}>
+          <span className="sum-text">{a} {m[2] === '+' ? '+' : '−'} {b}</span>
+          {m[2] === '+'
+            ? <span className="sum-groups"><Dots n={a} /><b aria-hidden="true">+</b><Dots n={b} /></span>
+            : <span className="sum-groups"><Dots n={a} crossed={b} /></span>}
+        </div>
+      );
+    }
+  }
   if (kind === 'letter') {
     const v = value.toUpperCase();
     return <div className={`visual letter ${small ? 'small' : ''}`} aria-label={label}><span>{v}</span><span className="lower">{v.toLowerCase()}</span></div>;
