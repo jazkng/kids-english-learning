@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "locale": "en-GB",
+  "entries": [
+    {
+      "id": "shared.great",
+      "text": "Great job!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "shared.try-again",
+      "text": "Let’s try together. Tap again.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.sample.teach",
+      "text": "This is A. A is for apple.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.sample.demo",
+      "text": "Look! This is A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.sample.choice",
+      "text": "Tap A.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "abc.sample.review",
+      "text": "We learned A. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.sample.teach",
+      "text": "This is zero. There are no apples.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.sample.demo",
+      "text": "Look! This is 0.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.sample.choice",
+      "text": "Tap 0.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "numbers.sample.review",
+      "text": "We learned 0. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.sample.teach",
+      "text": "This is red. A red apple!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.sample.demo",
+      "text": "Look! This is red.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.sample.choice",
+      "text": "Tap red.",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    },
+    {
+      "id": "colors.sample.review",
+      "text": "We learned red. Well done!",
+      "status": "draft",
+      "delivery": {
+        "pace": "slow",
+        "pauseAfterMs": 800,
+        "pronunciationNote": ""
+      },
+      "provider": "pending",
+      "file": null,
+      "durationMs": null,
+      "bytes": null,
+      "sha256": null,
+      "textSha256": null,
+      "licenseRef": null,
+      "approvalRef": null,
+      "voiceRef": null,
+      "modelRef": null
+    }
+  ]
+}
